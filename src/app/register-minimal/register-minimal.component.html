@@ -1,0 +1,200 @@
+<!-- Header -->
+<app-header></app-header>
+
+<!-- Main Container -->
+<div class="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-purple-50">
+  <!-- Header Section -->
+  <div class="bg-white border-b">
+    <div class="container mx-auto px-6 py-6">      
+      <div class="text-center">
+        <h1 class="text-4xl font-bold text-gray-900 mb-2">Quick Registration</h1>
+        <p class="text-lg text-gray-600">Create your profile in just a few simple steps</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Form Container -->
+  <div class="container mx-auto px-6 py-8">
+    <div class="max-w-3xl mx-auto mb-12">
+      <form [formGroup]="registerForm" (ngSubmit)="onSubmit()" class="space-y-8">
+        
+        <!-- CV Upload Section -->
+        <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl shadow-xl p-8 text-white">
+          <div class="text-center mb-6">
+            <h2 class="text-2xl font-bold mb-2">📄 Upload Your CV</h2>
+            <p class="text-purple-100">Optional - Upload your CV to complete your profile</p>
+          </div>
+          
+          <div 
+            [class]="'border-2 border-dashed rounded-lg p-8 text-center transition-all duration-300 cursor-pointer ' + 
+                     (dragOver ? 'border-white bg-white' : 'border-purple-300 hover:border-white hover:bg-white hover:bg-opacity-10 hover:text-purple-500')"
+            (dragover)="onDragOver($event)"
+            (dragleave)="onDragLeave($event)"
+            (drop)="onDrop($event)"
+            (click)="fileInput.click()">
+            
+            <input 
+              #fileInput
+              type="file" 
+              accept=".pdf"
+              class="hidden"
+              (change)="onFileSelect($event)">
+            
+            <div *ngIf="!selectedFile" class="space-y-3">
+              <div class="text-6xl">📄</div>
+              <p class="text-xl font-semibold">Drag & drop your CV here or click to browse</p>
+              <p class="text-purple-300">PDF files only, max 5MB</p>
+              <div class="inline-block bg-white border border-purple-200 text-purple-600 px-6 py-2 rounded-full font-semibold hover:bg-purple-50 transition-colors">
+                Choose File
+              </div>
+            </div>
+            
+            <div *ngIf="selectedFile" class="space-y-3">
+              <div class="text-6xl">✅</div>
+              <p class="text-xl font-semibold">{{ selectedFile.name }}</p>
+              <p class="text-purple-200">{{ (selectedFile.size / 1024 / 1024).toFixed(2) }} MB</p>
+              <button 
+                type="button"
+                (click)="selectedFile = null; $event.stopPropagation()"
+                class="text-white hover:text-purple-200 underline font-semibold">
+                Remove file
+              </button>
+            </div>
+          </div>
+        </div>        
+        
+        <!-- Personal Information -->
+        <div class="bg-white rounded-2xl shadow-xl p-8">
+          <h2 class="text-2xl font-bold text-gray-900 mb-6 border-b border-gray-200 pb-3">
+            👤 Personal Information
+          </h2>
+          <div class="grid md:grid-cols-2 gap-6">
+            <div class="space-y-2">
+              <label class="block text-sm font-semibold text-gray-700">First Name *</label>
+              <input 
+                type="text" 
+                formControlName="firstName"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300"
+                placeholder="Enter your first name">
+              <div *ngIf="registerForm.get('firstName')?.touched && registerForm.get('firstName')?.errors" 
+                   class="text-red-500 text-sm">First name is required</div>
+            </div>
+
+            <div class="space-y-2">
+              <label class="block text-sm font-semibold text-gray-700">Last Name *</label>
+              <input 
+                type="text" 
+                formControlName="lastName"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300"
+                placeholder="Enter your last name">
+              <div *ngIf="registerForm.get('lastName')?.touched && registerForm.get('lastName')?.errors" 
+                   class="text-red-500 text-sm">Last name is required</div>
+            </div>
+
+            <div class="space-y-2">
+              <label class="block text-sm font-semibold text-gray-700">Email Address</label>
+              <input 
+                type="email" 
+                formControlName="email"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300"
+                placeholder="your.email@example.com">
+              <div *ngIf="registerForm.get('email')?.touched && registerForm.get('email')?.errors" 
+                   class="text-red-500 text-sm">Please enter a valid email</div>
+            </div>
+
+            <div class="space-y-2">
+              <label class="block text-sm font-semibold text-gray-700">Phone Number *</label>
+              <input 
+                type="tel" 
+                formControlName="phone"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300"
+                placeholder="+20 1234567890">
+              <div *ngIf="registerForm.get('phone')?.touched && registerForm.get('phone')?.errors" 
+                   class="text-red-500 text-sm">Please enter a valid phone number</div>
+            </div>
+
+            <div class="space-y-2">
+              <label class="block text-sm font-semibold text-gray-700">Date of Birth *</label>
+              <input 
+                type="date" 
+                formControlName="dateOfBirth"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300">
+              <div *ngIf="registerForm.get('dateOfBirth')?.touched && registerForm.get('dateOfBirth')?.errors" 
+                   class="text-red-500 text-sm">Date of birth is required</div>
+            </div>
+
+            <div class="space-y-2">
+              <label class="block text-sm font-semibold text-gray-700">Gender *</label>
+              <select 
+                formControlName="gender"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300">
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="prefer-not-to-say">Prefer not to say</option>
+              </select>
+              <div *ngIf="registerForm.get('gender')?.touched && registerForm.get('gender')?.errors" 
+                   class="text-red-500 text-sm">Please select your gender</div>
+            </div>
+
+            <div class="space-y-2">
+              <label class="block text-sm font-semibold text-gray-700">Preferred Job Title</label>
+              <input 
+                type="text" 
+                formControlName="preferredJob"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300"
+                placeholder="Enter your preferred job">
+              
+              <div *ngIf="registerForm.get('preferredJob')?.touched && registerForm.get('preferredJob')?.errors" 
+                   class="text-red-500 text-sm">Please select your preferred job title</div>
+            </div>
+
+            <div class="space-y-2">
+              <label class="block text-sm font-semibold text-gray-700">Highest Education Attainment</label>
+              <select 
+                formControlName="highestEducation"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300">
+                <option value="">Select Education Level</option>
+                <option *ngFor="let edu of educationLevels" [value]="edu">{{ edu }}</option>
+              </select>
+              <div *ngIf="registerForm.get('highestEducation')?.touched && registerForm.get('highestEducation')?.errors" 
+                   class="text-red-500 text-sm">Please select your highest education attainment</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="text-center pt-8">
+          <button 
+            type="submit"
+            [disabled]="!registerForm.valid || isSubmitting"
+            [class]="'px-12 py-4 text-lg font-bold rounded-lg transition-all duration-300 transform ' + 
+                     (registerForm.valid && !isSubmitting ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white hover:from-purple-700 hover:to-pink-700 hover:scale-105 shadow-lg' : 'bg-gray-300 text-gray-500 cursor-not-allowed')">
+            <div *ngIf="isSubmitting" class="flex items-center gap-3">
+              <div class="animate-spin rounded-full h-6 w-6 border-b-2 border-white"></div>
+              Processing...
+            </div>
+            <div *ngIf="!isSubmitting" class="flex items-center gap-3">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+              Complete Registration
+            </div>
+          </button>
+          
+          <!-- Success Message -->
+          <div *ngIf="submissionSuccess" 
+               class="mt-6 inline-flex items-center gap-3 px-8 py-3 bg-green-500 text-white font-semibold rounded-lg animate-bounce">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            Registration Successful! 🎉
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<app-footer></app-footer>

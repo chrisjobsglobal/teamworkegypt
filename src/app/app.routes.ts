@@ -7,7 +7,7 @@ export const routes: Routes = [
   },
   {
     path: 'register',
-    loadComponent: () => import('./register/register.component').then(m => m.RegisterComponent)
+    loadComponent: () => import('./register-minimal/register-minimal.component').then(m => m.RegisterMinimalComponent)
   },
   {
     path: 'career-tips',
