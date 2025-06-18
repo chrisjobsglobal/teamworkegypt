@@ -11,15 +11,10 @@ import { RouterModule } from '@angular/router';
       <nav class="container mx-auto px-6 py-4">
         <div class="flex items-center justify-between">          <!-- Logo -->
           <a routerLink="/" class="flex items-center space-x-2 group">
-            <div class="w-10 h-10 flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300">
-              <img src="/logo512.png" alt="TeamWork Egypt" class="w-10 h-10 rounded-xl object-contain">
+            <div class="flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300">
+              <img src="/teamworklogo.png" alt="TeamWork Egypt" width="200" class="object-contain">
             </div>
-            <div class="hidden sm:block">
-              <h1 class="text-xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-                TeamWork Egypt
-              </h1>
-              <p class="text-xs text-gray-500">Find Your Dream Job</p>
-            </div>
+            
           </a>          <!-- Navigation Links -->
           <div class="hidden md:flex items-center space-x-8">
             <a routerLink="/" 
