@@ -2,69 +2,131 @@
 <app-header></app-header>
 
 <!-- Hero Section -->
-<section class="relative min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-800 overflow-hidden">
+<section
+  class="relative min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-800 overflow-hidden"
+>
   <!-- Animated Background Elements -->
   <div class="absolute inset-0">
-    <div class="absolute top-20 left-20 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-    <div class="absolute top-40 right-20 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-    <div class="absolute -bottom-8 left-40 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+    <div
+      class="absolute top-20 left-20 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"
+    ></div>
+    <div
+      class="absolute top-40 right-20 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"
+    ></div>
+    <div
+      class="absolute -bottom-8 left-40 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"
+    ></div>
   </div>
 
   <div class="relative z-10 container mx-auto px-6 pt-32 pb-20">
-    <div class="text-center">      <!-- Main Heading -->
+    <div class="text-center">
+      <!-- Main Heading -->
       <h1 class="text-6xl md:text-8xl font-bold text-white mb-8 leading-tight">
-        <span i18n="@@landing.findYour" class="inline-block me-2">Find Your</span>
-        <span class="bg-gradient-to-r from-yellow-400 to-pink-400 bg-clip-text text-transparent animate-pulse inline-block">
+        <span i18n="@@landing.findYour" class="inline-block me-2"
+          >Find Your</span
+        >
+        <span
+          class="bg-gradient-to-r from-yellow-400 to-pink-400 bg-clip-text text-transparent animate-pulse inline-block"
+        >
           <span i18n="@@landing.dreamJob">Dream Job</span>
         </span>
         <span i18n="@@landing.abroad" class="inline-block ms-2">Abroad</span>
-      </h1>      <!-- Subtitle -->
-      <p class="text-xl md:text-2xl text-gray-200 mb-12 max-w-3xl mx-auto leading-relaxed" i18n="@@landing.heroSubtitle">
-        Connect with top Egyptian companies and unlock your potential. 
-        Join thousands of professionals who found their perfect career match.
+      </h1>
+      <!-- Subtitle -->
+      <p
+        class="text-xl md:text-2xl text-gray-200 mb-12 max-w-3xl mx-auto leading-relaxed"
+        i18n="@@landing.heroSubtitle"
+      >
+        Connect with top Egyptian companies and unlock your potential. Join
+        thousands of professionals who found their perfect career match.
       </p>
 
       <!-- CTA Buttons -->
-      <div class="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
-        <button 
+      <div
+        class="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16"
+      >
+        <button
           routerLink="/register"
-          class="group px-8 py-4 bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 font-bold text-lg rounded-full hover:from-yellow-300 hover:to-orange-400 transform hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-yellow-500/25">          <span class="flex items-center gap-2">
+          class="group px-8 py-4 bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 font-bold text-lg rounded-full hover:from-yellow-300 hover:to-orange-400 transform hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-yellow-500/25"
+        >
+          <span class="flex items-center gap-2">
             <span i18n="@@landing.startYourJourney">Start Your Journey</span>
-            <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+            <svg
+              class="w-5 h-5 group-hover:translate-x-1 transition-transform"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M13 7l5 5m0 0l-5 5m5-5H6"
+              ></path>
             </svg>
           </span>
-        </button>        <button 
+        </button>
+        <button
           routerLink="/career-tips"
           class="px-8 py-4 border-2 border-white text-white font-bold text-lg rounded-full hover:bg-white hover:text-gray-900 transform hover:scale-105 transition-all duration-300"
-          i18n="@@landing.careerTips">
+          i18n="@@landing.careerTips"
+        >
           Career Tips
         </button>
-      </div>      <!-- Stats -->
+      </div>
+      <!-- Stats -->
       <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
         <div class="text-center group cursor-pointer">
-          <div class="text-4xl md:text-5xl font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">
+          <div
+            class="text-4xl md:text-5xl font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300"
+          >
             1000+
           </div>
-          <div class="text-gray-300 text-sm md:text-base" i18n="@@stats.successfulPlacements">Successful Placements</div>
+          <div
+            class="text-gray-300 text-sm md:text-base"
+            i18n="@@stats.successfulPlacements"
+          >
+            Successful Placements
+          </div>
         </div>
         <div class="text-center group cursor-pointer">
-          <div class="text-4xl md:text-5xl font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">
+          <div
+            class="text-4xl md:text-5xl font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300"
+          >
             6
           </div>
-          <div class="text-gray-300 text-sm md:text-base" i18n="@@stats.gulfCountries">Gulf Countries</div>
+          <div
+            class="text-gray-300 text-sm md:text-base"
+            i18n="@@stats.gulfCountries"
+          >
+            Gulf Countries
+          </div>
         </div>
         <div class="text-center group cursor-pointer">
-          <div class="text-4xl md:text-5xl font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">
+          <div
+            class="text-4xl md:text-5xl font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300"
+          >
             100+
           </div>
-          <div class="text-gray-300 text-sm md:text-base" i18n="@@stats.partnerCompanies">Partner Companies</div>
+          <div
+            class="text-gray-300 text-sm md:text-base"
+            i18n="@@stats.partnerCompanies"
+          >
+            Partner Companies
+          </div>
         </div>
         <div class="text-center group cursor-pointer">
-          <div class="text-4xl md:text-5xl font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">
+          <div
+            class="text-4xl md:text-5xl font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300"
+          >
             1313
           </div>
-          <div class="text-gray-300 text-sm md:text-base" i18n="@@stats.egyptLicense">Egypt License No.</div>
+          <div
+            class="text-gray-300 text-sm md:text-base"
+            i18n="@@stats.egyptLicense"
+          >
+            Egypt License No.
+          </div>
         </div>
       </div>
     </div>
@@ -72,7 +134,9 @@
 
   <!-- Scroll Indicator -->
   <div class="absolute bottom-24 left-1/2 transform -translate-x-1/2">
-    <div class="w-6 h-10 border-2 border-white rounded-full flex justify-center">
+    <div
+      class="w-6 h-10 border-2 border-white rounded-full flex justify-center"
+    >
       <div class="w-1 h-3 bg-white rounded-full mt-2 animate-bounce"></div>
     </div>
   </div>
@@ -81,54 +145,88 @@
 <!-- About Team Work International Section -->
 <section class="py-20 bg-white scroll-animate" id="about">
   <div class="container mx-auto px-6">
-    <div class="max-w-4xl mx-auto">      <div class="text-center mb-16">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-16">
+
         <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-          <span i18n="@@landing.about">About</span>
-          <span class="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-            <span i18n="@@landing.teamWorkInternational">Team Work International</span>
+          <span i18n="@@landing.about" class="inline-block me-2">About</span>
+          <span
+            class="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent"
+          >
+            <span i18n="@@landing.teamWorkInternational"
+              >TeamWork International</span
+            >
           </span>
         </h2>
-        <div class="w-24 h-1 bg-gradient-to-r from-purple-600 to-pink-600 mx-auto mb-8"></div>
-      </div>      <div class="text-lg text-gray-700 leading-relaxed space-y-6 mb-12">
-        <p class="text-lg text-center font-semibold text-gray-800" i18n="@@landing.aboutDescription1">
-          At Team Work International, we're more than just a recruitment agency — we're your career partner, 
-          dedicated to helping jobseekers like you achieve life-changing opportunities in the Gulf region.
+        <div
+          class="w-24 h-1 bg-gradient-to-r from-purple-600 to-pink-600 mx-auto mb-8"
+        ></div>
+      </div>
+      <div class="text-lg text-gray-700 leading-relaxed space-y-6 mb-12">
+        <p
+          class="text-lg text-center font-semibold text-gray-800"
+          i18n="@@landing.aboutDescription1"
+        >
+          At Team Work International, we're more than just a recruitment agency
+          — we're your career partner, dedicated to helping jobseekers like you
+          achieve life-changing opportunities in the Gulf region.
         </p>
-        
+
         <p i18n="@@landing.aboutDescription2">
-          Licensed in Egypt (License No. 1313), we specialize in connecting skilled professionals from Egypt 
-          with reputable employers in Saudi Arabia, the UAE, Qatar, Kuwait, Bahrain, and Oman.
+          Licensed in Egypt (License No. 1313), we specialize in connecting
+          skilled professionals from Egypt with reputable employers in Saudi
+          Arabia, the UAE, Qatar, Kuwait, Bahrain, and Oman.
         </p>
-        
+
         <p i18n="@@landing.aboutDescription3">
-          With years of experience in international recruitment, our mission is to open doors for ambitious 
-          individuals seeking stable, rewarding jobs abroad. We understand the challenges of working overseas — 
-          that's why we provide full guidance and support every step of the way, from your initial application 
-          to your safe arrival and beyond.
+          With years of experience in international recruitment, our mission is
+          to open doors for ambitious individuals seeking stable, rewarding jobs
+          abroad. We understand the challenges of working overseas — that's why
+          we provide full guidance and support every step of the way, from your
+          initial application to your safe arrival and beyond.
         </p>
-      </div>      <!-- Gulf Countries Grid -->
+      </div>
+      <!-- Gulf Countries Grid -->
       <div class="grid grid-cols-2 md:grid-cols-3 gap-6 mb-16">
-        <div class="text-center p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl border border-green-200 hover:shadow-lg transition-all duration-300">
+        <div
+          class="text-center p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl border border-green-200 hover:shadow-lg transition-all duration-300"
+        >
           <div class="text-3xl mb-3">🇸🇦</div>
-          <h4 class="font-bold text-gray-800" i18n="@@country.saudiArabia">Saudi Arabia</h4>
+          <h4 class="font-bold text-gray-800" i18n="@@country.saudiArabia">
+            Saudi Arabia
+          </h4>
         </div>
-        <div class="text-center p-6 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl border border-blue-200 hover:shadow-lg transition-all duration-300">
+        <div
+          class="text-center p-6 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl border border-blue-200 hover:shadow-lg transition-all duration-300"
+        >
           <div class="text-3xl mb-3">🇦🇪</div>
           <h4 class="font-bold text-gray-800" i18n="@@country.uae">UAE</h4>
         </div>
-        <div class="text-center p-6 bg-gradient-to-br from-red-50 to-rose-50 rounded-2xl border border-red-200 hover:shadow-lg transition-all duration-300">
+        <div
+          class="text-center p-6 bg-gradient-to-br from-red-50 to-rose-50 rounded-2xl border border-red-200 hover:shadow-lg transition-all duration-300"
+        >
           <div class="text-3xl mb-3">🇶🇦</div>
           <h4 class="font-bold text-gray-800" i18n="@@country.qatar">Qatar</h4>
         </div>
-        <div class="text-center p-6 bg-gradient-to-br from-purple-50 to-violet-50 rounded-2xl border border-purple-200 hover:shadow-lg transition-all duration-300">
+        <div
+          class="text-center p-6 bg-gradient-to-br from-purple-50 to-violet-50 rounded-2xl border border-purple-200 hover:shadow-lg transition-all duration-300"
+        >
           <div class="text-3xl mb-3">🇰🇼</div>
-          <h4 class="font-bold text-gray-800" i18n="@@country.kuwait">Kuwait</h4>
+          <h4 class="font-bold text-gray-800" i18n="@@country.kuwait">
+            Kuwait
+          </h4>
         </div>
-        <div class="text-center p-6 bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl border border-orange-200 hover:shadow-lg transition-all duration-300">
+        <div
+          class="text-center p-6 bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl border border-orange-200 hover:shadow-lg transition-all duration-300"
+        >
           <div class="text-3xl mb-3">🇧🇭</div>
-          <h4 class="font-bold text-gray-800" i18n="@@country.bahrain">Bahrain</h4>
+          <h4 class="font-bold text-gray-800" i18n="@@country.bahrain">
+            Bahrain
+          </h4>
         </div>
-        <div class="text-center p-6 bg-gradient-to-br from-teal-50 to-cyan-50 rounded-2xl border border-teal-200 hover:shadow-lg transition-all duration-300">
+        <div
+          class="text-center p-6 bg-gradient-to-br from-teal-50 to-cyan-50 rounded-2xl border border-teal-200 hover:shadow-lg transition-all duration-300"
+        >
           <div class="text-3xl mb-3">🇴🇲</div>
           <h4 class="font-bold text-gray-800" i18n="@@country.oman">Oman</h4>
         </div>
@@ -139,49 +237,136 @@
 
 <!-- Industries We Serve Section -->
 <section class="py-20 bg-gradient-to-br from-gray-50 to-blue-50 scroll-animate">
-  <div class="container mx-auto px-6">    <div class="text-center mb-16">
+  <div class="container mx-auto px-6">
+    <div class="text-center mb-16">
       <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-        <span i18n="@@landing.industriesWeSpecializeIn">Industries We Specialize In</span>
+        <span i18n="@@landing.industriesWeSpecializeIn"
+          >Industries We Specialize In</span
+        >
       </h2>
-      <p class="text-lg text-gray-600 max-w-2xl mx-auto" i18n="@@landing.industriesDescription">
-        We partner with reputable companies across diverse industries in the Gulf region
+      <p
+        class="text-lg text-gray-600 max-w-2xl mx-auto"
+        i18n="@@landing.industriesDescription"
+      >
+        We partner with reputable companies across diverse industries in the
+        Gulf region
       </p>
     </div>
 
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">      <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group">
-        <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">🏗️</div>
-        <h3 class="text-xl font-bold text-gray-900 mb-3" i18n="@@industry.construction">Construction</h3>
-        <p class="text-gray-600" i18n="@@industry.constructionDesc">Building the future of the Gulf with skilled construction professionals</p>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div
+        class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group"
+      >
+        <div
+          class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300"
+        >
+          🏗️
+        </div>
+        <h3
+          class="text-xl font-bold text-gray-900 mb-3"
+          i18n="@@industry.construction"
+        >
+          Construction
+        </h3>
+        <p class="text-gray-600" i18n="@@industry.constructionDesc">
+          Building the future of the Gulf with skilled construction
+          professionals
+        </p>
       </div>
-      
-      <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group">
-        <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">🏨</div>
-        <h3 class="text-xl font-bold text-gray-900 mb-3" i18n="@@industry.hospitality">Hospitality</h3>
-        <p class="text-gray-600" i18n="@@industry.hospitalityDesc">Excellence in service across luxury hotels and resorts</p>
+
+      <div
+        class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group"
+      >
+        <div
+          class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300"
+        >
+          🏨
+        </div>
+        <h3
+          class="text-xl font-bold text-gray-900 mb-3"
+          i18n="@@industry.hospitality"
+        >
+          Hospitality
+        </h3>
+        <p class="text-gray-600" i18n="@@industry.hospitalityDesc">
+          Excellence in service across luxury hotels and resorts
+        </p>
       </div>
-      
-      <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group">
-        <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">🏥</div>
-        <h3 class="text-xl font-bold text-gray-900 mb-3" i18n="@@industry.healthcare">Healthcare</h3>
-        <p class="text-gray-600" i18n="@@industry.healthcareDesc">Medical professionals making a difference in patient care</p>
+
+      <div
+        class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group"
+      >
+        <div
+          class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300"
+        >
+          🏥
+        </div>
+        <h3
+          class="text-xl font-bold text-gray-900 mb-3"
+          i18n="@@industry.healthcare"
+        >
+          Healthcare
+        </h3>
+        <p class="text-gray-600" i18n="@@industry.healthcareDesc">
+          Medical professionals making a difference in patient care
+        </p>
       </div>
-      
-      <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group">
-        <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">⚙️</div>
-        <h3 class="text-xl font-bold text-gray-900 mb-3" i18n="@@industry.engineering">Engineering</h3>
-        <p class="text-gray-600" i18n="@@industry.engineeringDesc">Innovative engineering solutions for modern infrastructure</p>
+
+      <div
+        class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group"
+      >
+        <div
+          class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300"
+        >
+          ⚙️
+        </div>
+        <h3
+          class="text-xl font-bold text-gray-900 mb-3"
+          i18n="@@industry.engineering"
+        >
+          Engineering
+        </h3>
+        <p class="text-gray-600" i18n="@@industry.engineeringDesc">
+          Innovative engineering solutions for modern infrastructure
+        </p>
       </div>
-      
-      <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group">
-        <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">⛽</div>
-        <h3 class="text-xl font-bold text-gray-900 mb-3" i18n="@@industry.oilGas">Oil & Gas</h3>
-        <p class="text-gray-600" i18n="@@industry.oilGasDesc">Energy sector opportunities in the heart of global oil production</p>
+
+      <div
+        class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group"
+      >
+        <div
+          class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300"
+        >
+          ⛽
+        </div>
+        <h3
+          class="text-xl font-bold text-gray-900 mb-3"
+          i18n="@@industry.oilGas"
+        >
+          Oil & Gas
+        </h3>
+        <p class="text-gray-600" i18n="@@industry.oilGasDesc">
+          Energy sector opportunities in the heart of global oil production
+        </p>
       </div>
-      
-      <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group">
-        <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">🛍️</div>
-        <h3 class="text-xl font-bold text-gray-900 mb-3" i18n="@@industry.retail">Retail & More</h3>
-        <p class="text-gray-600" i18n="@@industry.retailDesc">Diverse opportunities across multiple growing sectors</p>
+
+      <div
+        class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group"
+      >
+        <div
+          class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300"
+        >
+          🛍️
+        </div>
+        <h3
+          class="text-xl font-bold text-gray-900 mb-3"
+          i18n="@@industry.retail"
+        >
+          Retail & More
+        </h3>
+        <p class="text-gray-600" i18n="@@industry.retailDesc">
+          Diverse opportunities across multiple growing sectors
+        </p>
       </div>
     </div>
   </div>
@@ -189,115 +374,280 @@
 
 <!-- Features Section -->
 <section class="py-20 bg-gray-50 scroll-animate" id="features">
-  <div class="container mx-auto px-6">    <div class="text-center mb-16">
+  <div class="container mx-auto px-6">
+    <div class="text-center mb-16">
       <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
         <span i18n="@@landing.whyChoose">Why Choose</span>
-        <span class="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-          <span i18n="@@landing.teamWorkInternational">Team Work International</span>
+        <span
+          class="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent"
+        >
+          <span i18n="@@landing.teamWorkInternational"
+            >Team Work International</span
+          >
         </span>
       </h2>
-      <p class="text-lg text-gray-600 max-w-2xl mx-auto" i18n="@@landing.whyChooseDescription">
-        Licensed, trusted, and committed to your success with ethical recruitment practices and comprehensive support.
+      <p
+        class="text-lg text-gray-600 max-w-2xl mx-auto"
+        i18n="@@landing.whyChooseDescription"
+      >
+        Licensed, trusted, and committed to your success with ethical
+        recruitment practices and comprehensive support.
       </p>
-    </div>    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-      <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group cursor-pointer card-hover feature-card">
-        <div class="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300 animate-float">
+    </div>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div
+        class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group cursor-pointer card-hover feature-card"
+      >
+        <div
+          class="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300 animate-float"
+        >
           ✅
         </div>
-        <h3 class="text-xl font-bold text-gray-900 mb-3" i18n="@@feature.licensedTrusted">Licensed & Trusted</h3>
-        <p class="text-gray-600 leading-relaxed" i18n="@@feature.licensedTrustedDesc">Fully certified by Egyptian authorities (License No. 1313), operating with transparency and legal compliance</p>
-        <div class="mt-4 w-12 h-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
+        <h3
+          class="text-xl font-bold text-gray-900 mb-3"
+          i18n="@@feature.licensedTrusted"
+        >
+          Licensed & Trusted
+        </h3>
+        <p
+          class="text-gray-600 leading-relaxed"
+          i18n="@@feature.licensedTrustedDesc"
+        >
+          Fully certified by Egyptian authorities (License No. 1313), operating
+          with transparency and legal compliance
+        </p>
+        <div
+          class="mt-4 w-12 h-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"
+        ></div>
       </div>
-      
-      <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group cursor-pointer card-hover feature-card" style="animation-delay: 0.1s">
-        <div class="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300 animate-float">
+
+      <div
+        class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group cursor-pointer card-hover feature-card"
+        style="animation-delay: 0.1s"
+      >
+        <div
+          class="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300 animate-float"
+        >
           🌍
         </div>
-        <h3 class="text-xl font-bold text-gray-900 mb-3" i18n="@@feature.gulfWideOpportunities">Gulf-Wide Opportunities</h3>
-        <p class="text-gray-600 leading-relaxed" i18n="@@feature.gulfWideOpportunitiesDesc">Access to jobs across Saudi Arabia, UAE, Qatar, Kuwait, Bahrain, and Oman</p>
-        <div class="mt-4 w-12 h-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
+        <h3
+          class="text-xl font-bold text-gray-900 mb-3"
+          i18n="@@feature.gulfWideOpportunities"
+        >
+          Gulf-Wide Opportunities
+        </h3>
+        <p
+          class="text-gray-600 leading-relaxed"
+          i18n="@@feature.gulfWideOpportunitiesDesc"
+        >
+          Access to jobs across Saudi Arabia, UAE, Qatar, Kuwait, Bahrain, and
+          Oman
+        </p>
+        <div
+          class="mt-4 w-12 h-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"
+        ></div>
       </div>
-      
-      <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group cursor-pointer card-hover feature-card" style="animation-delay: 0.2s">
-        <div class="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300 animate-float">
+
+      <div
+        class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group cursor-pointer card-hover feature-card"
+        style="animation-delay: 0.2s"
+      >
+        <div
+          class="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300 animate-float"
+        >
           🎯
         </div>
-        <h3 class="text-xl font-bold text-gray-900 mb-3" i18n="@@feature.provenSuccess">Proven Success</h3>
-        <p class="text-gray-600 leading-relaxed" i18n="@@feature.provenSuccessDesc">Hundreds of successful placements in meaningful roles across the Gulf region</p>
-        <div class="mt-4 w-12 h-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
+        <h3
+          class="text-xl font-bold text-gray-900 mb-3"
+          i18n="@@feature.provenSuccess"
+        >
+          Proven Success
+        </h3>
+        <p
+          class="text-gray-600 leading-relaxed"
+          i18n="@@feature.provenSuccessDesc"
+        >
+          Hundreds of successful placements in meaningful roles across the Gulf
+          region
+        </p>
+        <div
+          class="mt-4 w-12 h-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"
+        ></div>
       </div>
-      
-      <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group cursor-pointer card-hover feature-card" style="animation-delay: 0.3s">
-        <div class="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300 animate-float">
+
+      <div
+        class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group cursor-pointer card-hover feature-card"
+        style="animation-delay: 0.3s"
+      >
+        <div
+          class="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300 animate-float"
+        >
           🤝
         </div>
-        <h3 class="text-xl font-bold text-gray-900 mb-3" i18n="@@feature.ethicalRecruitment">Ethical Recruitment</h3>
-        <p class="text-gray-600 leading-relaxed" i18n="@@feature.ethicalRecruitmentDesc">Strict ethical standards with legal and secure recruitment - no hidden fees or false promises</p>
-        <div class="mt-4 w-12 h-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
+        <h3
+          class="text-xl font-bold text-gray-900 mb-3"
+          i18n="@@feature.ethicalRecruitment"
+        >
+          Ethical Recruitment
+        </h3>
+        <p
+          class="text-gray-600 leading-relaxed"
+          i18n="@@feature.ethicalRecruitmentDesc"
+        >
+          Strict ethical standards with legal and secure recruitment - no hidden
+          fees or false promises
+        </p>
+        <div
+          class="mt-4 w-12 h-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"
+        ></div>
       </div>
-      
-      <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group cursor-pointer card-hover feature-card" style="animation-delay: 0.4s">
-        <div class="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300 animate-float">
+
+      <div
+        class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group cursor-pointer card-hover feature-card"
+        style="animation-delay: 0.4s"
+      >
+        <div
+          class="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300 animate-float"
+        >
           🛡️
         </div>
-        <h3 class="text-xl font-bold text-gray-900 mb-3" i18n="@@feature.endToEndSupport">End-to-End Support</h3>
-        <p class="text-gray-600 leading-relaxed" i18n="@@feature.endToEndSupportDesc">Complete guidance from application to visa processing, pre-departure orientation, and post-arrival follow-up</p>
-        <div class="mt-4 w-12 h-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
+        <h3
+          class="text-xl font-bold text-gray-900 mb-3"
+          i18n="@@feature.endToEndSupport"
+        >
+          End-to-End Support
+        </h3>
+        <p
+          class="text-gray-600 leading-relaxed"
+          i18n="@@feature.endToEndSupportDesc"
+        >
+          Complete guidance from application to visa processing, pre-departure
+          orientation, and post-arrival follow-up
+        </p>
+        <div
+          class="mt-4 w-12 h-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"
+        ></div>
       </div>
-      
-      <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group cursor-pointer card-hover feature-card" style="animation-delay: 0.5s">
-        <div class="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300 animate-float">
+
+      <div
+        class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group cursor-pointer card-hover feature-card"
+        style="animation-delay: 0.5s"
+      >
+        <div
+          class="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300 animate-float"
+        >
           🏢
         </div>
-        <h3 class="text-xl font-bold text-gray-900 mb-3" i18n="@@feature.industryExpertise">Industry Expertise</h3>
-        <p class="text-gray-600 leading-relaxed" i18n="@@feature.industryExpertiseDesc">Specialized in Construction, Hospitality, Healthcare, Engineering, Oil & Gas, and Retail sectors</p>
-        <div class="mt-4 w-12 h-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
+        <h3
+          class="text-xl font-bold text-gray-900 mb-3"
+          i18n="@@feature.industryExpertise"
+        >
+          Industry Expertise
+        </h3>
+        <p
+          class="text-gray-600 leading-relaxed"
+          i18n="@@feature.industryExpertiseDesc"
+        >
+          Specialized in Construction, Hospitality, Healthcare, Engineering, Oil
+          & Gas, and Retail sectors
+        </p>
+        <div
+          class="mt-4 w-12 h-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"
+        ></div>
       </div>
     </div>
   </div>
 </section>
 
 <!-- How It Works Section -->
-<section class="py-20 bg-gradient-to-r from-blue-600 to-purple-600 scroll-animate" id="how-it-works">
-  <div class="container mx-auto px-6">    <div class="text-center mb-16">
-      <h2 class="text-4xl md:text-5xl font-bold text-white mb-6" i18n="@@landing.howItWorks">
+<section
+  class="py-20 bg-gradient-to-r from-blue-600 to-purple-600 scroll-animate"
+  id="how-it-works"
+>
+  <div class="container mx-auto px-6">
+    <div class="text-center mb-16">
+      <h2
+        class="text-4xl md:text-5xl font-bold text-white mb-6"
+        i18n="@@landing.howItWorks"
+      >
         Your Gulf Career Journey
       </h2>
-      <p class="text-xl text-blue-100 max-w-2xl mx-auto" i18n="@@landing.howItWorksDescription">
+      <p
+        class="text-xl text-blue-100 max-w-2xl mx-auto"
+        i18n="@@landing.howItWorksDescription"
+      >
         From application to arrival - we support you every step of the way
       </p>
     </div>
 
-    <div class="grid md:grid-cols-4 gap-8 max-w-6xl mx-auto">      <div class="text-center group">
-        <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+    <div class="grid md:grid-cols-4 gap-8 max-w-6xl mx-auto">
+      <div class="text-center group">
+        <div
+          class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300"
+        >
           <span class="text-2xl font-bold text-purple-600">1</span>
         </div>
-        <h3 class="text-xl font-bold text-white mb-4" i18n="@@landing.step1Title">Apply & Assess</h3>
-        <p class="text-blue-100" i18n="@@landing.step1Description">Submit your application and complete our skills assessment process</p>
+        <h3
+          class="text-xl font-bold text-white mb-4"
+          i18n="@@landing.step1Title"
+        >
+          Apply & Assess
+        </h3>
+        <p class="text-blue-100" i18n="@@landing.step1Description">
+          Submit your application and complete our skills assessment process
+        </p>
       </div>
 
       <div class="text-center group">
-        <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+        <div
+          class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300"
+        >
           <span class="text-2xl font-bold text-purple-600">2</span>
         </div>
-        <h3 class="text-xl font-bold text-white mb-4" i18n="@@landing.step2Title">Job Matching</h3>
-        <p class="text-blue-100" i18n="@@landing.step2Description">We match you with suitable Gulf opportunities based on your profile</p>
+        <h3
+          class="text-xl font-bold text-white mb-4"
+          i18n="@@landing.step2Title"
+        >
+          Job Matching
+        </h3>
+        <p class="text-blue-100" i18n="@@landing.step2Description">
+          We match you with suitable Gulf opportunities based on your profile
+        </p>
       </div>
 
       <div class="text-center group">
-        <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+        <div
+          class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300"
+        >
           <span class="text-2xl font-bold text-purple-600">3</span>
         </div>
-        <h3 class="text-xl font-bold text-white mb-4" i18n="@@landing.step3Title">Visa & Documentation</h3>
-        <p class="text-blue-100" i18n="@@landing.step3Description">Complete visa processing and pre-departure preparation with our guidance</p>
+        <h3
+          class="text-xl font-bold text-white mb-4"
+          i18n="@@landing.step3Title"
+        >
+          Visa & Documentation
+        </h3>
+        <p class="text-blue-100" i18n="@@landing.step3Description">
+          Complete visa processing and pre-departure preparation with our
+          guidance
+        </p>
       </div>
 
       <div class="text-center group">
-        <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+        <div
+          class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300"
+        >
           <span class="text-2xl font-bold text-purple-600">4</span>
         </div>
-        <h3 class="text-xl font-bold text-white mb-4" i18n="@@landing.step4Title">Safe Arrival</h3>
-        <p class="text-blue-100" i18n="@@landing.step4Description">Arrive safely in the Gulf with continued support and follow-up</p>
+        <h3
+          class="text-xl font-bold text-white mb-4"
+          i18n="@@landing.step4Title"
+        >
+          Safe Arrival
+        </h3>
+        <p class="text-blue-100" i18n="@@landing.step4Description">
+          Arrive safely in the Gulf with continued support and follow-up
+        </p>
       </div>
     </div>
   </div>
@@ -305,64 +655,156 @@
 
 <!-- Testimonials Section -->
 <section class="py-20 bg-gray-50 scroll-animate" id="testimonials">
-  <div class="container mx-auto px-6">    <div class="text-center mb-16">
-      <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6" i18n="@@landing.successStories">
+  <div class="container mx-auto px-6">
+    <div class="text-center mb-16">
+      <h2
+        class="text-4xl md:text-5xl font-bold text-gray-900 mb-6"
+        i18n="@@landing.successStories"
+      >
         Success Stories
       </h2>
-      <p class="text-xl text-gray-600 max-w-2xl mx-auto" i18n="@@landing.successStoriesDescription">
-        Join thousands of professionals who transformed their careers with TeamWork Egypt
+      <p
+        class="text-xl text-gray-600 max-w-2xl mx-auto"
+        i18n="@@landing.successStoriesDescription"
+      >
+        Join thousands of professionals who transformed their careers with
+        TeamWork Egypt
       </p>
-    </div>    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-      <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 card-hover">
+    </div>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div
+        class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 card-hover"
+      >
         <div class="flex items-center mb-6">
-          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face" alt="Ahmed Hassan" 
-               class="w-16 h-16 rounded-full object-cover mr-4 ring-4 ring-purple-100 hover:ring-purple-300 transition-all duration-300">
+          <img
+            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face"
+            alt="Ahmed Hassan"
+            class="w-16 h-16 rounded-full object-cover mr-4 ring-4 ring-purple-100 hover:ring-purple-300 transition-all duration-300"
+          />
           <div>
-            <h4 class="font-bold text-gray-900" i18n="@@testimonial.ahmed.name">Ahmed Hassan</h4>
-            <p class="text-sm text-gray-600" i18n="@@testimonial.ahmed.role">Construction Engineer</p>
-            <p class="text-sm text-purple-600 font-semibold" i18n="@@testimonial.ahmed.company">Saudi Mega Projects</p>
+            <h4 class="font-bold text-gray-900" i18n="@@testimonial.ahmed.name">
+              Ahmed Hassan
+            </h4>
+            <p class="text-sm text-gray-600" i18n="@@testimonial.ahmed.role">
+              Construction Engineer
+            </p>
+            <p
+              class="text-sm text-purple-600 font-semibold"
+              i18n="@@testimonial.ahmed.company"
+            >
+              Saudi Mega Projects
+            </p>
           </div>
         </div>
-        <p class="text-gray-700 italic leading-relaxed mb-4" i18n="@@testimonial.ahmed.content">"Team Work International helped me secure an amazing position in Riyadh. Their support throughout the entire process was exceptional!"</p>
+        <p
+          class="text-gray-700 italic leading-relaxed mb-4"
+          i18n="@@testimonial.ahmed.content"
+        >
+          "Team Work International helped me secure an amazing position in
+          Riyadh. Their support throughout the entire process was exceptional!"
+        </p>
         <div class="flex text-yellow-400">
-          <svg *ngFor="let star of [1,2,3,4,5]" class="w-5 h-5 fill-current hover:scale-110 transition-transform duration-200" viewBox="0 0 20 20">
-            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.719c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+          <svg
+            *ngFor="let star of [1, 2, 3, 4, 5]"
+            class="w-5 h-5 fill-current hover:scale-110 transition-transform duration-200"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.719c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+            />
           </svg>
         </div>
       </div>
-      
-      <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 card-hover" style="animation-delay: 0.15s">
+
+      <div
+        class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 card-hover"
+        style="animation-delay: 0.15s"
+      >
         <div class="flex items-center mb-6">
-          <img src="egyptlady.png" alt="Fatima Mohamed" 
-               class="w-16 h-16 rounded-full object-cover mr-4 ring-4 ring-purple-100 hover:ring-purple-300 transition-all duration-300">
+          <img
+            src="egyptlady.png"
+            alt="Fatima Mohamed"
+            class="w-16 h-16 rounded-full object-cover mr-4 ring-4 ring-purple-100 hover:ring-purple-300 transition-all duration-300"
+          />
           <div>
-            <h4 class="font-bold text-gray-900" i18n="@@testimonial.fatima.name">Fatima Mohamed</h4>
-            <p class="text-sm text-gray-600" i18n="@@testimonial.fatima.role">Registered Nurse</p>
-            <p class="text-sm text-purple-600 font-semibold" i18n="@@testimonial.fatima.company">UAE Healthcare Group</p>
+            <h4
+              class="font-bold text-gray-900"
+              i18n="@@testimonial.fatima.name"
+            >
+              Fatima Mohamed
+            </h4>
+            <p class="text-sm text-gray-600" i18n="@@testimonial.fatima.role">
+              Registered Nurse
+            </p>
+            <p
+              class="text-sm text-purple-600 font-semibold"
+              i18n="@@testimonial.fatima.company"
+            >
+              UAE Healthcare Group
+            </p>
           </div>
         </div>
-        <p class="text-gray-700 italic leading-relaxed mb-4" i18n="@@testimonial.fatima.content">"From application to arrival in Dubai, they guided me every step of the way. Professional, ethical, and truly caring about my success."</p>
+        <p
+          class="text-gray-700 italic leading-relaxed mb-4"
+          i18n="@@testimonial.fatima.content"
+        >
+          "From application to arrival in Dubai, they guided me every step of
+          the way. Professional, ethical, and truly caring about my success."
+        </p>
         <div class="flex text-yellow-400">
-          <svg *ngFor="let star of [1,2,3,4,5]" class="w-5 h-5 fill-current hover:scale-110 transition-transform duration-200" viewBox="0 0 20 20">
-            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.719c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+          <svg
+            *ngFor="let star of [1, 2, 3, 4, 5]"
+            class="w-5 h-5 fill-current hover:scale-110 transition-transform duration-200"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.719c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+            />
           </svg>
         </div>
       </div>
-      
-      <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 card-hover" style="animation-delay: 0.3s">
+
+      <div
+        class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 card-hover"
+        style="animation-delay: 0.3s"
+      >
         <div class="flex items-center mb-6">
-          <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face" alt="Omar Ali" 
-               class="w-16 h-16 rounded-full object-cover mr-4 ring-4 ring-purple-100 hover:ring-purple-300 transition-all duration-300">
+          <img
+            src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face"
+            alt="Omar Ali"
+            class="w-16 h-16 rounded-full object-cover mr-4 ring-4 ring-purple-100 hover:ring-purple-300 transition-all duration-300"
+          />
           <div>
-            <h4 class="font-bold text-gray-900" i18n="@@testimonial.omar.name">Omar Ali</h4>
-            <p class="text-sm text-gray-600" i18n="@@testimonial.omar.role">Hospitality Manager</p>
-            <p class="text-sm text-purple-600 font-semibold" i18n="@@testimonial.omar.company">Qatar Luxury Hotels</p>
+            <h4 class="font-bold text-gray-900" i18n="@@testimonial.omar.name">
+              Omar Ali
+            </h4>
+            <p class="text-sm text-gray-600" i18n="@@testimonial.omar.role">
+              Hospitality Manager
+            </p>
+            <p
+              class="text-sm text-purple-600 font-semibold"
+              i18n="@@testimonial.omar.company"
+            >
+              Qatar Luxury Hotels
+            </p>
           </div>
         </div>
-        <p class="text-gray-700 italic leading-relaxed mb-4" i18n="@@testimonial.omar.content">"Thanks to Team Work International, I landed my dream job in Doha. Their reputation and connections in the Gulf are unmatched."</p>
+        <p
+          class="text-gray-700 italic leading-relaxed mb-4"
+          i18n="@@testimonial.omar.content"
+        >
+          "Thanks to Team Work International, I landed my dream job in Doha.
+          Their reputation and connections in the Gulf are unmatched."
+        </p>
         <div class="flex text-yellow-400">
-          <svg *ngFor="let star of [1,2,3,4,5]" class="w-5 h-5 fill-current hover:scale-110 transition-transform duration-200" viewBox="0 0 20 20">
-            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.719c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+          <svg
+            *ngFor="let star of [1, 2, 3, 4, 5]"
+            class="w-5 h-5 fill-current hover:scale-110 transition-transform duration-200"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.719c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+            />
           </svg>
         </div>
       </div>
@@ -372,24 +814,42 @@
 
 <!-- CTA Section -->
 <section class="py-20 bg-gradient-to-r from-gray-900 to-black">
-  <div class="container mx-auto px-6 text-center">    <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+  <div class="container mx-auto px-6 text-center">
+    <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
       <span i18n="@@landing.ctaTitle">Ready to Start Your</span>
-      <span class="bg-gradient-to-r from-yellow-400 to-pink-400 bg-clip-text text-transparent">
+      <span
+        class="bg-gradient-to-r from-yellow-400 to-pink-400 bg-clip-text text-transparent"
+      >
         <span i18n="@@landing.ctaGulfCareer">Gulf Career Journey?</span>
       </span>
     </h2>
-    <p class="text-xl text-gray-300 mb-10 max-w-2xl mx-auto" i18n="@@landing.ctaDescription">
-      If you're looking for a reliable partner to help you find the right job abroad, look no further. 
-      Team Work International is here to support your goals and ensure a smooth, safe, and successful recruitment experience.
+    <p
+      class="text-xl text-gray-300 mb-10 max-w-2xl mx-auto"
+      i18n="@@landing.ctaDescription"
+    >
+      If you're looking for a reliable partner to help you find the right job
+      abroad, look no further. Team Work International is here to support your
+      goals and ensure a smooth, safe, and successful recruitment experience.
     </p>
-    
-    <button 
+
+    <button
       routerLink="/register"
-      class="group px-10 py-5 bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 font-bold text-xl rounded-full hover:from-yellow-300 hover:to-orange-400 transform hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-yellow-500/25">
+      class="group px-10 py-5 bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 font-bold text-xl rounded-full hover:from-yellow-300 hover:to-orange-400 transform hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-yellow-500/25"
+    >
       <span class="flex items-center gap-3">
         <span i18n="@@landing.ctaButton">Start Your Gulf Career Today</span>
-        <svg class="w-6 h-6 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+        <svg
+          class="w-6 h-6 group-hover:translate-x-1 transition-transform"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M13 7l5 5m0 0l-5 5m5-5H6"
+          ></path>
         </svg>
       </span>
     </button>
