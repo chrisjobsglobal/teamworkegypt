@@ -8,26 +8,26 @@ export default {
   {
     "renderMode": 2,
     "preload": [
-      "chunk-CTLQ5CHN.js",
-      "chunk-6HVOJW4O.js",
-      "chunk-3FQUYWBK.js"
+      "chunk-XK5TVWVI.js",
+      "chunk-MZGDYHY2.js",
+      "chunk-LBMC5L5E.js"
     ],
     "route": "/"
   },
   {
     "renderMode": 2,
     "preload": [
-      "chunk-G63F7D4V.js",
-      "chunk-6HVOJW4O.js",
-      "chunk-3FQUYWBK.js"
+      "chunk-5B7OKSSW.js",
+      "chunk-MZGDYHY2.js",
+      "chunk-LBMC5L5E.js"
     ],
     "route": "/register"
   },
   {
     "renderMode": 2,
     "preload": [
-      "chunk-C7UVRVS7.js",
-      "chunk-3FQUYWBK.js"
+      "chunk-3VPUVC3U.js",
+      "chunk-LBMC5L5E.js"
     ],
     "route": "/career-tips"
   },
@@ -39,11 +39,11 @@ export default {
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 10123, hash: '1c869db01594ef3ffd0b3d3b7784e7a7f4922da0e291711efa48a1841e8c220e', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1002, hash: 'ddc6d7d5d30958227ac006ebfd565fd63fd4d54fb822009c89aabf37e50df854', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 62807, hash: 'd308a9b4fce66724111625c61cb0c0adc3ca7b1264947f53041f8e09c92d1b39', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
-    'career-tips/index.html': {size: 51156, hash: '7c6a6b6f66240b425b81d34b674ec766ddb2b3e037bffd7553508133f59b2f73', text: () => import('./assets-chunks/career-tips_index_html.mjs').then(m => m.default)},
-    'register/index.html': {size: 41534, hash: 'c2f5bb198f95efa456ce757c58b61df268975aa08ad9315e3c67f39ddbec08f6', text: () => import('./assets-chunks/register_index_html.mjs').then(m => m.default)},
-    'styles-MATHYN7H.css': {size: 37516, hash: 'oNhXRaU6G2o', text: () => import('./assets-chunks/styles-MATHYN7H_css.mjs').then(m => m.default)}
+    'index.csr.html': {size: 10946, hash: '5b08dacd391304fdaa6b2da47b6cee4b175c531a0293a0ef3ad139a3ef0ec68b', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1002, hash: '9cbf7ab9c0b837ae5902a6aae3403649b7464c477f0a21bdf68182c4b5cea0f5', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'register/index.html': {size: 42748, hash: '831b78d72c3a031ccad406d62f16132680b6fe1240cf35b672a246c8133dfe38', text: () => import('./assets-chunks/register_index_html.mjs').then(m => m.default)},
+    'career-tips/index.html': {size: 52818, hash: '4e7c51c3ce5dd65cbc25fd96e97da0bc7a38fa9f59306bfaa1357550d927b434', text: () => import('./assets-chunks/career-tips_index_html.mjs').then(m => m.default)},
+    'index.html': {size: 78292, hash: 'a0dede4fad622b6936746dc48eea831e133a388b357967ee0f5a04e88affbda0', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'styles-S5NBDWZS.css': {size: 43382, hash: 'EF3SpSt5fXE', text: () => import('./assets-chunks/styles-S5NBDWZS_css.mjs').then(m => m.default)}
   },
 };
