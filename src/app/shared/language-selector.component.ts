@@ -9,7 +9,7 @@ import { CommonModule, isPlatformBrowser } from '@angular/common';
     <!-- Language Toggle -->
     <button
       (click)="toggleLanguage()"
-      class="inline-flex items-center justify-center px-3 py-2 text-sm font-medium text-gray-600 bg-white border border-gray-200 rounded-md hover:bg-gray-50 hover:text-gray-700 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-150"
+      class="inline-flex items-center justify-center px-3 py-2 text-sm font-medium text-gray-600 bg-white border border-gray-200 rounded-full hover:bg-gray-50 hover:text-gray-700 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-150"
       type="button"
       [title]="'Switch to ' + getOtherLanguageName()">
         <span class="text-base mr-2">{{ getCurrentLanguageFlag() }}</span>
