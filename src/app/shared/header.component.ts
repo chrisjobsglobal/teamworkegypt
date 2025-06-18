@@ -48,9 +48,16 @@ import { RouterModule } from '@angular/router';
             <a href="#" class="hidden sm:block text-gray-700 hover:text-purple-600 transition-colors font-medium">
               For Employers
             </a>
+            
             <button 
               routerLink="/register"
-              class="px-6 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-full hover:from-purple-700 hover:to-pink-700 transform hover:scale-105 transition-all duration-300 shadow-lg">
+              class="hidden md:block px-6 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-full hover:from-purple-700 hover:to-pink-700 transform hover:scale-105 transition-all duration-300 shadow-lg">
+              Join Now
+            </button>
+
+            <button 
+              routerLink="/register"
+              class="md:hidden px-6 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-full hover:from-purple-700 hover:to-pink-700 transform hover:scale-105 transition-all duration-300 shadow-lg">
               Join
             </button>
             
