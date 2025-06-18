@@ -44,10 +44,7 @@ import { RouterModule } from '@angular/router';
 
           <!-- CTA Buttons -->
           <div class="flex items-center space-x-4">
-            <a href="#" class="hidden sm:block text-gray-700 hover:text-purple-600 transition-colors font-medium">
-              For Employers
-            </a>
-
+            
             <button 
               routerLink="/register"
               class="hidden md:block px-6 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-full hover:from-purple-700 hover:to-pink-700 transform hover:scale-105 transition-all duration-300 shadow-lg">
@@ -92,11 +89,7 @@ import { RouterModule } from '@angular/router';
                class="block text-gray-700 hover:text-purple-600 transition-colors font-medium py-2">
               Companies
             </a>
-            <a href="#" 
-               (click)="closeMobileMenu()"
-               class="block text-gray-700 hover:text-purple-600 transition-colors font-medium py-2">
-              For Employers
-            </a>
+            
             <div class="pt-2">
               <button 
                 routerLink="/register"

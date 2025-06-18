@@ -14,8 +14,7 @@ import { HeaderComponent } from '../shared/header.component';
 export class LandingComponent implements OnInit {
   @ViewChild('heroSection') heroSection!: ElementRef;
 
-  constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
-  stats = [
+  constructor(@Inject(PLATFORM_ID) private platformId: Object) {}  stats = [
     { value: '1000+', label: 'Successful Placements' },
     { value: '6', label: 'Gulf Countries' },
     { value: '100+', label: 'Partner Companies' },

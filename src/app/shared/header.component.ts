@@ -49,10 +49,7 @@ import { LanguageSelectorComponent } from './language-selector.component';
           <div class="flex items-center space-x-4">
             <!-- Language Selector -->
             <app-language-selector></app-language-selector>
-              <a href="#" class="hidden sm:block text-gray-700 hover:text-purple-600 transition-colors font-medium" i18n="@@header.forEmployers">
-              For Employers
-            </a>
-
+              
             <button 
               routerLink="/register"
               class="hidden md:block px-6 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-full hover:from-purple-700 hover:to-pink-700 transform hover:scale-105 transition-all duration-300 shadow-lg"
@@ -102,12 +99,8 @@ import { LanguageSelectorComponent } from './language-selector.component';
                i18n="@@header.companies">
               Companies
             </a>
-            <a href="#" 
-               (click)="closeMobileMenu()"
-               class="block text-gray-700 hover:text-purple-600 transition-colors font-medium py-2"
-               i18n="@@header.forEmployers">
-              For Employers
-            </a>            <div class="pt-2">
+            
+             <div class="pt-2">
               <button 
                 routerLink="/register"
                 (click)="closeMobileMenu()"

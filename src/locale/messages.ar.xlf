@@ -41,10 +41,21 @@
       <trans-unit id="1405572520551716468" datatype="html">
         <source>Start Your Journey</source>
         <target>ابدأ رحلتك</target>
-      </trans-unit>
-      <trans-unit id="6570968243229835569" datatype="html">
+      </trans-unit>      <trans-unit id="6570968243229835569" datatype="html">
         <source> TeamWork Egypt </source>
         <target>تيم وورك مصر</target>
+      </trans-unit>
+      <trans-unit id="landing.findYour" datatype="html">
+        <source>Find Your</source>
+        <target>ابحث عن</target>
+      </trans-unit>
+      <trans-unit id="landing.dreamJob" datatype="html">
+        <source>Dream Job</source>
+        <target>وظيفتك الحلم</target>
+      </trans-unit>
+      <trans-unit id="landing.abroad" datatype="html">
+        <source>Abroad</source>
+        <target>في الخارج</target>
       </trans-unit>      <trans-unit id="6735077711919037566" datatype="html">
         <source>Find Your Dream Job</source>
         <target>ابحث عن وظيفتك الحلم</target>
@@ -196,11 +207,334 @@
       <trans-unit id="country.bahrain" datatype="html">
         <source>Bahrain</source>
         <target>البحرين</target>
-      </trans-unit>
-      <trans-unit id="country.oman" datatype="html">
+      </trans-unit>      <trans-unit id="country.oman" datatype="html">
         <source>Oman</source>
         <target>عمان</target>
       </trans-unit>
+
+      <!-- Landing Page New Translations -->
+      <trans-unit id="landing.heroSubtitle" datatype="html">
+        <source> Connect with top Egyptian companies and unlock your potential. Join thousands of professionals who found their perfect career match. </source>
+        <target>تواصل مع أفضل الشركات المصرية واطلق إمكانياتك. انضم إلى آلاف المحترفين الذين وجدوا وظيفتهم المثالية.</target>
+      </trans-unit>
+
+      <trans-unit id="landing.startYourJourney" datatype="html">
+        <source>Start Your Journey</source>
+        <target>ابدأ رحلتك</target>
+      </trans-unit>
+
+      <trans-unit id="landing.careerTips" datatype="html">
+        <source>Career Tips</source>
+        <target>نصائح مهنية</target>
+      </trans-unit>
+
+      <!-- Stats Translations -->
+      <trans-unit id="stats.successfulPlacements" datatype="html">
+        <source>Successful Placements</source>
+        <target>التوظيفات الناجحة</target>
+      </trans-unit>
+
+      <trans-unit id="stats.gulfCountries" datatype="html">
+        <source>Gulf Countries</source>
+        <target>دول الخليج</target>
+      </trans-unit>
+
+      <trans-unit id="stats.partnerCompanies" datatype="html">
+        <source>Partner Companies</source>
+        <target>الشركات الشريكة</target>
+      </trans-unit>
+
+      <trans-unit id="stats.egyptLicense" datatype="html">
+        <source>Egypt License No.</source>
+        <target>رقم الترخيص المصري</target>
+      </trans-unit>
+
+      <!-- Industries Translations -->
+      <trans-unit id="landing.industriesWeSpecializeIn" datatype="html">
+        <source>Industries We Specialize In</source>
+        <target>الصناعات المتخصصة فيها</target>
+      </trans-unit>
+
+      <trans-unit id="landing.industriesDescription" datatype="html">
+        <source>We partner with reputable companies across diverse industries in the Gulf region</source>
+        <target>نتشارك مع شركات موثوقة عبر صناعات متنوعة في منطقة الخليج</target>
+      </trans-unit>
+
+      <trans-unit id="industry.construction" datatype="html">
+        <source>Construction</source>
+        <target>البناء والتشييد</target>
+      </trans-unit>
+
+      <trans-unit id="industry.constructionDesc" datatype="html">
+        <source>Building the future of the Gulf with skilled construction professionals</source>
+        <target>بناء مستقبل الخليج مع محترفي البناء المهرة</target>
+      </trans-unit>
+
+      <trans-unit id="industry.hospitality" datatype="html">
+        <source>Hospitality</source>
+        <target>الضيافة</target>
+      </trans-unit>
+
+      <trans-unit id="industry.hospitalityDesc" datatype="html">
+        <source>Excellence in service across luxury hotels and resorts</source>
+        <target>التميز في الخدمة عبر الفنادق والمنتجعات الفاخرة</target>
+      </trans-unit>
+
+      <trans-unit id="industry.healthcare" datatype="html">
+        <source>Healthcare</source>
+        <target>الرعاية الصحية</target>
+      </trans-unit>
+
+      <trans-unit id="industry.healthcareDesc" datatype="html">
+        <source>Medical professionals making a difference in patient care</source>
+        <target>المهنيون الطبيون يحدثون فرقاً في رعاية المرضى</target>
+      </trans-unit>
+
+      <trans-unit id="industry.engineering" datatype="html">
+        <source>Engineering</source>
+        <target>الهندسة</target>
+      </trans-unit>
+
+      <trans-unit id="industry.engineeringDesc" datatype="html">
+        <source>Innovative engineering solutions for modern infrastructure</source>
+        <target>حلول هندسية مبتكرة للبنية التحتية الحديثة</target>
+      </trans-unit>
+
+      <trans-unit id="industry.oilGas" datatype="html">
+        <source>Oil & Gas</source>
+        <target>النفط والغاز</target>
+      </trans-unit>
+
+      <trans-unit id="industry.oilGasDesc" datatype="html">
+        <source>Energy sector opportunities in the heart of global oil production</source>
+        <target>فرص قطاع الطاقة في قلب الإنتاج العالمي للنفط</target>
+      </trans-unit>
+
+      <trans-unit id="industry.retail" datatype="html">
+        <source>Retail & More</source>
+        <target>التجزئة وأكثر</target>
+      </trans-unit>
+
+      <trans-unit id="industry.retailDesc" datatype="html">
+        <source>Diverse opportunities across multiple growing sectors</source>
+        <target>فرص متنوعة عبر قطاعات متعددة نامية</target>
+      </trans-unit>
+
+      <!-- Features Translations -->
+      <trans-unit id="landing.whyChoose" datatype="html">
+        <source>Why Choose</source>
+        <target>لماذا تختار</target>
+      </trans-unit>
+
+      <trans-unit id="landing.whyChooseDescription" datatype="html">
+        <source>Licensed, trusted, and committed to your success with ethical recruitment practices and comprehensive support.</source>
+        <target>مرخص وموثوق وملتزم بنجاحك مع ممارسات التوظيف الأخلاقية والدعم الشامل.</target>
+      </trans-unit>
+
+      <trans-unit id="feature.licensedTrusted" datatype="html">
+        <source>Licensed & Trusted</source>
+        <target>مرخص وموثوق</target>
+      </trans-unit>
+
+      <trans-unit id="feature.licensedTrustedDesc" datatype="html">
+        <source>Fully certified by Egyptian authorities (License No. 1313), operating with transparency and legal compliance</source>
+        <target>معتمد بالكامل من السلطات المصرية (ترخيص رقم 1313)، يعمل بشفافية وامتثال قانوني</target>
+      </trans-unit>
+
+      <trans-unit id="feature.gulfWideOpportunities" datatype="html">
+        <source>Gulf-Wide Opportunities</source>
+        <target>فرص على مستوى الخليج</target>
+      </trans-unit>
+
+      <trans-unit id="feature.gulfWideOpportunitiesDesc" datatype="html">
+        <source>Access to jobs across Saudi Arabia, UAE, Qatar, Kuwait, Bahrain, and Oman</source>
+        <target>الوصول إلى الوظائف عبر المملكة العربية السعودية والإمارات وقطر والكويت والبحرين وعمان</target>
+      </trans-unit>
+
+      <trans-unit id="feature.provenSuccess" datatype="html">
+        <source>Proven Success</source>
+        <target>نجاح مثبت</target>
+      </trans-unit>
+
+      <trans-unit id="feature.provenSuccessDesc" datatype="html">
+        <source>Hundreds of successful placements in meaningful roles across the Gulf region</source>
+        <target>مئات التوظيفات الناجحة في أدوار مهمة عبر منطقة الخليج</target>
+      </trans-unit>
+
+      <trans-unit id="feature.ethicalRecruitment" datatype="html">
+        <source>Ethical Recruitment</source>
+        <target>التوظيف الأخلاقي</target>
+      </trans-unit>
+
+      <trans-unit id="feature.ethicalRecruitmentDesc" datatype="html">
+        <source>Strict ethical standards with legal and secure recruitment - no hidden fees or false promises</source>
+        <target>معايير أخلاقية صارمة مع التوظيف القانوني والآمن - لا توجد رسوم خفية أو وعود كاذبة</target>
+      </trans-unit>
+
+      <trans-unit id="feature.endToEndSupport" datatype="html">
+        <source>End-to-End Support</source>
+        <target>الدعم الشامل</target>
+      </trans-unit>
+
+      <trans-unit id="feature.endToEndSupportDesc" datatype="html">
+        <source>Complete guidance from application to visa processing, pre-departure orientation, and post-arrival follow-up</source>
+        <target>التوجيه الكامل من التطبيق إلى معالجة التأشيرة والتوجيه قبل المغادرة والمتابعة بعد الوصول</target>
+      </trans-unit>
+
+      <trans-unit id="feature.industryExpertise" datatype="html">
+        <source>Industry Expertise</source>
+        <target>الخبرة الصناعية</target>
+      </trans-unit>
+
+      <trans-unit id="feature.industryExpertiseDesc" datatype="html">
+        <source>Specialized in Construction, Hospitality, Healthcare, Engineering, Oil & Gas, and Retail sectors</source>
+        <target>متخصص في قطاعات البناء والضيافة والرعاية الصحية والهندسة والنفط والغاز والتجزئة</target>
+      </trans-unit>
+
+      <!-- How It Works Translations -->
+      <trans-unit id="landing.howItWorks" datatype="html">
+        <source>Your Gulf Career Journey</source>
+        <target>رحلتك المهنية في الخليج</target>
+      </trans-unit>
+
+      <trans-unit id="landing.howItWorksDescription" datatype="html">
+        <source>From application to arrival - we support you every step of the way</source>
+        <target>من التطبيق إلى الوصول - نحن ندعمك في كل خطوة</target>
+      </trans-unit>
+
+      <trans-unit id="landing.step1Title" datatype="html">
+        <source>Apply & Assess</source>
+        <target>تقدم وقيم</target>
+      </trans-unit>
+
+      <trans-unit id="landing.step1Description" datatype="html">
+        <source>Submit your application and complete our skills assessment process</source>
+        <target>قدم طلبك وأكمل عملية تقييم مهاراتنا</target>
+      </trans-unit>
+
+      <trans-unit id="landing.step2Title" datatype="html">
+        <source>Job Matching</source>
+        <target>مطابقة الوظائف</target>
+      </trans-unit>
+
+      <trans-unit id="landing.step2Description" datatype="html">
+        <source>We match you with suitable Gulf opportunities based on your profile</source>
+        <target>نطابقك مع الفرص المناسبة في الخليج بناءً على ملفك الشخصي</target>
+      </trans-unit>
+
+      <trans-unit id="landing.step3Title" datatype="html">
+        <source>Visa & Documentation</source>
+        <target>التأشيرة والوثائق</target>
+      </trans-unit>
+
+      <trans-unit id="landing.step3Description" datatype="html">
+        <source>Complete visa processing and pre-departure preparation with our guidance</source>
+        <target>أكمل معالجة التأشيرة والتحضير قبل المغادرة بتوجيهنا</target>
+      </trans-unit>
+
+      <trans-unit id="landing.step4Title" datatype="html">
+        <source>Safe Arrival</source>
+        <target>الوصول الآمن</target>
+      </trans-unit>
+
+      <trans-unit id="landing.step4Description" datatype="html">
+        <source>Arrive safely in the Gulf with continued support and follow-up</source>
+        <target>الوصول بأمان إلى الخليج مع الدعم المستمر والمتابعة</target>
+      </trans-unit>
+
+      <!-- Success Stories Translations -->
+      <trans-unit id="landing.successStories" datatype="html">
+        <source>Success Stories</source>
+        <target>قصص النجاح</target>
+      </trans-unit>
+
+      <trans-unit id="landing.successStoriesDescription" datatype="html">
+        <source>Join thousands of professionals who transformed their careers with TeamWork Egypt</source>
+        <target>انضم إلى آلاف المحترفين الذين غيروا مسيرتهم المهنية مع تيم وورك مصر</target>
+      </trans-unit>
+
+      <!-- Testimonials Translations -->
+      <trans-unit id="testimonial.ahmed.name" datatype="html">
+        <source>Ahmed Hassan</source>
+        <target>أحمد حسن</target>
+      </trans-unit>
+
+      <trans-unit id="testimonial.ahmed.role" datatype="html">
+        <source>Construction Engineer</source>
+        <target>مهندس مدني</target>
+      </trans-unit>
+
+      <trans-unit id="testimonial.ahmed.company" datatype="html">
+        <source>Saudi Mega Projects</source>
+        <target>المشاريع الضخمة السعودية</target>
+      </trans-unit>
+
+      <trans-unit id="testimonial.ahmed.content" datatype="html">
+        <source>"Team Work International helped me secure an amazing position in Riyadh. Their support throughout the entire process was exceptional!"</source>
+        <target>"ساعدني تيم وورك الدولية في الحصول على منصب رائع في الرياض. كان دعمهم طوال العملية بأكملها استثنائياً!"</target>
+      </trans-unit>
+
+      <trans-unit id="testimonial.fatima.name" datatype="html">
+        <source>Fatima Mohamed</source>
+        <target>فاطمة محمد</target>
+      </trans-unit>
+
+      <trans-unit id="testimonial.fatima.role" datatype="html">
+        <source>Registered Nurse</source>
+        <target>ممرضة مسجلة</target>
+      </trans-unit>
+
+      <trans-unit id="testimonial.fatima.company" datatype="html">
+        <source>UAE Healthcare Group</source>
+        <target>مجموعة الرعاية الصحية الإماراتية</target>
+      </trans-unit>
+
+      <trans-unit id="testimonial.fatima.content" datatype="html">
+        <source>"From application to arrival in Dubai, they guided me every step of the way. Professional, ethical, and truly caring about my success."</source>
+        <target>"من التطبيق إلى الوصول في دبي، أرشدوني في كل خطوة. مهنيون وأخلاقيون ويهتمون حقاً بنجاحي."</target>
+      </trans-unit>
+
+      <trans-unit id="testimonial.omar.name" datatype="html">
+        <source>Omar Ali</source>
+        <target>عمر علي</target>
+      </trans-unit>
+
+      <trans-unit id="testimonial.omar.role" datatype="html">
+        <source>Hospitality Manager</source>
+        <target>مدير الضيافة</target>
+      </trans-unit>
+
+      <trans-unit id="testimonial.omar.company" datatype="html">
+        <source>Qatar Luxury Hotels</source>
+        <target>فنادق قطر الفاخرة</target>
+      </trans-unit>
+
+      <trans-unit id="testimonial.omar.content" datatype="html">
+        <source>"Thanks to Team Work International, I landed my dream job in Doha. Their reputation and connections in the Gulf are unmatched."</source>
+        <target>"بفضل تيم وورك الدولية، حصلت على وظيفة أحلامي في الدوحة. سمعتهم وصلاتهم في الخليج لا مثيل لها."</target>
+      </trans-unit>
+
+      <!-- CTA Section Translations -->
+      <trans-unit id="landing.ctaTitle" datatype="html">
+        <source>Ready to Start Your</source>
+        <target>مستعد لبدء</target>
+      </trans-unit>
+
+      <trans-unit id="landing.ctaGulfCareer" datatype="html">
+        <source>Gulf Career Journey?</source>
+        <target>رحلتك المهنية في الخليج؟</target>
+      </trans-unit>
+
+      <trans-unit id="landing.ctaDescription" datatype="html">
+        <source> If you're looking for a reliable partner to help you find the right job abroad, look no further. Team Work International is here to support your goals and ensure a smooth, safe, and successful recruitment experience. </source>
+        <target>إذا كنت تبحث عن شريك موثوق لمساعدتك في العثور على الوظيفة المناسبة في الخارج، فلا تبحث أكثر. تيم وورك الدولية هنا لدعم أهدافك وضمان تجربة توظيف سلسة وآمنة وناجحة.</target>
+      </trans-unit>
+
+      <trans-unit id="landing.ctaButton" datatype="html">
+        <source>Start Your Gulf Career Today</source>
+        <target>ابدأ مسيرتك المهنية في الخليج اليوم</target>
+      </trans-unit>
+
       <!-- Add more translations as needed -->
     </body>
   </file>
