@@ -128,10 +128,32 @@
       <trans-unit id="footer.privacyPolicy" datatype="html">
         <source>Privacy Policy</source>
         <target>سياسة الخصوصية</target>
-      </trans-unit>
-      <trans-unit id="footer.terms" datatype="html">
+      </trans-unit>      <trans-unit id="footer.terms" datatype="html">
         <source>Terms of Service</source>
         <target>شروط الخدمة</target>
+      </trans-unit>
+      <trans-unit id="footer.companyDescription" datatype="html">
+        <source>Connecting talented professionals with leading Egyptian companies. Your career journey starts here.</source>
+        <target>ربط المحترفين الموهوبين بالشركات المصرية الرائدة. رحلتك المهنية تبدأ من هنا.</target>
+      </trans-unit>
+      <trans-unit id="footer.contactInfo" datatype="html">
+        <source>Contact Info</source>
+        <target>معلومات الاتصال</target>
+      </trans-unit>
+      <trans-unit id="footer.location" datatype="html">
+        <source>Cairo, Egypt</source>
+        <target>القاهرة، مصر</target>
+      </trans-unit>
+      <trans-unit id="footer.whatsappNumbers" datatype="html">
+        <source>WhatsApp Numbers</source>
+        <target>أرقام الواتساب</target>
+      </trans-unit>      <trans-unit id="footer.copyright" datatype="html">
+        <source>© <x id="INTERPOLATION" equiv-text="{{currentYear}}"/> TeamWork Egypt. All rights reserved.</source>
+        <target>© <x id="INTERPOLATION" equiv-text="{{currentYear}}"/> تيم وورك مصر. جميع الحقوق محفوظة.</target>
+      </trans-unit>
+      <trans-unit id="footer.madeWithLove" datatype="html">
+        <source>Made with ❤️ for Egyptians</source>
+        <target>صُنع بـ ❤️ للمصريين</target>
       </trans-unit>
       <!-- Landing Page Translations -->
       <trans-unit id="landing.about" datatype="html">

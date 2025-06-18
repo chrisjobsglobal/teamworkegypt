@@ -75,8 +75,7 @@
             }
           },
           "defaultConfiguration": "production"
-        },
-        "serve": {
+        },        "serve": {
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
@@ -84,6 +83,9 @@
             },
             "development": {
               "buildTarget": "teamworkegypt:build:development"
+            },
+            "ar": {
+              "buildTarget": "teamworkegypt:build:ar"
             }
           },
           "defaultConfiguration": "development"

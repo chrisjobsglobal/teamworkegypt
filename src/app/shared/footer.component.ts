@@ -16,8 +16,7 @@ import { RouterModule } from '@angular/router';
               class="text-2xl font-bold bg-gradient-to-r from-yellow-400 to-pink-400 bg-clip-text text-transparent"
             >
               TeamWork Egypt
-            </h3>
-            <p class="text-gray-300 leading-relaxed">
+            </h3>            <p class="text-gray-300 leading-relaxed" i18n="@@footer.companyDescription">
               Connecting talented professionals with leading Egyptian companies.
               Your career journey starts here.
             </p>
@@ -111,11 +110,9 @@ import { RouterModule } from '@angular/router';
                   i18n="@@footer.terms">Terms of Service</a>
               </li>
             </ul>
-          </div>
-
-          <!-- Contact -->
+          </div>          <!-- Contact -->
           <div class="space-y-4">
-            <h4 class="text-lg font-semibold">Contact Info</h4>
+            <h4 class="text-lg font-semibold" i18n="@@footer.contactInfo">Contact Info</h4>
             <div class="space-y-2 text-gray-300">
               <p class="flex items-center gap-2">
                 <svg
@@ -134,10 +131,9 @@ import { RouterModule } from '@angular/router';
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
-                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                  />
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"                  />
                 </svg>
-                Cairo, Egypt
+                <span i18n="@@footer.location">Cairo, Egypt</span>
               </p>
               <p class="flex items-center gap-2">
                 <svg
@@ -172,10 +168,8 @@ import { RouterModule } from '@angular/router';
                   </svg>
 
                   
-                </div>
-
-                <div class="flex flex-col gap-0.5">
-                  <span class="text-[#25D366] leading text-sm">WhatsApp Numbers</span>
+                </div>                <div class="flex flex-col gap-0.5">
+                  <span class="text-[#25D366] leading text-sm" i18n="@@footer.whatsappNumbers">WhatsApp Numbers</span>
                   <a
                     href="https://wa.me/201111960248"
                     target="_whatsapp"
@@ -200,13 +194,11 @@ import { RouterModule } from '@angular/router';
               </div>
             </div>
           </div>
-        </div>
-
-        <!-- Bottom Bar -->
+        </div>        <!-- Bottom Bar -->
         <div class="border-t border-gray-800 mt-8 pt-8 text-center">
           <p class="text-gray-400">
-            © {{ currentYear }} TeamWork Egypt. All rights reserved.
-            <span class="text-yellow-400">Made with ❤️ for Egyptians</span>
+            <span i18n="@@footer.copyright">© {{currentYear}} TeamWork Egypt. All rights reserved.</span>
+            <span class="text-yellow-400" i18n="@@footer.madeWithLove">Made with ❤️ for Egyptians</span>
           </p>
         </div>
       </div>

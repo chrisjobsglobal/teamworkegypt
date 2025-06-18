@@ -37,12 +37,11 @@
           }
         }
       }
-    },
-    {
+    },    {
       "label": "Serve Arabic",
       "type": "shell",
       "command": "ng",
-      "args": ["serve", "--configuration", "development", "--port", "4201", "--locale", "ar"],
+      "args": ["serve", "--configuration", "ar", "--port", "4201"],
       "group": "build",
       "isBackground": true,
       "presentation": {
