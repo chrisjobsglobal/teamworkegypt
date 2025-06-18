@@ -1,0 +1,215 @@
+<!-- Header -->
+<app-header-single />
+
+<!-- Hero Section with Current Tip -->
+<section *ngIf="currentTip" class="relative py-20 bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-800 overflow-hidden">
+  <!-- Animated Background Elements -->
+  <div class="absolute inset-0">
+    <div class="absolute top-20 left-20 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+    <div class="absolute top-40 right-20 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+    <div class="absolute -bottom-8 left-40 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+  </div>
+
+  <div class="relative z-10 container mx-auto px-6">
+    <div class="text-center">
+      <!-- Breadcrumb -->
+      <nav class="text-gray-300 mb-8">
+        <button (click)="goBack()" class="hover:text-yellow-400 transition-colors cursor-pointer">Career Tips</button>
+        <span class="mx-2">></span>
+        <span class="text-yellow-400">{{ currentTip.title }}</span>
+      </nav>
+
+      <!-- Icon and Category -->
+      <div class="flex items-center justify-center gap-4 mb-6">
+        <span class="text-6xl">{{ currentTip.icon }}</span>
+        <span class="px-4 py-2 bg-purple-100 text-purple-600 font-semibold rounded-full">
+          {{ currentTip.category }}
+        </span>
+      </div>
+
+      <!-- Title -->
+      <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+        {{ currentTip.title }}
+      </h1>
+      
+      <!-- Description and Read Time -->
+      <p class="text-xl md:text-2xl text-gray-200 mb-4 max-w-3xl mx-auto leading-relaxed">
+        {{ currentTip.description }}
+      </p>
+      
+      <div class="text-gray-300">
+        <span class="inline-flex items-center gap-2">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+          </svg>
+          {{ currentTip.readTime }}
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Main Content -->
+<section *ngIf="currentTip" class="py-20 bg-white">
+  <div class="container mx-auto px-6 max-w-4xl">
+    <!-- Introduction -->
+    <div class="prose prose-lg max-w-none mb-12">
+      <p class="text-xl text-gray-700 leading-relaxed">
+        {{ currentTip.detailedContent.introduction }}
+      </p>
+    </div>
+
+    <!-- Content Sections -->
+    <div *ngFor="let section of currentTip.detailedContent.sections; let i = index" class="mb-12">
+      <h2 class="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+        <span class="w-8 h-8 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-full flex items-center justify-center text-sm font-bold">
+          {{ i + 1 }}
+        </span>
+        {{ section.title }}
+      </h2>
+      
+      <p class="text-lg text-gray-700 leading-relaxed mb-6">
+        {{ section.content }}
+      </p>
+
+      <!-- Tips List -->
+      <div *ngIf="section.tips && section.tips.length > 0" class="bg-gray-50 p-6 rounded-2xl">
+        <h3 class="text-xl font-semibold text-gray-900 mb-4 flex items-center gap-2">
+          <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+          </svg>
+          Key Points
+        </h3>
+        <ul class="space-y-3">
+          <li *ngFor="let tip of section.tips" class="flex items-start gap-3">
+            <span class="w-2 h-2 bg-purple-600 rounded-full mt-2 flex-shrink-0"></span>
+            <span class="text-gray-700 leading-relaxed">{{ tip }}</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Key Takeaways -->
+    <div class="bg-gradient-to-r from-purple-50 to-pink-50 p-8 rounded-2xl mb-12">
+      <h2 class="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+        <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+        </svg>
+        Key Takeaways
+      </h2>
+      <ul class="space-y-4">
+        <li *ngFor="let takeaway of currentTip.detailedContent.keyTakeaways" class="flex items-start gap-4">
+          <span class="w-6 h-6 bg-purple-600 text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0 mt-1">
+            ✓
+          </span>
+          <span class="text-lg text-gray-700 leading-relaxed">{{ takeaway }}</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Action Steps -->
+    <div class="bg-gradient-to-r from-yellow-50 to-orange-50 p-8 rounded-2xl mb-12">
+      <h2 class="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+        <svg class="w-8 h-8 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+        </svg>
+        Action Steps
+      </h2>
+      <div class="space-y-4">
+        <div *ngFor="let step of currentTip.detailedContent.actionSteps; let i = index" class="flex items-start gap-4">
+          <span class="w-8 h-8 bg-orange-600 text-white rounded-full flex items-center justify-center font-bold flex-shrink-0">
+            {{ i + 1 }}
+          </span>
+          <span class="text-lg text-gray-700 leading-relaxed pt-1">{{ step }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Related Tips -->
+<section *ngIf="relatedTips.length > 0" class="py-20 bg-gray-50">
+  <div class="container mx-auto px-6">
+    <h2 class="text-4xl font-bold text-center text-gray-900 mb-12">
+      Related Career Tips
+    </h2>
+    
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div *ngFor="let tip of relatedTips" 
+           (click)="navigateToTip(tip.id)"
+           class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group cursor-pointer">
+        
+        <!-- Icon and Category -->
+        <div class="flex items-center justify-between mb-4">
+          <div class="text-3xl group-hover:scale-110 transition-transform duration-300">
+            {{ tip.icon }}
+          </div>
+          <span class="px-3 py-1 bg-purple-100 text-purple-600 text-sm font-semibold rounded-full">
+            {{ tip.category }}
+          </span>
+        </div>
+
+        <!-- Title -->
+        <h3 class="text-lg font-bold text-gray-900 mb-3 group-hover:text-purple-600 transition-colors duration-300">
+          {{ tip.title }}
+        </h3>
+
+        <!-- Description -->
+        <p class="text-gray-600 text-sm leading-relaxed mb-4">
+          {{ tip.description }}
+        </p>
+
+        <!-- Read Time -->
+        <div class="flex items-center justify-between">
+          <span class="text-sm text-gray-500">{{ tip.readTime }}</span>
+          <svg class="w-4 h-4 text-purple-600 group-hover:translate-x-1 transition-transform duration-300" 
+               fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- Back to All Tips -->
+    <div class="text-center mt-12">
+      <button 
+        (click)="goBack()"
+        class="px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-bold rounded-full hover:from-purple-700 hover:to-pink-700 transform hover:scale-105 transition-all duration-300 shadow-lg">
+        <span class="flex items-center gap-2">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 17l-5-5m0 0l5-5m-5 5h12"></path>
+          </svg>
+          View All Career Tips
+        </span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-20 bg-gradient-to-r from-purple-600 to-pink-600">
+  <div class="container mx-auto px-6 text-center">
+    <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+      Ready to Apply This Advice?
+    </h2>
+    <p class="text-xl text-purple-100 mb-10 max-w-2xl mx-auto">
+      Take the next step in your career journey and start implementing these strategies today.
+    </p>
+    
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <button 
+        routerLink="/register"
+        class="px-8 py-4 bg-white text-purple-600 font-bold rounded-full hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 shadow-lg">
+        Join Our Platform
+      </button>
+      <button 
+        (click)="goBack()"
+        class="px-8 py-4 border-2 border-white text-white font-bold rounded-full hover:bg-white hover:text-purple-600 transform hover:scale-105 transition-all duration-300">
+        More Career Tips
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<app-footer></app-footer>

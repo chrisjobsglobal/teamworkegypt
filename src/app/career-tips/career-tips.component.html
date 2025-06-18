@@ -53,10 +53,11 @@
 <!-- Tips Grid -->
 <section class="py-20 bg-gray-50">
   <div class="container mx-auto px-6">
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-      <div *ngFor="let tip of filteredTips; let i = index" 
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">      <div *ngFor="let tip of filteredTips; let i = index" 
+           (click)="viewTipDetail(tip.id)"
            class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group cursor-pointer"
-           [style.animation-delay]="(i * 0.1) + 's'">
+           [style.animation-delay]="(i * 0.1) + 's'"
+           title="Click to read full article">
         
         <!-- Icon and Category -->
         <div class="flex items-center justify-between mb-4">
