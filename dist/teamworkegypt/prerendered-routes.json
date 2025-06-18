@@ -1,13 +1,22 @@
 {
   "routes": {
-    "/": {},
-    "/career-tips": {},
-    "/career-tips/1": {},
-    "/career-tips/2": {},
-    "/career-tips/3": {},
-    "/career-tips/4": {},
-    "/career-tips/5": {},
-    "/career-tips/6": {},
-    "/register": {}
+    "/ar": {},
+    "/ar/career-tips": {},
+    "/ar/career-tips/1": {},
+    "/ar/career-tips/2": {},
+    "/ar/career-tips/3": {},
+    "/ar/career-tips/4": {},
+    "/ar/career-tips/5": {},
+    "/ar/career-tips/6": {},
+    "/ar/register": {},
+    "/en-US": {},
+    "/en-US/career-tips": {},
+    "/en-US/career-tips/1": {},
+    "/en-US/career-tips/2": {},
+    "/en-US/career-tips/3": {},
+    "/en-US/career-tips/4": {},
+    "/en-US/career-tips/5": {},
+    "/en-US/career-tips/6": {},
+    "/en-US/register": {}
   }
 }
