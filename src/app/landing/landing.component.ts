@@ -15,58 +15,65 @@ export class LandingComponent implements OnInit {
   @ViewChild('heroSection') heroSection!: ElementRef;
 
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
-
   stats = [
-    { value: '10K+', label: 'Active Jobs' },
-    { value: '5K+', label: 'Companies' },
-    { value: '2M+', label: 'Job Seekers' },
-    { value: '100%', label: 'Recruiter Love' }
+    { value: '1000+', label: 'Successful Placements' },
+    { value: '6', label: 'Gulf Countries' },
+    { value: '100+', label: 'Partner Companies' },
+    { value: '1313', label: 'Egypt License No.' }
   ];
-
   features = [
     {
+      icon: '✅',
+      title: 'Licensed & Trusted',
+      description: 'Fully certified by Egyptian authorities (License No. 1313), operating with transparency and legal compliance'
+    },
+    {
+      icon: '🌍',
+      title: 'Gulf-Wide Opportunities',
+      description: 'Access to jobs across Saudi Arabia, UAE, Qatar, Kuwait, Bahrain, and Oman'
+    },
+    {
       icon: '🎯',
-      title: 'Smart Matching',
-      description: 'AI-powered job matching that connects you with the perfect opportunities'
-    },
-    {
-      icon: '⚡',
-      title: 'Instant Applications',
-      description: 'Apply to multiple jobs with one click using our smart application system'
-    },
-    {
-      icon: '🚀',
-      title: 'Career Growth',
-      description: 'Get personalized career advice and skill development recommendations'
+      title: 'Proven Success',
+      description: 'Hundreds of successful placements in meaningful roles across the Gulf region'
     },
     {
       icon: '🤝',
-      title: 'Direct Connect',
-      description: 'Connect directly with hiring managers and skip the middleman'
+      title: 'Ethical Recruitment',
+      description: 'Strict ethical standards with legal and secure recruitment - no hidden fees or false promises'
+    },
+    {
+      icon: '🛡️',
+      title: 'End-to-End Support',
+      description: 'Complete guidance from application to visa processing, pre-departure orientation, and post-arrival follow-up'
+    },
+    {
+      icon: '🏢',
+      title: 'Industry Expertise',
+      description: 'Specialized in Construction, Hospitality, Healthcare, Engineering, Oil & Gas, and Retail sectors'
     }
   ];
-
   testimonials = [
     {
       name: 'Ahmed Hassan',
-      role: 'Software Engineer',
-      company: 'Tech Egypt',
+      role: 'Construction Engineer',
+      company: 'Saudi Mega Projects',
       image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face',
-      content: 'Found my dream job in just 2 weeks! The platform is incredibly intuitive and effective.'
+      content: 'Team Work International helped me secure an amazing position in Riyadh. Their support throughout the entire process was exceptional!'
     },
     {
-      name: 'Sara Mohamed',
-      role: 'Marketing Manager',
-      company: 'Digital Cairo',
+      name: 'Fatima Mohamed',
+      role: 'Registered Nurse',
+      company: 'UAE Healthcare Group',
       image: 'egyptlady.png',
-      content: 'The best job platform in Egypt. Amazing support and great job opportunities.'
+      content: 'From application to arrival in Dubai, they guided me every step of the way. Professional, ethical, and truly caring about my success.'
     },
     {
       name: 'Omar Ali',
-      role: 'Data Scientist',
-      company: 'Analytics Pro',
+      role: 'Hospitality Manager',
+      company: 'Qatar Luxury Hotels',
       image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face',
-      content: 'Professional, fast, and reliable. Highly recommend to anyone looking for a career change.'
+      content: 'Thanks to Team Work International, I landed my dream job in Doha. Their reputation and connections in the Gulf are unmatched.'
     }
   ];
 
