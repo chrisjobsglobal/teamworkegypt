@@ -53,74 +53,62 @@ import { RouterModule } from '@angular/router';
                 </svg>
               </a>
             </div>
-          </div>
-
-          <!-- Quick Links -->
+          </div>          <!-- Quick Links -->
           <div class="space-y-4">
-            <h4 class="text-lg font-semibold">Quick Links</h4>
+            <h4 class="text-lg font-semibold" i18n="@@footer.quickLinks">Quick Links</h4>
             <ul class="space-y-2">
               <li>
                 <a
                   routerLink="/"
                   class="text-gray-300 hover:text-white transition-colors"
-                  >Home</a
-                >
+                  i18n="@@footer.home">Home</a>
               </li>
               <li>
                 <a
                   routerLink="/register"
                   class="text-gray-300 hover:text-white transition-colors"
-                  >Join Us</a
-                >
+                  i18n="@@footer.joinUs">Join Us</a>
               </li>
               <li>
                 <a
                   href="#"
                   class="text-gray-300 hover:text-white transition-colors"
-                  >Browse Jobs</a
-                >
+                  i18n="@@footer.browseJobs">Browse Jobs</a>
               </li>
               <li>
                 <a
                   href="#"
                   class="text-gray-300 hover:text-white transition-colors"
-                  >For Employers</a
-                >
+                  i18n="@@footer.forEmployers">For Employers</a>
               </li>
             </ul>
-          </div>
-
-          <!-- Support -->
+          </div>          <!-- Support -->
           <div class="space-y-4">
-            <h4 class="text-lg font-semibold">Support</h4>
+            <h4 class="text-lg font-semibold" i18n="@@footer.support">Support</h4>
             <ul class="space-y-2">
               <li>
                 <a
                   href="#"
                   class="text-gray-300 hover:text-white transition-colors"
-                  >Help Center</a
-                >
+                  i18n="@@footer.helpCenter">Help Center</a>
               </li>
               <li>
                 <a
                   href="#"
                   class="text-gray-300 hover:text-white transition-colors"
-                  >Contact Us</a
-                >
+                  i18n="@@footer.contactUs">Contact Us</a>
               </li>
               <li>
                 <a
                   href="#"
                   class="text-gray-300 hover:text-white transition-colors"
-                  >Privacy Policy</a
-                >
+                  i18n="@@footer.privacyPolicy">Privacy Policy</a>
               </li>
               <li>
                 <a
                   href="#"
                   class="text-gray-300 hover:text-white transition-colors"
-                  >Terms of Service</a
-                >
+                  i18n="@@footer.terms">Terms of Service</a>
               </li>
             </ul>
           </div>

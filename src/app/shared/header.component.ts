@@ -1,11 +1,12 @@
 import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { RouterModule } from '@angular/router';
+import { LanguageSelectorComponent } from './language-selector.component';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [CommonModule, RouterModule],
+  imports: [CommonModule, RouterModule, LanguageSelectorComponent],
   template: `
     <header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200 shadow-sm">
       <nav class="container mx-auto px-6 py-4">
@@ -15,48 +16,54 @@ import { RouterModule } from '@angular/router';
               <img src="/teamlogo2.png" alt="TeamWork Egypt" width="200" class="object-contain">
             </div>
           </a>          <!-- Navigation Links -->
-          <div class="hidden md:flex items-center space-x-8">
-            <a routerLink="/" 
+          <div class="hidden md:flex items-center space-x-8">            <a routerLink="/" 
                routerLinkActive="text-purple-600 font-semibold"
                [routerLinkActiveOptions]="{exact: true}"
-               class="text-gray-700 hover:text-purple-600 transition-colors font-medium">
+               class="text-gray-700 hover:text-purple-600 transition-colors font-medium"
+               i18n="@@header.home">
               Home
             </a>
             <a (click)="scrollToSection('features')" 
-               class="text-gray-700 hover:text-purple-600 transition-colors font-medium cursor-pointer">
+               class="text-gray-700 hover:text-purple-600 transition-colors font-medium cursor-pointer"
+               i18n="@@header.features">
               Features
             </a>
             <a (click)="scrollToSection('how-it-works')" 
-               class="text-gray-700 hover:text-purple-600 transition-colors font-medium cursor-pointer">
+               class="text-gray-700 hover:text-purple-600 transition-colors font-medium cursor-pointer"
+               i18n="@@header.howItWorks">
               How It Works
             </a>
             <a (click)="scrollToSection('testimonials')" 
-               class="text-gray-700 hover:text-purple-600 transition-colors font-medium cursor-pointer">
+               class="text-gray-700 hover:text-purple-600 transition-colors font-medium cursor-pointer"
+               i18n="@@header.testimonials">
               Testimonials
             </a>
             <a routerLink="/career-tips" 
                routerLinkActive="text-purple-600 font-semibold"
-               class="text-gray-700 hover:text-purple-600 transition-colors font-medium">
+               class="text-gray-700 hover:text-purple-600 transition-colors font-medium"
+               i18n="@@header.careerTips">
               Career Tips
             </a>
             
-          </div>
-
-          <!-- CTA Buttons -->
+          </div>          <!-- CTA Buttons -->
           <div class="flex items-center space-x-4">
-            <a href="#" class="hidden sm:block text-gray-700 hover:text-purple-600 transition-colors font-medium">
+            <!-- Language Selector -->
+            <app-language-selector></app-language-selector>
+              <a href="#" class="hidden sm:block text-gray-700 hover:text-purple-600 transition-colors font-medium" i18n="@@header.forEmployers">
               For Employers
             </a>
 
             <button 
               routerLink="/register"
-              class="hidden md:block px-6 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-full hover:from-purple-700 hover:to-pink-700 transform hover:scale-105 transition-all duration-300 shadow-lg">
+              class="hidden md:block px-6 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-full hover:from-purple-700 hover:to-pink-700 transform hover:scale-105 transition-all duration-300 shadow-lg"
+              i18n="@@header.joinNow">
               Join Now
             </button>
 
             <button 
               routerLink="/register"
-              class="md:hidden px-6 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-full hover:from-purple-700 hover:to-pink-700 transform hover:scale-105 transition-all duration-300 shadow-lg">
+              class="md:hidden px-6 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-full hover:from-purple-700 hover:to-pink-700 transform hover:scale-105 transition-all duration-300 shadow-lg"
+              i18n="@@header.join">
               Join
             </button>
             
@@ -71,37 +78,41 @@ import { RouterModule } from '@angular/router';
           </div>
         </div>        <!-- Mobile Menu -->
         <div *ngIf="mobileMenuOpen" class="md:hidden mt-4 pb-4 border-t border-gray-200 pt-4">
-          <div class="space-y-3">
-            <a routerLink="/" 
+          <div class="space-y-3">            <a routerLink="/" 
                (click)="closeMobileMenu()"
-               class="block text-gray-700 hover:text-purple-600 transition-colors font-medium py-2">
+               class="block text-gray-700 hover:text-purple-600 transition-colors font-medium py-2"
+               i18n="@@header.home">
               Home
             </a>
             <a routerLink="/career-tips" 
                (click)="closeMobileMenu()"
-               class="block text-gray-700 hover:text-purple-600 transition-colors font-medium py-2">
+               class="block text-gray-700 hover:text-purple-600 transition-colors font-medium py-2"
+               i18n="@@header.careerTips">
               Career Tips
             </a>
             <a href="#" 
                (click)="closeMobileMenu()"
-               class="block text-gray-700 hover:text-purple-600 transition-colors font-medium py-2">
+               class="block text-gray-700 hover:text-purple-600 transition-colors font-medium py-2"
+               i18n="@@header.browseJobs">
               Browse Jobs
             </a>
             <a href="#" 
                (click)="closeMobileMenu()"
-               class="block text-gray-700 hover:text-purple-600 transition-colors font-medium py-2">
+               class="block text-gray-700 hover:text-purple-600 transition-colors font-medium py-2"
+               i18n="@@header.companies">
               Companies
             </a>
             <a href="#" 
                (click)="closeMobileMenu()"
-               class="block text-gray-700 hover:text-purple-600 transition-colors font-medium py-2">
+               class="block text-gray-700 hover:text-purple-600 transition-colors font-medium py-2"
+               i18n="@@header.forEmployers">
               For Employers
-            </a>
-            <div class="pt-2">
+            </a>            <div class="pt-2">
               <button 
                 routerLink="/register"
                 (click)="closeMobileMenu()"
-                class="w-full px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-full hover:from-purple-700 hover:to-pink-700 transition-all duration-300">
+                class="w-full px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-full hover:from-purple-700 hover:to-pink-700 transition-all duration-300"
+                i18n="@@header.joinNow">
                 Join Now
               </button>
             </div>

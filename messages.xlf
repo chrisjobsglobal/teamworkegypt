@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="7694552554517611019" datatype="html">
+        <source>Career</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5419941965836655703" datatype="html">
+        <source>Tips &amp; Insights</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4714391357360050657" datatype="html">
+        <source> Expert advice to accelerate your career growth in Egypt&apos;s competitive job market </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.html</context>
+          <context context-type="linenumber">23,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2821179408673282599" datatype="html">
+        <source>Home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.html</context>
+          <context context-type="linenumber">28,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3955671549322008061" datatype="html">
+        <source>Career Tips</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3138783446197897706" datatype="html">
+        <source>Find Your</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3372797162935784392" datatype="html">
+        <source>Dream Job</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5309737331589796286" datatype="html">
+        <source>Abroad</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9192370061970372095" datatype="html">
+        <source> Connect with top Egyptian companies and unlock your potential. Join thousands of professionals who found their perfect career match. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">25,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1405572520551716468" datatype="html">
+        <source>Start Your Journey</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">35,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="landing.careerTips" datatype="html">
+        <source> Career Tips </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">44,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="header.home" datatype="html">
+        <source> Home </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header.component.ts</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header.component.ts</context>
+          <context context-type="linenumber">85,86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="header.features" datatype="html">
+        <source> Features </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header.component.ts</context>
+          <context context-type="linenumber">29,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="header.howItWorks" datatype="html">
+        <source> How It Works </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header.component.ts</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="header.testimonials" datatype="html">
+        <source> Testimonials </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header.component.ts</context>
+          <context context-type="linenumber">39,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="header.careerTips" datatype="html">
+        <source> Career Tips </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header.component.ts</context>
+          <context context-type="linenumber">45,46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header.component.ts</context>
+          <context context-type="linenumber">91,92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="header.forEmployers" datatype="html">
+        <source> For Employers </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header.component.ts</context>
+          <context context-type="linenumber">53,55</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header.component.ts</context>
+          <context context-type="linenumber">109,110</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="header.joinNow" datatype="html">
+        <source> Join Now </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header.component.ts</context>
+          <context context-type="linenumber">60,61</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header.component.ts</context>
+          <context context-type="linenumber">116,117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="header.join" datatype="html">
+        <source> Join </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header.component.ts</context>
+          <context context-type="linenumber">67,68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="header.browseJobs" datatype="html">
+        <source> Browse Jobs </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header.component.ts</context>
+          <context context-type="linenumber">97,98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="header.companies" datatype="html">
+        <source> Companies </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header.component.ts</context>
+          <context context-type="linenumber">103,104</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

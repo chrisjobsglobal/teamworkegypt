@@ -37,6 +37,49 @@
           }
         }
       }
+    },
+    {
+      "label": "Serve Arabic",
+      "type": "shell",
+      "command": "ng",
+      "args": ["serve", "--configuration", "development", "--port", "4201", "--locale", "ar"],
+      "group": "build",
+      "isBackground": true,
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Build All Locales",
+      "type": "shell",
+      "command": "ng",
+      "args": ["build", "--localize"],
+      "group": "build",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Extract i18n",
+      "type": "shell",
+      "command": "ng",
+      "args": ["extract-i18n", "--output-path", "src/locale"],
+      "group": "build",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": []
     }
   ]
 }

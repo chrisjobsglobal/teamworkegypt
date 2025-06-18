@@ -108,10 +108,15 @@
         }
       },
       "i18n": {
+        "sourceLocale": "en-US",
         "locales": {
           "ar": {
             "translation": "src/locale/messages.ar.xlf",
-            "baseHref": "/ar/"
+            "subPath": "ar"
+          },
+          "en": {
+            "translation": "src/locale/messages.xlf",
+            "subPath": ""
           }
         }
       }

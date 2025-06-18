@@ -37,10 +37,10 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
             </svg>
           </span>
-        </button>
-          <button 
+        </button>        <button 
           routerLink="/career-tips"
-          class="px-8 py-4 border-2 border-white text-white font-bold text-lg rounded-full hover:bg-white hover:text-gray-900 transform hover:scale-105 transition-all duration-300">
+          class="px-8 py-4 border-2 border-white text-white font-bold text-lg rounded-full hover:bg-white hover:text-gray-900 transform hover:scale-105 transition-all duration-300"
+          i18n="@@landing.careerTips">
           Career Tips
         </button>
       </div>
@@ -68,61 +68,56 @@
 <!-- About Team Work International Section -->
 <section class="py-20 bg-white scroll-animate" id="about">
   <div class="container mx-auto px-6">
-    <div class="max-w-4xl mx-auto">
-      <div class="text-center mb-16">
+    <div class="max-w-4xl mx-auto">      <div class="text-center mb-16">
         <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-          About 
+          <span i18n="@@landing.about">About</span>
           <span class="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-            Team Work International
+            <span i18n="@@landing.teamWorkInternational">Team Work International</span>
           </span>
         </h2>
         <div class="w-24 h-1 bg-gradient-to-r from-purple-600 to-pink-600 mx-auto mb-8"></div>
-      </div>
-
-      <div class="text-lg text-gray-700 leading-relaxed space-y-6 mb-12">
-        <p class="text-lg text-center font-semibold text-gray-800">
+      </div>      <div class="text-lg text-gray-700 leading-relaxed space-y-6 mb-12">
+        <p class="text-lg text-center font-semibold text-gray-800" i18n="@@landing.aboutDescription1">
           At Team Work International, we're more than just a recruitment agency — we're your career partner, 
           dedicated to helping jobseekers like you achieve life-changing opportunities in the Gulf region.
         </p>
         
-        <p>
+        <p i18n="@@landing.aboutDescription2">
           Licensed in Egypt (License No. 1313), we specialize in connecting skilled professionals from Egypt 
           with reputable employers in Saudi Arabia, the UAE, Qatar, Kuwait, Bahrain, and Oman.
         </p>
         
-        <p>
+        <p i18n="@@landing.aboutDescription3">
           With years of experience in international recruitment, our mission is to open doors for ambitious 
           individuals seeking stable, rewarding jobs abroad. We understand the challenges of working overseas — 
           that's why we provide full guidance and support every step of the way, from your initial application 
           to your safe arrival and beyond.
         </p>
-      </div>
-
-      <!-- Gulf Countries Grid -->
+      </div>      <!-- Gulf Countries Grid -->
       <div class="grid grid-cols-2 md:grid-cols-3 gap-6 mb-16">
         <div class="text-center p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl border border-green-200 hover:shadow-lg transition-all duration-300">
           <div class="text-3xl mb-3">🇸🇦</div>
-          <h4 class="font-bold text-gray-800">Saudi Arabia</h4>
+          <h4 class="font-bold text-gray-800" i18n="@@country.saudiArabia">Saudi Arabia</h4>
         </div>
         <div class="text-center p-6 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl border border-blue-200 hover:shadow-lg transition-all duration-300">
           <div class="text-3xl mb-3">🇦🇪</div>
-          <h4 class="font-bold text-gray-800">UAE</h4>
+          <h4 class="font-bold text-gray-800" i18n="@@country.uae">UAE</h4>
         </div>
         <div class="text-center p-6 bg-gradient-to-br from-red-50 to-rose-50 rounded-2xl border border-red-200 hover:shadow-lg transition-all duration-300">
           <div class="text-3xl mb-3">🇶🇦</div>
-          <h4 class="font-bold text-gray-800">Qatar</h4>
+          <h4 class="font-bold text-gray-800" i18n="@@country.qatar">Qatar</h4>
         </div>
         <div class="text-center p-6 bg-gradient-to-br from-purple-50 to-violet-50 rounded-2xl border border-purple-200 hover:shadow-lg transition-all duration-300">
           <div class="text-3xl mb-3">🇰🇼</div>
-          <h4 class="font-bold text-gray-800">Kuwait</h4>
+          <h4 class="font-bold text-gray-800" i18n="@@country.kuwait">Kuwait</h4>
         </div>
         <div class="text-center p-6 bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl border border-orange-200 hover:shadow-lg transition-all duration-300">
           <div class="text-3xl mb-3">🇧🇭</div>
-          <h4 class="font-bold text-gray-800">Bahrain</h4>
+          <h4 class="font-bold text-gray-800" i18n="@@country.bahrain">Bahrain</h4>
         </div>
         <div class="text-center p-6 bg-gradient-to-br from-teal-50 to-cyan-50 rounded-2xl border border-teal-200 hover:shadow-lg transition-all duration-300">
           <div class="text-3xl mb-3">🇴🇲</div>
-          <h4 class="font-bold text-gray-800">Oman</h4>
+          <h4 class="font-bold text-gray-800" i18n="@@country.oman">Oman</h4>
         </div>
       </div>
     </div>

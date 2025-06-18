@@ -42,6 +42,143 @@
         <source>Start Your Journey</source>
         <target>ابدأ رحلتك</target>
       </trans-unit>
+      <trans-unit id="6570968243229835569" datatype="html">
+        <source> TeamWork Egypt </source>
+        <target>تيم وورك مصر</target>
+      </trans-unit>      <trans-unit id="6735077711919037566" datatype="html">
+        <source>Find Your Dream Job</source>
+        <target>ابحث عن وظيفتك الحلم</target>
+      </trans-unit>
+      <trans-unit id="header.home" datatype="html">
+        <source> Home </source>
+        <target>الرئيسية</target>
+      </trans-unit>
+      <trans-unit id="header.features" datatype="html">
+        <source> Features </source>
+        <target>المميزات</target>
+      </trans-unit>
+      <trans-unit id="header.howItWorks" datatype="html">
+        <source> How It Works </source>
+        <target>كيف يعمل</target>
+      </trans-unit>
+      <trans-unit id="header.testimonials" datatype="html">
+        <source> Testimonials </source>
+        <target>الشهادات</target>
+      </trans-unit>
+      <trans-unit id="header.careerTips" datatype="html">
+        <source> Career Tips </source>
+        <target>نصائح مهنية</target>
+      </trans-unit>
+      <trans-unit id="header.forEmployers" datatype="html">
+        <source> For Employers </source>
+        <target>لأصحاب العمل</target>
+      </trans-unit>
+      <trans-unit id="header.joinNow" datatype="html">
+        <source> Join Now </source>
+        <target>انضم الآن</target>
+      </trans-unit>
+      <trans-unit id="header.join" datatype="html">
+        <source> Join </source>
+        <target>انضم</target>
+      </trans-unit>
+      <trans-unit id="header.browseJobs" datatype="html">
+        <source> Browse Jobs </source>
+        <target>تصفح الوظائف</target>
+      </trans-unit>
+      <trans-unit id="header.companies" datatype="html">
+        <source> Companies </source>
+        <target>الشركات</target>
+      </trans-unit>      <trans-unit id="landing.careerTips" datatype="html">
+        <source> Career Tips </source>
+        <target>نصائح مهنية</target>
+      </trans-unit>
+      <!-- Footer Translations -->
+      <trans-unit id="footer.quickLinks" datatype="html">
+        <source>Quick Links</source>
+        <target>روابط سريعة</target>
+      </trans-unit>
+      <trans-unit id="footer.home" datatype="html">
+        <source>Home</source>
+        <target>الرئيسية</target>
+      </trans-unit>
+      <trans-unit id="footer.joinUs" datatype="html">
+        <source>Join Us</source>
+        <target>انضم إلينا</target>
+      </trans-unit>
+      <trans-unit id="footer.browseJobs" datatype="html">
+        <source>Browse Jobs</source>
+        <target>تصفح الوظائف</target>
+      </trans-unit>
+      <trans-unit id="footer.forEmployers" datatype="html">
+        <source>For Employers</source>
+        <target>لأصحاب العمل</target>
+      </trans-unit>
+      <trans-unit id="footer.support" datatype="html">
+        <source>Support</source>
+        <target>الدعم</target>
+      </trans-unit>
+      <trans-unit id="footer.helpCenter" datatype="html">
+        <source>Help Center</source>
+        <target>مركز المساعدة</target>
+      </trans-unit>
+      <trans-unit id="footer.contactUs" datatype="html">
+        <source>Contact Us</source>
+        <target>اتصل بنا</target>
+      </trans-unit>
+      <trans-unit id="footer.privacyPolicy" datatype="html">
+        <source>Privacy Policy</source>
+        <target>سياسة الخصوصية</target>
+      </trans-unit>
+      <trans-unit id="footer.terms" datatype="html">
+        <source>Terms of Service</source>
+        <target>شروط الخدمة</target>
+      </trans-unit>
+      <!-- Landing Page Translations -->
+      <trans-unit id="landing.about" datatype="html">
+        <source>About</source>
+        <target>حول</target>
+      </trans-unit>
+      <trans-unit id="landing.teamWorkInternational" datatype="html">
+        <source>Team Work International</source>
+        <target>تيم وورك إنترناشونال</target>
+      </trans-unit>
+      <trans-unit id="landing.aboutDescription1" datatype="html">
+        <source> At Team Work International, we're more than just a recruitment agency — we're your career partner, dedicated to helping jobseekers like you achieve life-changing opportunities in the Gulf region. </source>
+        <target>في تيم وورك إنترناشونال، نحن أكثر من مجرد وكالة توظيف - نحن شريكك المهني، ملتزمون بمساعدة الباحثين عن العمل مثلك لتحقيق فرص تغير الحياة في منطقة الخليج.</target>
+      </trans-unit>
+      <trans-unit id="landing.aboutDescription2" datatype="html">
+        <source> Licensed in Egypt (License No. 1313), we specialize in connecting skilled professionals from Egypt with reputable employers in Saudi Arabia, the UAE, Qatar, Kuwait, Bahrain, and Oman. </source>
+        <target>مرخصون في مصر (رخصة رقم 1313)، نتخصص في ربط المحترفين المهرة من مصر بأصحاب العمل المحترمين في المملكة العربية السعودية والإمارات العربية المتحدة وقطر والكويت والبحرين وعمان.</target>
+      </trans-unit>
+      <trans-unit id="landing.aboutDescription3" datatype="html">
+        <source> With years of experience in international recruitment, our mission is to open doors for ambitious individuals seeking stable, rewarding jobs abroad. We understand the challenges of working overseas — that's why we provide full guidance and support every step of the way, from your initial application to your safe arrival and beyond. </source>
+        <target>مع سنوات من الخبرة في التوظيف الدولي، مهمتنا هي فتح الأبواب للأفراد الطموحين الساعين للحصول على وظائف مستقرة ومجزية في الخارج. نحن نفهم تحديات العمل في الخارج - لهذا نقدم التوجيه والدعم الكامل في كل خطوة، من طلبك الأولي إلى وصولك الآمن وما بعده.</target>
+      </trans-unit>
+      <!-- Country Translations -->
+      <trans-unit id="country.saudiArabia" datatype="html">
+        <source>Saudi Arabia</source>
+        <target>المملكة العربية السعودية</target>
+      </trans-unit>
+      <trans-unit id="country.uae" datatype="html">
+        <source>UAE</source>
+        <target>الإمارات العربية المتحدة</target>
+      </trans-unit>
+      <trans-unit id="country.qatar" datatype="html">
+        <source>Qatar</source>
+        <target>قطر</target>
+      </trans-unit>
+      <trans-unit id="country.kuwait" datatype="html">
+        <source>Kuwait</source>
+        <target>الكويت</target>
+      </trans-unit>
+      <trans-unit id="country.bahrain" datatype="html">
+        <source>Bahrain</source>
+        <target>البحرين</target>
+      </trans-unit>
+      <trans-unit id="country.oman" datatype="html">
+        <source>Oman</source>
+        <target>عمان</target>
+      </trans-unit>
       <!-- Add more translations as needed -->
     </body>
   </file>
