@@ -12,10 +12,9 @@ import { CommonModule, isPlatformBrowser } from '@angular/common';
       class="inline-flex items-center justify-center px-3 py-2 text-sm font-medium text-gray-600 bg-white border border-gray-200 rounded-md hover:bg-gray-50 hover:text-gray-700 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-150"
       type="button"
       [title]="'Switch to ' + getOtherLanguageName()">
-      
-      <span class="text-base mr-2">{{ getCurrentLanguageFlag() }}</span>
+        <span class="text-base mr-2">{{ getCurrentLanguageFlag() }}</span>
       <span class="hidden sm:inline mr-1">{{ getCurrentLanguageName() }}</span>
-      <span class="text-xs text-gray-400 hidden sm:inline">→</span>
+      <span class="text-xs text-gray-400 hidden sm:inline">{{ getArrowDirection() }}</span>
       <span class="text-base ml-1">{{ getOtherLanguageFlag() }}</span>
     </button>
   `,
@@ -61,10 +60,14 @@ export class LanguageSelectorComponent {
     const other = this.languages.find(lang => lang.code !== this.currentLocale);
     return other ? other.flag : '🇪🇬';
   }
-
   getOtherLanguageName(): string {
     const other = this.languages.find(lang => lang.code !== this.currentLocale);
     return other ? other.name : 'العربية';
+  }
+  getArrowDirection(): string {
+    // If current language is Arabic, arrow points left (←) towards English
+    // If current language is English, arrow points right (→) towards Arabic
+    return this.currentLocale === 'ar' ? '←' : '→';
   }
 
   toggleLanguage() {
