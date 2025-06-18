@@ -28,7 +28,11 @@
             "outputMode": "server",
             "ssr": {
               "entry": "src/server.ts"
-            }
+            },
+            "localize": [
+              "en",
+              "ar"
+            ]
           },
           "configurations": {
             "production": {
@@ -44,12 +48,30 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "localize": [
+                "en"
+              ]
             },
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true
+              "sourceMap": true,
+              "localize": [
+                "en"
+              ]
+            },
+            "ar": {
+              "localize": [
+                "ar"
+              ],
+              "outputPath": "dist/teamworkegypt-ar"
+            },
+            "en": {
+              "localize": [
+                "en"
+              ],
+              "outputPath": "dist/teamworkegypt-en"
             }
           },
           "defaultConfiguration": "production"
@@ -82,6 +104,14 @@
             "styles": [
               "src/styles.css"
             ]
+          }
+        }
+      },
+      "i18n": {
+        "locales": {
+          "ar": {
+            "translation": "src/locale/messages.ar.xlf",
+            "baseHref": "/ar/"
           }
         }
       }

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" target-language="ar" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="7694552554517611019" datatype="html">
+        <source>Career</source>
+        <target>المسار المهني</target>
+      </trans-unit>
+      <trans-unit id="5419941965836655703" datatype="html">
+        <source>Tips &amp; Insights</source>
+        <target>نصائح ورؤى</target>
+      </trans-unit>
+      <trans-unit id="4714391357360050657" datatype="html">
+        <source> Expert advice to accelerate your career growth in Egypt&apos;s competitive job market </source>
+        <target>نصائح خبراء لتسريع نموك المهني في سوق العمل المصري التنافسي</target>
+      </trans-unit>
+      <trans-unit id="2821179408673282599" datatype="html">
+        <source>Home</source>
+        <target>الرئيسية</target>
+      </trans-unit>
+      <trans-unit id="3955671549322008061" datatype="html">
+        <source>Career Tips</source>
+        <target>نصائح مهنية</target>
+      </trans-unit>
+      <trans-unit id="3138783446197897706" datatype="html">
+        <source>Find Your</source>
+        <target>ابحث عن</target>
+      </trans-unit>
+      <trans-unit id="3372797162935784392" datatype="html">
+        <source>Dream Job</source>
+        <target>وظيفتك الحلم</target>
+      </trans-unit>
+      <trans-unit id="5309737331589796286" datatype="html">
+        <source>Abroad</source>
+        <target>في الخارج</target>
+      </trans-unit>
+      <trans-unit id="9192370061970372095" datatype="html">
+        <source> Connect with top Egyptian companies and unlock your potential. Join thousands of professionals who found their perfect career match. </source>
+        <target>تواصل مع أفضل الشركات المصرية واطلق إمكانياتك. انضم إلى آلاف المحترفين الذين وجدوا وظيفتهم المثالية.</target>
+      </trans-unit>
+      <trans-unit id="1405572520551716468" datatype="html">
+        <source>Start Your Journey</source>
+        <target>ابدأ رحلتك</target>
+      </trans-unit>
+      <!-- Add more translations as needed -->
+    </body>
+  </file>
+</xliff>
