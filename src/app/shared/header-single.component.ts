@@ -14,7 +14,6 @@ import { RouterModule } from '@angular/router';
             <div class="flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300">
               <img src="/teamlogo2.png" alt="TeamWork Egypt" width="200" class="object-contain">
             </div>
-            
           </a>          <!-- Navigation Links -->
           <div class="hidden md:flex items-center space-x-8">
             <a routerLink="/" 
