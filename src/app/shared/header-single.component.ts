@@ -12,7 +12,7 @@ import { RouterModule } from '@angular/router';
         <div class="flex items-center justify-between">          <!-- Logo -->
           <a routerLink="/" class="flex items-center space-x-2 group">
             <div class="flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300">
-              <img src="/teamworklogo.png" alt="TeamWork Egypt" width="200" class="object-contain">
+              <img src="/teamlogo2.png" alt="TeamWork Egypt" width="200" class="object-contain">
             </div>
             
           </a>          <!-- Navigation Links -->

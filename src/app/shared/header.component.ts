@@ -12,7 +12,7 @@ import { RouterModule } from '@angular/router';
         <div class="flex items-center justify-between">          <!-- Logo -->
           <a routerLink="/" class="flex items-center space-x-2 group">
             <div class="flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300">
-              <img src="/teamworklogo.png" alt="TeamWork Egypt" width="200" class="object-contain">
+              <img src="/teamlogo2.png" alt="TeamWork Egypt" width="200" class="object-contain">
             </div>
             
           </a>          <!-- Navigation Links -->
@@ -48,7 +48,7 @@ import { RouterModule } from '@angular/router';
             <a href="#" class="hidden sm:block text-gray-700 hover:text-purple-600 transition-colors font-medium">
               For Employers
             </a>
-            
+
             <button 
               routerLink="/register"
               class="hidden md:block px-6 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-full hover:from-purple-700 hover:to-pink-700 transform hover:scale-105 transition-all duration-300 shadow-lg">
