@@ -1048,6 +1048,18 @@
           <context context-type="linenumber">64,65</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="gallery.title" datatype="html">
+        <source>Our Recruitment Journey</source>
+      </trans-unit>
+      <trans-unit id="gallery.subtitle" datatype="html">
+        <source>Witness the diverse talent taking skill assessments during our recruitment trips across Egypt. See how we discover exceptional people ready for their next career adventure.</source>
+      </trans-unit>
+      <trans-unit id="gallery.skillAssessment" datatype="html">
+        <source>Skill Assessment Session</source>
+      </trans-unit>
+      <trans-unit id="gallery.recruitmentTrip" datatype="html">
+        <source>During our recruitment trip across Egypt</source>
+      </trans-unit>
     </body>
   </file>
 </xliff>

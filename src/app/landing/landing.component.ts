@@ -3,11 +3,12 @@ import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { FooterComponent } from '../shared/footer.component';
 import { HeaderComponent } from '../shared/header.component';
+import { GalleryCarouselComponent } from '../gallery-carousel/gallery-carousel.component';
 
 @Component({
   selector: 'app-landing',
   standalone: true,
-  imports: [CommonModule, RouterModule, FooterComponent, HeaderComponent],
+  imports: [CommonModule, RouterModule, FooterComponent, HeaderComponent, GalleryCarouselComponent],
   templateUrl: './landing.component.html',
   styleUrl: './landing.component.css'
 })

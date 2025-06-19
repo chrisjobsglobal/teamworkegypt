@@ -666,7 +666,22 @@
     </trans-unit>
     <trans-unit id="tip6_readtime" datatype="html">
       <source>10 min read</source>
-      <target>١٠ دقائق قراءة</target>
+      <target>١٠ دقائق قراءة</target>    </trans-unit>
+    <trans-unit id="gallery.title" datatype="html">
+      <source>Our Recruitment Journey</source>
+      <target>رحلة التوظيف لدينا</target>
+    </trans-unit>
+    <trans-unit id="gallery.subtitle" datatype="html">
+      <source>Witness the diverse talent taking skill assessments during our recruitment trips across Egypt. See how we discover exceptional people ready for their next career adventure.</source>
+      <target>شاهد المواهب المتنوعة أثناء خضوعها لتقييمات المهارات خلال رحلات التوظيف في جميع أنحاء مصر. اكتشف كيف نعثر على أشخاص استثنائيين مستعدين لبدء مغامرتهم المهنية التالية.</target>
+    </trans-unit>
+    <trans-unit id="gallery.skillAssessment" datatype="html">
+      <source>Skill Assessment Session</source>
+      <target>جلسة تقييم المهارات</target>
+    </trans-unit>
+    <trans-unit id="gallery.recruitmentTrip" datatype="html">
+      <source>During our recruitment trip across Egypt</source>
+      <target>خلال رحلة التوظيف عبر مصر</target>
     </trans-unit>
 
     </body>
