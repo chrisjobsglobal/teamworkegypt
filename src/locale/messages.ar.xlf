@@ -254,10 +254,13 @@
         <target>الشركات الشريكة</target>
       </trans-unit>
 
-      <trans-unit id="stats.egyptLicense" datatype="html">
-        <source>Egypt License No.</source>
-        <target>رقم الترخيص المصري</target>
+      <trans-unit id="stats.applicantProfiles" datatype="html">
+        <source>Applicant Profiles</source>
+        <target>ملفات المتقدمين</target>
       </trans-unit>
+
+
+
 
       <!-- Industries Translations -->
       <trans-unit id="landing.industriesWeSpecializeIn" datatype="html">
@@ -540,6 +543,132 @@
       </trans-unit>
 
       <!-- Add more translations as needed -->
+
+          <trans-unit id="tip1_title" datatype="html">
+      <source>Perfect Your Resume</source>
+      <target>أتقن سيرتك الذاتية</target>
+    </trans-unit>
+    <trans-unit id="tip1_description" datatype="html">
+      <source>Learn how to create a compelling resume that stands out to Egyptian employers.</source>
+      <target>تعلم كيفية إنشاء سيرة ذاتية مقنعة تبرز لأصحاب العمل المصريين.</target>
+    </trans-unit>
+    <trans-unit id="tip1_content" datatype="html">
+      <source>Your resume is your first impression. Make it count with these essential tips for crafting a resume that gets noticed by Egyptian recruiters and hiring managers.</source>
+      <target>سيرتك الذاتية هي انطباعك الأول. اجعلها مهمة من خلال هذه النصائح الأساسية لصياغة سيرة ذاتية تلفت انتباه مسؤولي التوظيف ومديري التوظيف المصريين.</target>
+    </trans-unit>
+    <trans-unit id="category_resume" datatype="html">
+      <source>Resume</source>
+      <target>السيرة الذاتية</target>
+    </trans-unit>
+    <trans-unit id="tip2_title" datatype="html">
+      <source>Master the Interview</source>
+      <target>إتقان المقابلة</target>
+    </trans-unit>
+    <trans-unit id="tip2_description" datatype="html">
+      <source>Essential interview tips and common questions asked by Egyptian companies.</source>
+      <target>نصائح أساسية للمقابلة والأسئلة الشائعة التي تطرحها الشركات المصرية.</target>
+    </trans-unit>
+    <trans-unit id="tip2_content" datatype="html">
+      <source>Preparation is key to interview success. Learn the strategies and cultural considerations that will help you excel in Egyptian job interviews.</source>
+      <target>التحضير هو المفتاح لنجاح المقابلة. تعلم الاستراتيجيات والاعتبارات الثقافية التي ستساعدك على التفوق في مقابلات العمل المصرية.</target>
+    </trans-unit>
+    <trans-unit id="category_interview" datatype="html">
+      <source>Interview</source>
+      <target>مقابلة</target>
+    </trans-unit>
+    <trans-unit id="tip3_title" datatype="html">
+      <source>Networking in Egypt</source>
+      <target>التواصل في مصر</target>
+    </trans-unit>
+    <trans-unit id="tip3_description" datatype="html">
+      <source>Build professional relationships that can accelerate your career growth.</source>
+      <target>بناء علاقات مهنية يمكن أن تسرع نموك الوظيفي.</target>
+    </trans-unit>
+    <trans-unit id="tip3_content" datatype="html">
+      <source>Networking is crucial in the Egyptian job market. Discover effective strategies for building meaningful professional relationships that open doors to opportunities.</source>
+      <target>التواصل أمر بالغ الأهمية في سوق العمل المصري. اكتشف استراتيجيات فعالة لبناء علاقات مهنية هادفة تفتح الأبواب أمام الفرص.</target>
+    </trans-unit>
+    <trans-unit id="category_networking" datatype="html">
+      <source>Networking</source>
+      <target>التواصل</target>
+    </trans-unit>
+    <trans-unit id="tip4_title" datatype="html">
+      <source>Salary Negotiation</source>
+      <target>التفاوض على الراتب</target>
+    </trans-unit>
+    <trans-unit id="tip4_description" datatype="html">
+      <source>How to negotiate your salary and benefits package confidently.</source>
+      <target>كيف تتفاوض على راتبك وحزمة المزايا بثقة.</target>
+    </trans-unit>
+    <trans-unit id="tip4_content" datatype="html">
+      <source>Don&apos;t leave money on the table. Master the art of salary negotiation with strategies tailored for the Egyptian job market and business culture.</source>
+      <target>لا تترك المال على الطاولة. أتقن فن التفاوض على الراتب باستراتيجيات مصممة خصيصًا لسوق العمل والثقافة التجارية المصرية.</target>
+    </trans-unit>
+    <trans-unit id="category_negotiation" datatype="html">
+      <source>Negotiation</source>
+      <target>التفاوض</target>
+    </trans-unit>
+    <trans-unit id="tip5_title" datatype="html">
+      <source>LinkedIn Optimization</source>
+      <target>تحسين LinkedIn</target>
+    </trans-unit>
+    <trans-unit id="tip5_description" datatype="html">
+      <source>Optimize your LinkedIn profile to attract Egyptian recruiters.</source>
+      <target>قم بتحسين ملفك الشخصي على LinkedIn لجذب مسؤولي التوظيف المصريين.</target>
+    </trans-unit>
+    <trans-unit id="tip5_content" datatype="html">
+      <source>Your LinkedIn profile is your digital business card. Learn how to optimize it for the Egyptian market and attract the right opportunities.</source>
+      <target>ملفك الشخصي على LinkedIn هو بطاقة عملك الرقمية. تعرف على كيفية تحسينه لسوق العمل المصري وجذب الفرص المناسبة.</target>
+    </trans-unit>
+    <trans-unit id="category_onlinePresence" datatype="html">
+      <source>Online Presence</source>
+      <target>التواجد على الإنترنت</target>
+    </trans-unit>
+    <trans-unit id="tip6_title" datatype="html">
+      <source>Industry Insights</source>
+      <target>رؤى حول الصناعة</target>
+    </trans-unit>
+    <trans-unit id="tip6_description" datatype="html">
+      <source>Stay updated with the latest trends in Egypt&apos;s job market.</source>
+      <target>ابق على اطلاع دائم بأحدث الاتجاهات في سوق العمل المصري.</target>
+    </trans-unit>
+    <trans-unit id="tip6_content" datatype="html">
+      <source>Understanding market trends gives you a competitive edge. Get insights into growing industries, in-demand skills, and economic factors affecting employment in Egypt.</source>
+      <target>إن فهم اتجاهات السوق يمنحك ميزة تنافسية. احصل على رؤى حول الصناعات المتنامية والمهارات المطلوبة والعوامل الاقتصادية التي تؤثر على التوظيف في مصر.</target>
+    </trans-unit>
+    <trans-unit id="category_marketTrends" datatype="html">
+      <source>Market Trends</source>
+      <target>اتجاهات السوق</target>
+    </trans-unit>
+    <trans-unit id="category_all" datatype="html">
+      <source>All</source>
+      <target>الكل</target>
+    </trans-unit>
+    <trans-unit id="tip1_readtime" datatype="html">
+      <source>5 min read</source>
+      <target>٥ دقائق قراءة</target>
+    </trans-unit>
+    <trans-unit id="tip2_readtime" datatype="html">
+      <source>7 min read</source>
+      <target>٧ دقائق قراءة</target>
+    </trans-unit>
+    <trans-unit id="tip3_readtime" datatype="html">
+      <source>6 min read</source>
+      <target>٦ دقائق قراءة</target>
+    </trans-unit>
+    <trans-unit id="tip4_readtime" datatype="html">
+      <source>8 min read</source>
+      <target>٨ دقائق قراءة</target>
+    </trans-unit>
+    <trans-unit id="tip5_readtime" datatype="html">
+      <source>4 min read</source>
+      <target>٤ دقائق قراءة</target>
+    </trans-unit>
+    <trans-unit id="tip6_readtime" datatype="html">
+      <source>10 min read</source>
+      <target>١٠ دقائق قراءة</target>
+    </trans-unit>
+
     </body>
   </file>
 </xliff>

@@ -197,7 +197,7 @@ import { RouterModule } from '@angular/router';
         </div>        <!-- Bottom Bar -->
         <div class="border-t border-gray-800 mt-8 pt-8 text-center">
           <p class="text-gray-400">
-            <span>© {{currentYear}} <span i18n="@@brand.teamWorkEgyptShort">TeamWork Egypt</span>. <span i18n="@@footer.allRightsReserved">All rights reserved.</span></span>
+            <span class="me-2">© {{currentYear}} <span i18n="@@brand.teamWorkEgyptShort">TeamWork Egypt</span>. <span i18n="@@footer.allRightsReserved">All rights reserved.</span></span>
             <span class="text-yellow-400" i18n="@@footer.madeWithLove">Made with ❤️ for Egyptians</span>
           </p>
         </div>

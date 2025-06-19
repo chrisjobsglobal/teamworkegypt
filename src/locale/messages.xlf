@@ -6,35 +6,276 @@
         <source>Career</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/career-tips/career-tips.component.html</context>
-          <context context-type="linenumber">16,17</context>
+          <context context-type="linenumber">25,26</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5419941965836655703" datatype="html">
         <source>Tips &amp; Insights</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/career-tips/career-tips.component.html</context>
-          <context context-type="linenumber">18,19</context>
+          <context context-type="linenumber">29,30</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4714391357360050657" datatype="html">
         <source> Expert advice to accelerate your career growth in Egypt&apos;s competitive job market </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/career-tips/career-tips.component.html</context>
-          <context context-type="linenumber">23,24</context>
+          <context context-type="linenumber">37,38</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2821179408673282599" datatype="html">
         <source>Home</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/career-tips/career-tips.component.html</context>
-          <context context-type="linenumber">28,29</context>
+          <context context-type="linenumber">45</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3955671549322008061" datatype="html">
         <source>Career Tips</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/career-tips/career-tips.component.html</context>
-          <context context-type="linenumber">30,31</context>
+          <context context-type="linenumber">47,48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tip1_title" datatype="html">
+        <source>Perfect Your Resume</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tip1_description" datatype="html">
+        <source>Learn how to create a compelling resume that stands out to Egyptian employers.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tip1_content" datatype="html">
+        <source>Your resume is your first impression. Make it count with these essential tips for crafting a resume that gets noticed by Egyptian recruiters and hiring managers.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="category_resume" datatype="html">
+        <source>Resume</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tip1_readtime" datatype="html">
+        <source>5 min read</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tip2_title" datatype="html">
+        <source>Master the Interview</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tip2_description" datatype="html">
+        <source>Essential interview tips and common questions asked by Egyptian companies.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tip2_content" datatype="html">
+        <source>Preparation is key to interview success. Learn the strategies and cultural considerations that will help you excel in Egyptian job interviews.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="category_interview" datatype="html">
+        <source>Interview</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tip2_readtime" datatype="html">
+        <source>7 min read</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tip3_title" datatype="html">
+        <source>Networking in Egypt</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tip3_description" datatype="html">
+        <source>Build professional relationships that can accelerate your career growth.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tip3_content" datatype="html">
+        <source>Networking is crucial in the Egyptian job market. Discover effective strategies for building meaningful professional relationships that open doors to opportunities.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="category_networking" datatype="html">
+        <source>Networking</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tip3_readtime" datatype="html">
+        <source>6 min read</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tip4_title" datatype="html">
+        <source>Salary Negotiation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tip4_description" datatype="html">
+        <source>How to negotiate your salary and benefits package confidently.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tip4_content" datatype="html">
+        <source>Don&apos;t leave money on the table. Master the art of salary negotiation with strategies tailored for the Egyptian job market and business culture.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="category_negotiation" datatype="html">
+        <source>Negotiation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tip4_readtime" datatype="html">
+        <source>8 min read</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tip5_title" datatype="html">
+        <source>LinkedIn Optimization</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tip5_description" datatype="html">
+        <source>Optimize your LinkedIn profile to attract Egyptian recruiters.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tip5_content" datatype="html">
+        <source>Your LinkedIn profile is your digital business card. Learn how to optimize it for the Egyptian market and attract the right opportunities.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="category_onlinePresence" datatype="html">
+        <source>Online Presence</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tip5_readtime" datatype="html">
+        <source>4 min read</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tip6_title" datatype="html">
+        <source>Industry Insights</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tip6_description" datatype="html">
+        <source>Stay updated with the latest trends in Egypt&apos;s job market.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tip6_content" datatype="html">
+        <source>Understanding market trends gives you a competitive edge. Get insights into growing industries, in-demand skills, and economic factors affecting employment in Egypt.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="category_marketTrends" datatype="html">
+        <source>Market Trends</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tip6_readtime" datatype="html">
+        <source>10 min read</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="category_all" datatype="html">
+        <source>All</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/career-tips/career-tips.component.ts</context>
+          <context context-type="linenumber">95</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.findYour" datatype="html">
@@ -100,8 +341,8 @@
           <context context-type="linenumber">115,117</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="stats.egyptLicense" datatype="html">
-        <source> Egypt License No. </source>
+      <trans-unit id="stats.applicantProfiles" datatype="html">
+        <source> Applicant Profiles </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">128,130</context>
@@ -709,6 +950,14 @@
       <trans-unit id="header.home" datatype="html">
         <source> Home </source>
         <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header-single.component.ts</context>
+          <context context-type="linenumber">25,26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header-single.component.ts</context>
+          <context context-type="linenumber">87,88</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header.component.ts</context>
           <context context-type="linenumber">24,25</context>
         </context-group>
@@ -720,12 +969,20 @@
       <trans-unit id="header.features" datatype="html">
         <source> Features </source>
         <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header-single.component.ts</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header.component.ts</context>
           <context context-type="linenumber">29,30</context>
         </context-group>
       </trans-unit>
       <trans-unit id="header.howItWorks" datatype="html">
         <source> How It Works </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header-single.component.ts</context>
+          <context context-type="linenumber">35,36</context>
+        </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header.component.ts</context>
           <context context-type="linenumber">34,35</context>
@@ -734,12 +991,24 @@
       <trans-unit id="header.testimonials" datatype="html">
         <source> Testimonials </source>
         <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header-single.component.ts</context>
+          <context context-type="linenumber">40,42</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header.component.ts</context>
           <context context-type="linenumber">39,41</context>
         </context-group>
       </trans-unit>
       <trans-unit id="header.careerTips" datatype="html">
         <source> Career Tips </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header-single.component.ts</context>
+          <context context-type="linenumber">47,48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header-single.component.ts</context>
+          <context context-type="linenumber">93,94</context>
+        </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header.component.ts</context>
           <context context-type="linenumber">45,46</context>
@@ -752,33 +1021,31 @@
       <trans-unit id="header.joinNow" datatype="html">
         <source> Join Now </source>
         <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header-single.component.ts</context>
+          <context context-type="linenumber">61,62</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header-single.component.ts</context>
+          <context context-type="linenumber">102,103</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header.component.ts</context>
           <context context-type="linenumber">57,58</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header.component.ts</context>
-          <context context-type="linenumber">109,110</context>
+          <context context-type="linenumber">97,98</context>
         </context-group>
       </trans-unit>
       <trans-unit id="header.join" datatype="html">
         <source> Join </source>
         <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header-single.component.ts</context>
+          <context context-type="linenumber">68,69</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header.component.ts</context>
           <context context-type="linenumber">64,65</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="header.browseJobs" datatype="html">
-        <source> Browse Jobs </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/header.component.ts</context>
-          <context context-type="linenumber">94,95</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="header.companies" datatype="html">
-        <source> Companies </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/header.component.ts</context>
-          <context context-type="linenumber">100,101</context>
         </context-group>
       </trans-unit>
     </body>

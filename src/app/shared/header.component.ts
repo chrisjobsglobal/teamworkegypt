@@ -87,18 +87,6 @@ import { LanguageSelectorComponent } from './language-selector.component';
                i18n="@@header.careerTips">
               Career Tips
             </a>
-            <a href="#" 
-               (click)="closeMobileMenu()"
-               class="block text-gray-700 hover:text-purple-600 transition-colors font-medium py-2"
-               i18n="@@header.browseJobs">
-              Browse Jobs
-            </a>
-            <a href="#" 
-               (click)="closeMobileMenu()"
-               class="block text-gray-700 hover:text-purple-600 transition-colors font-medium py-2"
-               i18n="@@header.companies">
-              Companies
-            </a>
             
              <div class="pt-2">
               <button 
