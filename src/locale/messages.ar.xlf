@@ -4,11 +4,11 @@
     <body>
       <trans-unit id="7694552554517611019" datatype="html">
         <source>Career</source>
-        <target>المسار المهني</target>
+        <target>المسيرة المهنية</target>
       </trans-unit>
       <trans-unit id="5419941965836655703" datatype="html">
         <source>Tips &amp; Insights</source>
-        <target>نصائح ورؤى</target>
+        <target>نصائح وأفكار</target>
       </trans-unit>
       <trans-unit id="4714391357360050657" datatype="html">
         <source> Expert advice to accelerate your career growth in Egypt&apos;s competitive job market </source>
@@ -28,7 +28,7 @@
       </trans-unit>
       <trans-unit id="3372797162935784392" datatype="html">
         <source>Dream Job</source>
-        <target>وظيفه احلامك</target>
+        <target>وظيفة احلامك</target>
       </trans-unit>
       <trans-unit id="5309737331589796286" datatype="html">
         <source>Abroad</source>
