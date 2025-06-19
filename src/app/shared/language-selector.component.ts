@@ -13,7 +13,7 @@ import { CommonModule, isPlatformBrowser } from '@angular/common';
       type="button"      [title]="'Switch to ' + getOtherLanguageName()">
         <span class="hidden text-base me-1">{{ getCurrentLanguageFlag() }}</span>      
       <span class="text-xs text-gray-400 hidden sm:inline">{{ getArrowDirection() }}</span>
-      <span class="hidden sm:inline mx-1">{{ getOtherLanguageName() }}</span>
+      <span class="text-base mx-1">{{ getOtherLanguageName() }}</span>
       <span class="hidden text-base ms-1">{{ getOtherLanguageFlag() }}</span>
 
     </button>
