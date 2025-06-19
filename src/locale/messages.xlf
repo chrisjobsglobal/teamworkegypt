@@ -560,7 +560,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="landing.ctaGulfCareer" datatype="html">
-        <source>Gulf Career Journey?</source>
+        <source>Career Journey in the Gulf?</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">820,823</context>
