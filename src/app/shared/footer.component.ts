@@ -11,12 +11,12 @@ import { RouterModule } from '@angular/router';
       <div class="container mx-auto px-6">
         <div class="grid md:grid-cols-4 gap-8">
           <!-- Company Info -->
-          <div class="space-y-4">
-            <h3
+          <div class="space-y-4">            <h3
               class="text-2xl font-bold bg-gradient-to-r from-yellow-400 to-pink-400 bg-clip-text text-transparent"
+              i18n="@@brand.teamWorkEgypt"
             >
               TeamWork Egypt
-            </h3>            <p class="text-gray-300 leading-relaxed" i18n="@@footer.companyDescription">
+            </h3><p class="text-gray-300 leading-relaxed" i18n="@@footer.companyDescription">
               Connecting talented professionals with leading Egyptian companies.
               Your career journey starts here.
             </p>
@@ -197,7 +197,7 @@ import { RouterModule } from '@angular/router';
         </div>        <!-- Bottom Bar -->
         <div class="border-t border-gray-800 mt-8 pt-8 text-center">
           <p class="text-gray-400">
-            <span i18n="@@footer.copyright">© {{currentYear}} TeamWork Egypt. All rights reserved.</span>
+            <span>© {{currentYear}} <span i18n="@@brand.teamWorkEgyptShort">TeamWork Egypt</span>. <span i18n="@@footer.allRightsReserved">All rights reserved.</span></span>
             <span class="text-yellow-400" i18n="@@footer.madeWithLove">Made with ❤️ for Egyptians</span>
           </p>
         </div>

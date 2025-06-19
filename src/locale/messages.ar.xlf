@@ -157,26 +157,36 @@
       </trans-unit>
       <trans-unit id="footer.whatsappNumbers" datatype="html">
         <source>WhatsApp Numbers</source>
-        <target>أرقام الواتساب</target>
-      </trans-unit>      <trans-unit id="footer.copyright" datatype="html">
-        <source>© <x id="INTERPOLATION" equiv-text="{{currentYear}}"/> TeamWork Egypt. All rights reserved.</source>
-        <target>© <x id="INTERPOLATION" equiv-text="{{currentYear}}"/> تيم وورك مصر. جميع الحقوق محفوظة.</target>
-      </trans-unit>
+        <target>أرقام الواتساب</target>      </trans-unit>
       <trans-unit id="footer.madeWithLove" datatype="html">
         <source>Made with ❤️ for Egyptians</source>
         <target>صُنع بـ ❤️ للمصريين</target>
       </trans-unit>
+      <!-- Brand Name Translations -->
+      <trans-unit id="brand.teamWorkInternational" datatype="html">
+        <source>TeamWork International</source>
+        <target>تيم وورك إنترناشونال</target>
+      </trans-unit>
+      
+      <trans-unit id="brand.teamWorkEgypt" datatype="html">
+        <source> TeamWork Egypt </source>
+        <target> تيم وورك مصر </target>
+      </trans-unit>
+      
+      <trans-unit id="brand.teamWorkEgyptShort" datatype="html">
+        <source>TeamWork Egypt</source>
+        <target>تيم وورك مصر</target>
+      </trans-unit>
+      
+      <trans-unit id="footer.allRightsReserved" datatype="html">
+        <source>All rights reserved.</source>
+        <target>جميع الحقوق محفوظة.</target>
+      </trans-unit>
       <!-- Landing Page Translations -->
       <trans-unit id="landing.about" datatype="html">
         <source>About</source>
-        <target>حول</target>
-      </trans-unit>
-      <trans-unit id="landing.teamWorkInternational" datatype="html">
-        <source>Team Work International</source>
-        <target>تيم وورك إنترناشونال</target>
-      </trans-unit>
-      <trans-unit id="landing.aboutDescription1" datatype="html">
-        <source> At Team Work International, we're more than just a recruitment agency — we're your career partner, dedicated to helping jobseekers like you achieve life-changing opportunities in the Gulf region. </source>
+        <target>حول</target>      </trans-unit>      <trans-unit id="landing.aboutDescription1" datatype="html">
+        <source> At TeamWork International, we're more than just a recruitment agency — we're your career partner, dedicated to helping jobseekers like you achieve life-changing opportunities in the Gulf region. </source>
         <target>في تيم وورك إنترناشونال، نحن أكثر من مجرد وكالة توظيف - نحن شريكك المهني، ملتزمون بمساعدة الباحثين عن العمل مثلك لتحقيق فرص تغير الحياة في منطقة الخليج.</target>
       </trans-unit>
       <trans-unit id="landing.aboutDescription2" datatype="html">
@@ -467,10 +477,8 @@
       <trans-unit id="testimonial.ahmed.company" datatype="html">
         <source>Saudi Mega Projects</source>
         <target>المشاريع الضخمة السعودية</target>
-      </trans-unit>
-
-      <trans-unit id="testimonial.ahmed.content" datatype="html">
-        <source>"Team Work International helped me secure an amazing position in Riyadh. Their support throughout the entire process was exceptional!"</source>
+      </trans-unit>      <trans-unit id="testimonial.ahmed.content" datatype="html">
+        <source>"TeamWork International helped me secure an amazing position in Riyadh. Their support throughout the entire process was exceptional!"</source>
         <target>"ساعدني تيم وورك الدولية في الحصول على منصب رائع في الرياض. كان دعمهم طوال العملية بأكملها استثنائياً!"</target>
       </trans-unit>
 
@@ -507,10 +515,8 @@
       <trans-unit id="testimonial.omar.company" datatype="html">
         <source>Qatar Luxury Hotels</source>
         <target>فنادق قطر الفاخرة</target>
-      </trans-unit>
-
-      <trans-unit id="testimonial.omar.content" datatype="html">
-        <source>"Thanks to Team Work International, I landed my dream job in Doha. Their reputation and connections in the Gulf are unmatched."</source>
+      </trans-unit>      <trans-unit id="testimonial.omar.content" datatype="html">
+        <source>"Thanks to TeamWork International, I landed my dream job in Doha. Their reputation and connections in the Gulf are unmatched."</source>
         <target>"بفضل تيم وورك الدولية، حصلت على وظيفة أحلامي في الدوحة. سمعتهم وصلاتهم في الخليج لا مثيل لها."</target>
       </trans-unit>
 
@@ -523,10 +529,8 @@
       <trans-unit id="landing.ctaGulfCareer" datatype="html">
         <source>Gulf Career Journey?</source>
         <target>رحلتك المهنية في الخليج؟</target>
-      </trans-unit>
-
-      <trans-unit id="landing.ctaDescription" datatype="html">
-        <source> If you're looking for a reliable partner to help you find the right job abroad, look no further. Team Work International is here to support your goals and ensure a smooth, safe, and successful recruitment experience. </source>
+      </trans-unit>      <trans-unit id="landing.ctaDescription" datatype="html">
+        <source> If you're looking for a reliable partner to help you find the right job abroad, look no further. TeamWork International is here to support your goals and ensure a smooth, safe, and successful recruitment experience. </source>
         <target>إذا كنت تبحث عن شريك موثوق لمساعدتك في العثور على الوظيفة المناسبة في الخارج، فلا تبحث أكثر. تيم وورك الدولية هنا لدعم أهدافك وضمان تجربة توظيف سلسة وآمنة وناجحة.</target>
       </trans-unit>
 

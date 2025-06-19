@@ -41,543 +41,550 @@
         <source>Find Your</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">16,17</context>
+          <context context-type="linenumber">26,28</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.dreamJob" datatype="html">
         <source>Dream Job</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">18,20</context>
+          <context context-type="linenumber">31,33</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.abroad" datatype="html">
         <source>Abroad</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">20,21</context>
+          <context context-type="linenumber">33,35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.heroSubtitle" datatype="html">
         <source> Connect with top Egyptian companies and unlock your potential. Join thousands of professionals who found their perfect career match. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">23,27</context>
+          <context context-type="linenumber">40,44</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.startYourJourney" datatype="html">
         <source>Start Your Journey</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">32,33</context>
+          <context context-type="linenumber">53,55</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.careerTips" datatype="html">
         <source> Career Tips </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">41,43</context>
+          <context context-type="linenumber">74,76</context>
         </context-group>
       </trans-unit>
       <trans-unit id="stats.successfulPlacements" datatype="html">
-        <source>Successful Placements</source>
+        <source> Successful Placements </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">49,51</context>
+          <context context-type="linenumber">89,91</context>
         </context-group>
       </trans-unit>
       <trans-unit id="stats.gulfCountries" datatype="html">
-        <source>Gulf Countries</source>
+        <source> Gulf Countries </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">55,57</context>
+          <context context-type="linenumber">102,104</context>
         </context-group>
       </trans-unit>
       <trans-unit id="stats.partnerCompanies" datatype="html">
-        <source>Partner Companies</source>
+        <source> Partner Companies </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">61,63</context>
+          <context context-type="linenumber">115,117</context>
         </context-group>
       </trans-unit>
       <trans-unit id="stats.egyptLicense" datatype="html">
-        <source>Egypt License No.</source>
+        <source> Egypt License No. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">67,69</context>
+          <context context-type="linenumber">128,130</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.about" datatype="html">
         <source>About</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">86,87</context>
+          <context context-type="linenumber">150,152</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="landing.teamWorkInternational" datatype="html">
-        <source>Team Work International</source>
+      <trans-unit id="brand.teamWorkInternational" datatype="html">
+        <source>TeamWork International</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">88,91</context>
+          <context context-type="linenumber">155,158</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">196,199</context>
+          <context context-type="linenumber">382,385</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.aboutDescription1" datatype="html">
-        <source> At Team Work International, we&apos;re more than just a recruitment agency — we&apos;re your career partner, dedicated to helping jobseekers like you achieve life-changing opportunities in the Gulf region. </source>
+        <source> At TeamWork International, we&apos;re more than just a recruitment agency — we&apos;re your career partner, dedicated to helping jobseekers like you achieve life-changing opportunities in the Gulf region. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">94,97</context>
+          <context context-type="linenumber">168,171</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.aboutDescription2" datatype="html">
         <source> Licensed in Egypt (License No. 1313), we specialize in connecting skilled professionals from Egypt with reputable employers in Saudi Arabia, the UAE, Qatar, Kuwait, Bahrain, and Oman. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">99,102</context>
+          <context context-type="linenumber">174,177</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.aboutDescription3" datatype="html">
         <source> With years of experience in international recruitment, our mission is to open doors for ambitious individuals seeking stable, rewarding jobs abroad. We understand the challenges of working overseas — that&apos;s why we provide full guidance and support every step of the way, from your initial application to your safe arrival and beyond. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">104,107</context>
+          <context context-type="linenumber">180,184</context>
         </context-group>
       </trans-unit>
       <trans-unit id="country.saudiArabia" datatype="html">
-        <source>Saudi Arabia</source>
+        <source> Saudi Arabia </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">113,115</context>
+          <context context-type="linenumber">194,196</context>
         </context-group>
       </trans-unit>
       <trans-unit id="country.uae" datatype="html">
         <source>UAE</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">117,119</context>
+          <context context-type="linenumber">201,203</context>
         </context-group>
       </trans-unit>
       <trans-unit id="country.qatar" datatype="html">
         <source>Qatar</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">121,123</context>
+          <context context-type="linenumber">207,209</context>
         </context-group>
       </trans-unit>
       <trans-unit id="country.kuwait" datatype="html">
-        <source>Kuwait</source>
+        <source> Kuwait </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">125,127</context>
+          <context context-type="linenumber">214,215</context>
         </context-group>
       </trans-unit>
       <trans-unit id="country.bahrain" datatype="html">
-        <source>Bahrain</source>
+        <source> Bahrain </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">129,131</context>
+          <context context-type="linenumber">222,223</context>
         </context-group>
       </trans-unit>
       <trans-unit id="country.oman" datatype="html">
         <source>Oman</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">133,135</context>
+          <context context-type="linenumber">229,231</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.industriesWeSpecializeIn" datatype="html">
         <source>Industries We Specialize In</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">144,146</context>
+          <context context-type="linenumber">242,246</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.industriesDescription" datatype="html">
         <source> We partner with reputable companies across diverse industries in the Gulf region </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">147,151</context>
+          <context context-type="linenumber">249,253</context>
         </context-group>
       </trans-unit>
       <trans-unit id="industry.construction" datatype="html">
-        <source>Construction</source>
+        <source> Construction </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">153,154</context>
+          <context context-type="linenumber">267,269</context>
         </context-group>
       </trans-unit>
       <trans-unit id="industry.constructionDesc" datatype="html">
-        <source>Building the future of the Gulf with skilled construction professionals</source>
+        <source> Building the future of the Gulf with skilled construction professionals </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">154,157</context>
+          <context context-type="linenumber">270,273</context>
         </context-group>
       </trans-unit>
       <trans-unit id="industry.hospitality" datatype="html">
-        <source>Hospitality</source>
+        <source> Hospitality </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">159,160</context>
+          <context context-type="linenumber">287,289</context>
         </context-group>
       </trans-unit>
       <trans-unit id="industry.hospitalityDesc" datatype="html">
-        <source>Excellence in service across luxury hotels and resorts</source>
+        <source> Excellence in service across luxury hotels and resorts </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">160,163</context>
+          <context context-type="linenumber">290,292</context>
         </context-group>
       </trans-unit>
       <trans-unit id="industry.healthcare" datatype="html">
-        <source>Healthcare</source>
+        <source> Healthcare </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">165,166</context>
+          <context context-type="linenumber">306,308</context>
         </context-group>
       </trans-unit>
       <trans-unit id="industry.healthcareDesc" datatype="html">
-        <source>Medical professionals making a difference in patient care</source>
+        <source> Medical professionals making a difference in patient care </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">166,169</context>
+          <context context-type="linenumber">309,311</context>
         </context-group>
       </trans-unit>
       <trans-unit id="industry.engineering" datatype="html">
-        <source>Engineering</source>
+        <source> Engineering </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">171,172</context>
+          <context context-type="linenumber">325,327</context>
         </context-group>
       </trans-unit>
       <trans-unit id="industry.engineeringDesc" datatype="html">
-        <source>Innovative engineering solutions for modern infrastructure</source>
+        <source> Innovative engineering solutions for modern infrastructure </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">172,175</context>
+          <context context-type="linenumber">328,330</context>
         </context-group>
       </trans-unit>
       <trans-unit id="industry.oilGas" datatype="html">
-        <source>Oil &amp; Gas</source>
+        <source> Oil &amp; Gas </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">177,178</context>
+          <context context-type="linenumber">344,346</context>
         </context-group>
       </trans-unit>
       <trans-unit id="industry.oilGasDesc" datatype="html">
-        <source>Energy sector opportunities in the heart of global oil production</source>
+        <source> Energy sector opportunities in the heart of global oil production </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">178,181</context>
+          <context context-type="linenumber">347,349</context>
         </context-group>
       </trans-unit>
       <trans-unit id="industry.retail" datatype="html">
-        <source>Retail &amp; More</source>
+        <source> Retail &amp; More </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">183,184</context>
+          <context context-type="linenumber">363,365</context>
         </context-group>
       </trans-unit>
       <trans-unit id="industry.retailDesc" datatype="html">
-        <source>Diverse opportunities across multiple growing sectors</source>
+        <source> Diverse opportunities across multiple growing sectors </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">184,187</context>
+          <context context-type="linenumber">366,368</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.whyChoose" datatype="html">
         <source>Why Choose</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">194,195</context>
+          <context context-type="linenumber">377,379</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.whyChooseDescription" datatype="html">
         <source> Licensed, trusted, and committed to your success with ethical recruitment practices and comprehensive support. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">200,202</context>
+          <context context-type="linenumber">390,394</context>
         </context-group>
       </trans-unit>
       <trans-unit id="feature.licensedTrusted" datatype="html">
-        <source>Licensed &amp; Trusted</source>
+        <source> Licensed &amp; Trusted </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">207,208</context>
+          <context context-type="linenumber">407,409</context>
         </context-group>
       </trans-unit>
       <trans-unit id="feature.licensedTrustedDesc" datatype="html">
-        <source>Fully certified by Egyptian authorities (License No. 1313), operating with transparency and legal compliance</source>
+        <source> Fully certified by Egyptian authorities (License No. 1313), operating with transparency and legal compliance </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">208,209</context>
+          <context context-type="linenumber">413,416</context>
         </context-group>
       </trans-unit>
       <trans-unit id="feature.gulfWideOpportunities" datatype="html">
-        <source>Gulf-Wide Opportunities</source>
+        <source> Gulf-Wide Opportunities </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">216,217</context>
+          <context context-type="linenumber">434,437</context>
         </context-group>
       </trans-unit>
       <trans-unit id="feature.gulfWideOpportunitiesDesc" datatype="html">
-        <source>Access to jobs across Saudi Arabia, UAE, Qatar, Kuwait, Bahrain, and Oman</source>
+        <source> Access to jobs across Saudi Arabia, UAE, Qatar, Kuwait, Bahrain, and Oman </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">217,218</context>
+          <context context-type="linenumber">440,443</context>
         </context-group>
       </trans-unit>
       <trans-unit id="feature.provenSuccess" datatype="html">
-        <source>Proven Success</source>
+        <source> Proven Success </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">225,226</context>
+          <context context-type="linenumber">461,463</context>
         </context-group>
       </trans-unit>
       <trans-unit id="feature.provenSuccessDesc" datatype="html">
-        <source>Hundreds of successful placements in meaningful roles across the Gulf region</source>
+        <source> Hundreds of successful placements in meaningful roles across the Gulf region </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">226,227</context>
+          <context context-type="linenumber">467,470</context>
         </context-group>
       </trans-unit>
       <trans-unit id="feature.ethicalRecruitment" datatype="html">
-        <source>Ethical Recruitment</source>
+        <source> Ethical Recruitment </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">234,235</context>
+          <context context-type="linenumber">488,491</context>
         </context-group>
       </trans-unit>
       <trans-unit id="feature.ethicalRecruitmentDesc" datatype="html">
-        <source>Strict ethical standards with legal and secure recruitment - no hidden fees or false promises</source>
+        <source> Strict ethical standards with legal and secure recruitment - no hidden fees or false promises </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">235,236</context>
+          <context context-type="linenumber">494,497</context>
         </context-group>
       </trans-unit>
       <trans-unit id="feature.endToEndSupport" datatype="html">
-        <source>End-to-End Support</source>
+        <source> End-to-End Support </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">243,244</context>
+          <context context-type="linenumber">515,517</context>
         </context-group>
       </trans-unit>
       <trans-unit id="feature.endToEndSupportDesc" datatype="html">
-        <source>Complete guidance from application to visa processing, pre-departure orientation, and post-arrival follow-up</source>
+        <source> Complete guidance from application to visa processing, pre-departure orientation, and post-arrival follow-up </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">244,245</context>
+          <context context-type="linenumber">521,524</context>
         </context-group>
       </trans-unit>
       <trans-unit id="feature.industryExpertise" datatype="html">
-        <source>Industry Expertise</source>
+        <source> Industry Expertise </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">252,253</context>
+          <context context-type="linenumber">542,545</context>
         </context-group>
       </trans-unit>
       <trans-unit id="feature.industryExpertiseDesc" datatype="html">
-        <source>Specialized in Construction, Hospitality, Healthcare, Engineering, Oil &amp; Gas, and Retail sectors</source>
+        <source> Specialized in Construction, Hospitality, Healthcare, Engineering, Oil &amp; Gas, and Retail sectors </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">253,254</context>
+          <context context-type="linenumber">548,551</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.howItWorks" datatype="html">
         <source> Your Gulf Career Journey </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">264,266</context>
+          <context context-type="linenumber">570,573</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.howItWorksDescription" datatype="html">
         <source> From application to arrival - we support you every step of the way </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">267,271</context>
+          <context context-type="linenumber">576,580</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.step1Title" datatype="html">
-        <source>Apply &amp; Assess</source>
+        <source> Apply &amp; Assess </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">275,276</context>
+          <context context-type="linenumber">591,593</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.step1Description" datatype="html">
-        <source>Submit your application and complete our skills assessment process</source>
+        <source> Submit your application and complete our skills assessment process </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">276,279</context>
+          <context context-type="linenumber">594,596</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.step2Title" datatype="html">
-        <source>Job Matching</source>
+        <source> Job Matching </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">283,284</context>
+          <context context-type="linenumber">608,610</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.step2Description" datatype="html">
-        <source>We match you with suitable Gulf opportunities based on your profile</source>
+        <source> We match you with suitable Gulf opportunities based on your profile </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">284,287</context>
+          <context context-type="linenumber">611,613</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.step3Title" datatype="html">
-        <source>Visa &amp; Documentation</source>
+        <source> Visa &amp; Documentation </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">291,292</context>
+          <context context-type="linenumber">625,627</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.step3Description" datatype="html">
-        <source>Complete visa processing and pre-departure preparation with our guidance</source>
+        <source> Complete visa processing and pre-departure preparation with our guidance </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">292,295</context>
+          <context context-type="linenumber">628,631</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.step4Title" datatype="html">
-        <source>Safe Arrival</source>
+        <source> Safe Arrival </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">299,300</context>
+          <context context-type="linenumber">643,645</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.step4Description" datatype="html">
-        <source>Arrive safely in the Gulf with continued support and follow-up</source>
+        <source> Arrive safely in the Gulf with continued support and follow-up </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">300,303</context>
+          <context context-type="linenumber">646,648</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.successStories" datatype="html">
         <source> Success Stories </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">310,312</context>
+          <context context-type="linenumber">661,664</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.successStoriesDescription" datatype="html">
         <source> Join thousands of professionals who transformed their careers with TeamWork Egypt </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">313,315</context>
+          <context context-type="linenumber">667,671</context>
         </context-group>
       </trans-unit>
       <trans-unit id="testimonial.ahmed.name" datatype="html">
-        <source>Ahmed Hassan</source>
+        <source> Ahmed Hassan </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">321,322</context>
+          <context context-type="linenumber">683,685</context>
         </context-group>
       </trans-unit>
       <trans-unit id="testimonial.ahmed.role" datatype="html">
-        <source>Construction Engineer</source>
+        <source> Construction Engineer </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">322,323</context>
+          <context context-type="linenumber">686,688</context>
         </context-group>
       </trans-unit>
       <trans-unit id="testimonial.ahmed.company" datatype="html">
-        <source>Saudi Mega Projects</source>
+        <source> Saudi Mega Projects </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">323,326</context>
+          <context context-type="linenumber">692,694</context>
         </context-group>
       </trans-unit>
       <trans-unit id="testimonial.ahmed.content" datatype="html">
-        <source>&quot;Team Work International helped me secure an amazing position in Riyadh. Their support throughout the entire process was exceptional!&quot;</source>
+        <source> &quot;TeamWork International helped me secure an amazing position in Riyadh. Their support throughout the entire process was exceptional!&quot; </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">326,327</context>
+          <context context-type="linenumber">700,703</context>
         </context-group>
       </trans-unit>
       <trans-unit id="testimonial.fatima.name" datatype="html">
-        <source>Fatima Mohamed</source>
+        <source> Fatima Mohamed </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">339,340</context>
+          <context context-type="linenumber">731,733</context>
         </context-group>
       </trans-unit>
       <trans-unit id="testimonial.fatima.role" datatype="html">
-        <source>Registered Nurse</source>
+        <source> Registered Nurse </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">340,341</context>
+          <context context-type="linenumber">734,736</context>
         </context-group>
       </trans-unit>
       <trans-unit id="testimonial.fatima.company" datatype="html">
-        <source>UAE Healthcare Group</source>
+        <source> UAE Healthcare Group </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">341,344</context>
+          <context context-type="linenumber">740,742</context>
         </context-group>
       </trans-unit>
       <trans-unit id="testimonial.fatima.content" datatype="html">
-        <source>&quot;From application to arrival in Dubai, they guided me every step of the way. Professional, ethical, and truly caring about my success.&quot;</source>
+        <source> &quot;From application to arrival in Dubai, they guided me every step of the way. Professional, ethical, and truly caring about my success.&quot; </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">344,345</context>
+          <context context-type="linenumber">748,751</context>
         </context-group>
       </trans-unit>
       <trans-unit id="testimonial.omar.name" datatype="html">
-        <source>Omar Ali</source>
+        <source> Omar Ali </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">357,358</context>
+          <context context-type="linenumber">776,778</context>
         </context-group>
       </trans-unit>
       <trans-unit id="testimonial.omar.role" datatype="html">
-        <source>Hospitality Manager</source>
+        <source> Hospitality Manager </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">358,359</context>
+          <context context-type="linenumber">779,781</context>
         </context-group>
       </trans-unit>
       <trans-unit id="testimonial.omar.company" datatype="html">
-        <source>Qatar Luxury Hotels</source>
+        <source> Qatar Luxury Hotels </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">359,361</context>
+          <context context-type="linenumber">785,787</context>
         </context-group>
       </trans-unit>
       <trans-unit id="testimonial.omar.content" datatype="html">
-        <source>&quot;Thanks to Team Work International, I landed my dream job in Doha. Their reputation and connections in the Gulf are unmatched.&quot;</source>
+        <source> &quot;Thanks to TeamWork International, I landed my dream job in Doha. Their reputation and connections in the Gulf are unmatched.&quot; </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">362,363</context>
+          <context context-type="linenumber">793,796</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.ctaTitle" datatype="html">
         <source>Ready to Start Your</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">376,377</context>
+          <context context-type="linenumber">816,818</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.ctaGulfCareer" datatype="html">
         <source>Gulf Career Journey?</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">378,381</context>
+          <context context-type="linenumber">820,823</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.ctaDescription" datatype="html">
-        <source> If you&apos;re looking for a reliable partner to help you find the right job abroad, look no further. Team Work International is here to support your goals and ensure a smooth, safe, and successful recruitment experience. </source>
+        <source> If you&apos;re looking for a reliable partner to help you find the right job abroad, look no further. TeamWork International is here to support your goals and ensure a smooth, safe, and successful recruitment experience. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">382,386</context>
+          <context context-type="linenumber">827,832</context>
         </context-group>
       </trans-unit>
       <trans-unit id="landing.ctaButton" datatype="html">
         <source>Start Your Gulf Career Today</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
-          <context context-type="linenumber">390,391</context>
+          <context context-type="linenumber">837,839</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="brand.teamWorkEgypt" datatype="html">
+        <source> TeamWork Egypt </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/footer.component.ts</context>
+          <context context-type="linenumber">18,19</context>
         </context-group>
       </trans-unit>
       <trans-unit id="footer.companyDescription" datatype="html">
@@ -678,8 +685,15 @@
           <context context-type="linenumber">172,174</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="footer.copyright" datatype="html">
-        <source>© <x id="INTERPOLATION" equiv-text="{{currentYear}}"/> TeamWork Egypt. All rights reserved.</source>
+      <trans-unit id="brand.teamWorkEgyptShort" datatype="html">
+        <source>TeamWork Egypt</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/footer.component.ts</context>
+          <context context-type="linenumber">200</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer.allRightsReserved" datatype="html">
+        <source>All rights reserved.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer.component.ts</context>
           <context context-type="linenumber">200,201</context>
