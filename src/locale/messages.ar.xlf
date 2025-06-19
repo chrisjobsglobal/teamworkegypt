@@ -28,7 +28,7 @@
       </trans-unit>
       <trans-unit id="3372797162935784392" datatype="html">
         <source>Dream Job</source>
-        <target>وظيفتك الحلم</target>
+        <target>وظيفه احلامك</target>
       </trans-unit>
       <trans-unit id="5309737331589796286" datatype="html">
         <source>Abroad</source>
@@ -51,7 +51,7 @@
       </trans-unit>
       <trans-unit id="landing.dreamJob" datatype="html">
         <source>Dream Job</source>
-        <target>وظيفتك الحلم</target>
+        <target>وظيفه احلامك</target>
       </trans-unit>
       <trans-unit id="landing.abroad" datatype="html">
         <source>Abroad</source>
