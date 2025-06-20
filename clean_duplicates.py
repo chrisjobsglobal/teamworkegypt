@@ -6,6 +6,8 @@ Remove duplicate translation entries and translate remaining empty targets.
 import xml.etree.ElementTree as ET
 from collections import defaultdict
 import re
+import argparse
+import os
 
 def analyze_duplicates(file_path: str):
     """
@@ -114,22 +116,46 @@ def find_empty_targets(file_path: str):
         return []
 
 def main():
-    file_path = "src/locale/messages.ar.xlf"
+    parser = argparse.ArgumentParser(description='Clean duplicate translations in XLF files')
+    parser.add_argument('--file', '-f', 
+                       help='Path to XLF file to process (e.g., src/locale/career-tips.ar.xlf)',
+                       required=True)
+    parser.add_argument('--analyze-only', '-a', 
+                       action='store_true',
+                       help='Only analyze duplicates without removing them')
     
-    print("=== Analyzing Arabic Translation File ===")
+    args = parser.parse_args()
+    
+    file_path = args.file
+    
+    # Check if file exists
+    if not os.path.exists(file_path):
+        print(f"Error: File '{file_path}' not found!")
+        return
+    
+    print(f"=== Processing Translation File ===")
     print(f"File: {file_path}\n")
     
-    # Step 1: Remove duplicates
-    print("Step 1: Removing duplicates...")
-    remove_duplicates_and_clean(file_path)
-    
-    # Step 2: Find remaining empty targets
-    print("\nStep 2: Finding remaining empty targets...")
-    empty_entries = find_empty_targets(file_path)
-    
-    print(f"\nSummary:")
-    print(f"- Duplicates removed")
-    print(f"- {len(empty_entries)} entries still need translation")
+    if args.analyze_only:
+        # Only analyze duplicates
+        print("Analyzing duplicates only...")
+        duplicates, _ = analyze_duplicates(file_path)
+        if duplicates:
+            print(f"\nFound {len(duplicates)} duplicate ID(s) that need cleaning.")
+        else:
+            print("No duplicates found!")
+    else:
+        # Step 1: Remove duplicates
+        print("Step 1: Removing duplicates...")
+        remove_duplicates_and_clean(file_path)
+        
+        # Step 2: Find remaining empty targets
+        print("\nStep 2: Finding remaining empty targets...")
+        empty_entries = find_empty_targets(file_path)
+        
+        print(f"\nSummary:")
+        print(f"- Duplicates removed from {file_path}")
+        print(f"- {len(empty_entries)} entries still need translation")
 
 if __name__ == "__main__":
     main()
