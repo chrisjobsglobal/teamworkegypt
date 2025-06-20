@@ -161,6 +161,9 @@ export class GalleryCarouselComponent implements OnInit, OnDestroy {
   isAutoPlayPaused = signal(false);
   
   images = [
+    '/gallery/a.jpeg',
+    '/gallery/b.jpeg',
+    '/gallery/c.jpeg',
     '/gallery/1.png',
     '/gallery/2.png',
     '/gallery/3.png',
