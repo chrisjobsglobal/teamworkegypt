@@ -138,20 +138,20 @@ def analyze_and_add_missing_translations(english_file: str, arabic_file: str, dr
         if empty_target_ids:
             print(f"📝 However, {len(empty_target_ids)} entries still need translation.")
             if not dry_run:
-                print("\nEmpty target IDs (first 10):")
+                print("\nEmpty target IDs (first 20):")
                 for i, target_id in enumerate(sorted(empty_target_ids)):
-                    if i >= 10:
-                        print(f"   ... and {len(empty_target_ids) - 10} more")
+                    if i >= 20:
+                        print(f"   ... and {len(empty_target_ids) - 20} more")
                         break
                     print(f"   - {target_id}")
         return
     
     if dry_run:
         print(f"\n🔍 DRY RUN: Would add {len(missing_ids)} missing entries")
-        print("Missing IDs (first 10):")
+        print("Missing IDs (first 20):")
         for i, missing_id in enumerate(sorted(missing_ids)):
-            if i >= 10:
-                print(f"   ... and {len(missing_ids) - 10} more")
+            if i >= 20:
+                print(f"   ... and {len(missing_ids) - 20} more")
                 break
             print(f"   - {missing_id}")
         return
@@ -204,16 +204,18 @@ def main():
     parser.add_argument('--dry-run', action='store_true', 
                        help='Analyze files without making changes')
     parser.add_argument('--english-file', 
-                       help='Path to English XLF file (default: src/locale/messages.xlf)')
+                       help='Path to English XLF file (default: src/locale/career-tips.xlf)')
     parser.add_argument('--arabic-file', 
-                       help='Path to Arabic XLF file (default: src/locale/messages.ar.xlf)')
+                       help='Path to Arabic XLF file (default: src/locale/career-tips.ar.xlf)')
+    parser.add_argument('--file-prefix', default='career-tips',
+                       help='File prefix for XLF files (default: career-tips, use "messages" for messages files)')
     
     args = parser.parse_args()
     
     # File paths
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    english_file = args.english_file or os.path.join(base_dir, 'src', 'locale', 'messages.xlf')
-    arabic_file = args.arabic_file or os.path.join(base_dir, 'src', 'locale', 'messages.ar.xlf')
+    english_file = args.english_file or os.path.join(base_dir, 'src', 'locale', f'{args.file_prefix}.xlf')
+    arabic_file = args.arabic_file or os.path.join(base_dir, 'src', 'locale', f'{args.file_prefix}.ar.xlf')
     
     print("Translation Analysis & Sync Tool")
     print("=" * 40)

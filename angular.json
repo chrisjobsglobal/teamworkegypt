@@ -112,14 +112,22 @@
       "i18n": {
         "sourceLocale": "en-US",
         "locales": {
-          "ar": {
-            "translation": "src/locale/messages.ar.xlf",
+            "ar": {
+            "translation": [
+              "src/locale/register.ar.xlf",
+              "src/locale/messages.ar.xlf",
+              "src/locale/career-tips.ar.xlf"
+            ],
             "subPath": "ar"
-          },
-          "en": {
-            "translation": "src/locale/messages.xlf",
+            },
+            "en": {
+            "translation": [
+              "src/locale/register.xlf",
+              "src/locale/messages.xlf",
+              "src/locale/career-tips.xlf"
+            ],
             "subPath": ""
-          }
+            }
         }
       }
     }

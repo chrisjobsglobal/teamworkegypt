@@ -6,7 +6,7 @@ import { FooterComponent } from '../shared/footer.component';
 import { HeaderComponent } from '../shared/header.component';
 
 @Component({
-  selector: 'app-register',
+  selector: 'app-register-minimal',
   standalone: true,
   imports: [CommonModule, RouterModule, ReactiveFormsModule, FooterComponent, HeaderComponent],
   templateUrl: './register-minimal.component.html',

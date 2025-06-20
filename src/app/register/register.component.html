@@ -1,14 +1,12 @@
 <!-- Header -->
-<app-header></app-header>
+<app-header-single/>
 
 <!-- Main Container -->
 <div class="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-purple-50">
   <!-- Header Section -->
   <div class="bg-white border-b">
-    <div class="container mx-auto px-6 py-6">      
-      <div class="text-center">
-        <h1 class="text-4xl font-bold text-gray-900 mb-2">Your Future Starts Here</h1>
-        <p class="text-lg text-gray-600">Create your professional profile and find your dream job</p>
+    <div class="container mx-auto px-6 py-6">        <div class="text-center">        <h1 class="text-4xl font-bold text-gray-900 mb-2" i18n="@@register-header-title">Your Future Starts Here</h1>
+        <p class="text-lg text-gray-600" i18n="@@register-header-subtitle">Create your professional profile and find your dream job</p>
       </div>
     </div>
   </div>
@@ -19,10 +17,8 @@
       <form [formGroup]="registerForm" (ngSubmit)="onSubmit()" class="space-y-8">
         
         <!-- CV Upload Section - Top Priority with Call to Action -->
-        <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl shadow-xl p-8 text-white">
-          <div class="text-center mb-6">
-            <h2 class="text-2xl font-bold mb-2">🚀 Upload Your CV First!</h2>
-            <p class="text-purple-100">Make a great first impression - upload your CV to get started</p>
+        <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl shadow-xl p-8 text-white">          <div class="text-center mb-6">            <h2 class="text-2xl font-bold mb-2" i18n="@@register-cv-title">🚀 Upload Your CV First!</h2>
+            <p class="text-purple-100" i18n="@@register-cv-subtitle">Make a great first impression - upload your CV to get started</p>
           </div>
           
           <div 
@@ -39,12 +35,11 @@
               accept=".pdf"
               class="hidden"
               (change)="onFileSelect($event)">
-            
-            <div *ngIf="!selectedFile" class="space-y-3">
+              <div *ngIf="!selectedFile" class="space-y-3">
               <div class="text-6xl">📄</div>
-              <p class="text-xl font-semibold">Drag & drop your CV here or click to browse</p>
-              <p class="text-purple-300">PDF, DOCX, SCANNED CV, max 5MB</p>
-              <div class="inline-block bg-white border border-purple-200 text-purple-600 px-6 py-2 rounded-full font-semibold hover:bg-purple-50 transition-colors">
+              <p class="text-xl font-semibold" i18n="@@register-cv-dragdrop">Drag & drop your CV here or click to browse</p>
+              <p class="text-purple-300" i18n="@@register-cv-format">PDF, DOCX, SCANNED CV, max 5MB</p>
+              <div class="inline-block bg-white border border-purple-200 text-purple-600 px-6 py-2 rounded-full font-semibold hover:bg-purple-50 transition-colors" i18n="@@register-cv-choose">
                 Choose File
               </div>
             </div>
@@ -52,232 +47,205 @@
             <div *ngIf="selectedFile" class="space-y-3">
               <div class="text-6xl">✅</div>
               <p class="text-xl font-semibold">{{ selectedFile.name }}</p>
-              <p class="text-purple-200">{{ (selectedFile.size / 1024 / 1024).toFixed(2) }} MB</p>
-              <button 
+              <p class="text-purple-200">{{ (selectedFile.size / 1024 / 1024).toFixed(2) }} MB</p>              <button 
                 type="button"
                 (click)="selectedFile = null; $event.stopPropagation()"
-                class="text-white hover:text-purple-200 underline font-semibold">
+                class="text-white hover:text-purple-200 underline font-semibold" i18n="@@register-cv-remove">
                 Remove file
               </button>
             </div>
           </div>
         </div>        
         <!-- Personal Information -->
-        <div class="bg-white rounded-2xl shadow-xl p-8">
-          <h2 class="text-2xl font-bold text-gray-900 mb-6 border-b border-gray-200 pb-3">
+        <div class="bg-white rounded-2xl shadow-xl p-8">          <h2 class="text-2xl font-bold text-gray-900 mb-6 border-b border-gray-200 pb-3" i18n="@@register-personal-title">
             👤 Personal Information
           </h2>
-          <div class="grid md:grid-cols-2 gap-6">
-            <div class="space-y-2">
-              <label class="block text-sm font-semibold text-gray-700">First Name *</label>
+          <div class="grid md:grid-cols-2 gap-6">            <div class="space-y-2">
+              <label class="block text-sm font-semibold text-gray-700" i18n="@@register-personal-firstName">First Name *</label>
               <input 
                 type="text" 
                 formControlName="firstName"
                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300"
+                i18n-placeholder="@@register-personal-firstName.placeholder"
                 placeholder="Enter your first name">
               <div *ngIf="registerForm.get('firstName')?.touched && registerForm.get('firstName')?.errors" 
-                   class="text-red-500 text-sm">First name is required</div>
-            </div>
-
-            <div class="space-y-2">
-              <label class="block text-sm font-semibold text-gray-700">Last Name *</label>
+                   class="text-red-500 text-sm" i18n="@@register-personal-firstName.required">First name is required</div>
+            </div>            <div class="space-y-2">
+              <label class="block text-sm font-semibold text-gray-700" i18n="@@register-personal-lastName">Last Name *</label>
               <input 
                 type="text" 
                 formControlName="lastName"
                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300"
+                i18n-placeholder="@@register-personal-lastName.placeholder"
                 placeholder="Enter your last name">
               <div *ngIf="registerForm.get('lastName')?.touched && registerForm.get('lastName')?.errors" 
-                   class="text-red-500 text-sm">Last name is required</div>
-            </div>
-
-            <div class="space-y-2">
-              <label class="block text-sm font-semibold text-gray-700">Email Address *</label>
+                   class="text-red-500 text-sm" i18n="@@register-personal-lastName.required">Last name is required</div>
+            </div>            <div class="space-y-2">
+              <label class="block text-sm font-semibold text-gray-700" i18n="@@register-personal-email">Email Address *</label>
               <input 
                 type="email" 
                 formControlName="email"
                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300"
+                i18n-placeholder="@@register-personal-email.placeholder"
                 placeholder="your.email@example.com">
               <div *ngIf="registerForm.get('email')?.touched && registerForm.get('email')?.errors" 
-                   class="text-red-500 text-sm">Please enter a valid email</div>
-            </div>
-
-            <div class="space-y-2">
-              <label class="block text-sm font-semibold text-gray-700">Phone Number *</label>
+                   class="text-red-500 text-sm" i18n="@@register-personal-email.invalid">Please enter a valid email</div>
+            </div>            <div class="space-y-2">
+              <label class="block text-sm font-semibold text-gray-700" i18n="@@register-personal-phone">Phone Number *</label>
               <input 
                 type="tel" 
                 formControlName="phone"
                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300"
+                i18n-placeholder="@@register-personal-phone.placeholder"
                 placeholder="+20 1234567890">
               <div *ngIf="registerForm.get('phone')?.touched && registerForm.get('phone')?.errors" 
-                   class="text-red-500 text-sm">Please enter a valid phone number</div>
-            </div>
-
-            <div class="space-y-2">
-              <label class="block text-sm font-semibold text-gray-700">Date of Birth *</label>
+                   class="text-red-500 text-sm" i18n="@@register-personal-phone.invalid">Please enter a valid phone number</div>
+            </div>            <div class="space-y-2">
+              <label class="block text-sm font-semibold text-gray-700" i18n="@@register-personal-dateOfBirth">Date of Birth *</label>
               <input 
                 type="date" 
                 formControlName="dateOfBirth"
                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300">
-            </div>
-
-            <div class="space-y-2">
-              <label class="block text-sm font-semibold text-gray-700">Gender *</label>
+            </div>            <div class="space-y-2">
+              <label class="block text-sm font-semibold text-gray-700" i18n="@@register-personal-gender">Gender *</label>
               <select 
                 formControlName="gender"
                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300">
-                <option value="">Select Gender</option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="prefer-not-to-say">Prefer not to say</option>
+                <option value="" i18n="@@register-personal-gender.select">Select Gender</option>
+                <option value="male" i18n="@@register-personal-gender.male">Male</option>
+                <option value="female" i18n="@@register-personal-gender.female">Female</option>
+                <option value="prefer-not-to-say" i18n="@@register-personal-gender.prefer-not-to-say">Prefer not to say</option>
               </select>
             </div>
           </div>
         </div>
 
         <!-- Location Information -->
-        <div class="bg-white rounded-2xl shadow-xl p-8">
-          <h2 class="text-2xl font-bold text-gray-900 mb-6 border-b border-gray-200 pb-3">
+        <div class="bg-white rounded-2xl shadow-xl p-8">          <h2 class="text-2xl font-bold text-gray-900 mb-6 border-b border-gray-200 pb-3" i18n="@@register-location-title">
             📍 Location & Contact
           </h2>
-          <div class="grid md:grid-cols-2 gap-6">
-            <div class="space-y-2">
-              <label class="block text-sm font-semibold text-gray-700">Governorate *</label>
+          <div class="grid md:grid-cols-2 gap-6">            <div class="space-y-2">
+              <label class="block text-sm font-semibold text-gray-700" i18n="@@register-location-governorate">Governorate *</label>
               <select 
                 formControlName="governorate"
                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300">
-                <option value="">Select Governorate</option>
+                <option value="" i18n="@@register-location-governorate.select">Select Governorate</option>
                 <option *ngFor="let gov of governorates" [value]="gov">{{ gov }}</option>
               </select>
-            </div>
-
-            <div class="space-y-2">
-              <label class="block text-sm font-semibold text-gray-700">City *</label>
+            </div>            <div class="space-y-2">
+              <label class="block text-sm font-semibold text-gray-700" i18n="@@register-location-city">City *</label>
               <input 
                 type="text" 
                 formControlName="city"
                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300"
+                i18n-placeholder="@@register-location-city.placeholder"
                 placeholder="Enter your city">
-            </div>
-
-            <div class="space-y-2 md:col-span-2">
-              <label class="block text-sm font-semibold text-gray-700">Full Address *</label>
+            </div>            <div class="space-y-2 md:col-span-2">
+              <label class="block text-sm font-semibold text-gray-700" i18n="@@register-location-address">Full Address *</label>
               <textarea 
                 formControlName="address"
                 rows="3"
                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300"
+                i18n-placeholder="@@register-location-address.placeholder"
                 placeholder="Enter your complete address"></textarea>
             </div>
           </div>
         </div>
 
         <!-- Professional Information -->
-        <div class="bg-white rounded-2xl shadow-xl p-8">
-          <h2 class="text-2xl font-bold text-gray-900 mb-6 border-b border-gray-200 pb-3">
+        <div class="bg-white rounded-2xl shadow-xl p-8">          <h2 class="text-2xl font-bold text-gray-900 mb-6 border-b border-gray-200 pb-3" i18n="@@register-professional-title">
             💼 Professional Background
           </h2>
-          <div class="grid md:grid-cols-2 gap-6">
-            <div class="space-y-2">
-              <label class="block text-sm font-semibold text-gray-700">Current Job Title *</label>
+          <div class="grid md:grid-cols-2 gap-6">            <div class="space-y-2">
+              <label class="block text-sm font-semibold text-gray-700" i18n="@@register-professional-currentTitle">Current Job Title *</label>
               <input 
                 type="text" 
                 formControlName="currentTitle"
                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300"
+                i18n-placeholder="@@register-professional-currentTitle.placeholder"
                 placeholder="e.g. Software Engineer">
-            </div>
-
-            <div class="space-y-2">
-              <label class="block text-sm font-semibold text-gray-700">Experience Level *</label>
+            </div>            <div class="space-y-2">
+              <label class="block text-sm font-semibold text-gray-700" i18n="@@register-professional-experienceLevel">Experience Level *</label>
               <select 
                 formControlName="experienceLevel"
                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300">
-                <option value="">Select Experience Level</option>
+                <option value="" i18n="@@register-professional-experienceLevel.select">Select Experience Level</option>
                 <option *ngFor="let level of experienceLevels" [value]="level">{{ level }}</option>
               </select>
-            </div>
-
-            <div class="space-y-2">
-              <label class="block text-sm font-semibold text-gray-700">Industry *</label>
+            </div>            <div class="space-y-2">
+              <label class="block text-sm font-semibold text-gray-700" i18n="@@register-professional-industry">Industry *</label>
               <select 
                 formControlName="industry"
                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300">
-                <option value="">Select Industry</option>
+                <option value="" i18n="@@register-professional-industry.select">Select Industry</option>
                 <option *ngFor="let industry of industries" [value]="industry">{{ industry }}</option>
               </select>
-            </div>
-
-            <div class="space-y-2">
-              <label class="block text-sm font-semibold text-gray-700">Preferred Job (Optional)</label>
+            </div>            <div class="space-y-2">
+              <label class="block text-sm font-semibold text-gray-700" i18n="@@register-professional-preferredJob">Preferred Job (Optional)</label>
               <select 
                 formControlName="preferredJob"
                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300">
-                <option value="">Select Preferred Job</option>
+                <option value="" i18n="@@register-professional-preferredJob.select">Select Preferred Job</option>
                 <option *ngFor="let job of jobPreferences" [value]="job">{{ job }}</option>
               </select>
-            </div>
-
-            <div class="space-y-2">
-              <label class="block text-sm font-semibold text-gray-700">Highest Education (Optional)</label>
+            </div>            <div class="space-y-2">
+              <label class="block text-sm font-semibold text-gray-700" i18n="@@register-professional-education">Highest Education (Optional)</label>
               <select 
                 formControlName="highestEducation"
                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300">
-                <option value="">Select Education Level</option>
+                <option value="" i18n="@@register-professional-education.select">Select Education Level</option>
                 <option *ngFor="let edu of educationLevels" [value]="edu">{{ edu }}</option>
               </select>
-            </div>
-
-            <div class="space-y-2 md:col-span-2">
-              <label class="block text-sm font-semibold text-gray-700">Skills *</label>
+            </div>            <div class="space-y-2 md:col-span-2">
+              <label class="block text-sm font-semibold text-gray-700" i18n="@@register-professional-skills">Skills *</label>
               <textarea 
                 formControlName="skills"
                 rows="3"
                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300"
+                i18n-placeholder="@@register-professional-skills.placeholder"
                 placeholder="List your key skills (e.g. JavaScript, Python, Project Management, etc.)"></textarea>
-            </div>
-
-            <div class="space-y-2 md:col-span-2">
-              <label class="block text-sm font-semibold text-gray-700">Languages *</label>
+            </div>            <div class="space-y-2 md:col-span-2">
+              <label class="block text-sm font-semibold text-gray-700" i18n="@@register-professional-languages">Languages *</label>
               <input 
                 type="text" 
                 formControlName="languages"
                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300"
+                i18n-placeholder="@@register-professional-languages.placeholder"
                 placeholder="e.g. Arabic (Native), English (Fluent), French (Intermediate)">
             </div>
           </div>
         </div>
 
         <!-- Additional Information -->
-        <div class="bg-white rounded-2xl shadow-xl p-8">
-          <h2 class="text-2xl font-bold text-gray-900 mb-6 border-b border-gray-200 pb-3">
+        <div class="bg-white rounded-2xl shadow-xl p-8">          <h2 class="text-2xl font-bold text-gray-900 mb-6 border-b border-gray-200 pb-3" i18n="@@register-additional-title">
             ✨ Additional Information
           </h2>
-          <div class="grid md:grid-cols-2 gap-6">
-            <div class="space-y-2">
-              <label class="block text-sm font-semibold text-gray-700">Portfolio URL</label>
+          <div class="grid md:grid-cols-2 gap-6">            <div class="space-y-2">
+              <label class="block text-sm font-semibold text-gray-700" i18n="@@register-additional-portfolio">Portfolio URL</label>
               <input 
                 type="url" 
                 formControlName="portfolio"
                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300"
+                i18n-placeholder="@@register-additional-portfolio.placeholder"
                 placeholder="https://your-portfolio.com">
-            </div>
-
-            <div class="space-y-2">
-              <label class="block text-sm font-semibold text-gray-700">LinkedIn Profile</label>
+            </div>            <div class="space-y-2">
+              <label class="block text-sm font-semibold text-gray-700" i18n="@@register-additional-linkedin">LinkedIn Profile</label>
               <input 
                 type="url" 
                 formControlName="linkedin"
                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300"
+                i18n-placeholder="@@register-additional-linkedin.placeholder"
                 placeholder="https://linkedin.com/in/yourprofile">
-            </div>
-
-            <div class="space-y-2 md:col-span-2">
-              <label class="block text-sm font-semibold text-gray-700">Professional Summary *</label>
+            </div>            <div class="space-y-2 md:col-span-2">
+              <label class="block text-sm font-semibold text-gray-700" i18n="@@register-additional-summary">Professional Summary *</label>
               <textarea 
                 formControlName="summary"
                 rows="4"
                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300"
+                i18n-placeholder="@@register-additional-summary.placeholder"
                 placeholder="Write a brief summary about yourself, your experience, and career goals (minimum 50 characters)"></textarea>
               <div *ngIf="registerForm.get('summary')?.touched && registerForm.get('summary')?.errors" 
-                   class="text-red-500 text-sm">Summary must be at least 50 characters</div>
+                   class="text-red-500 text-sm" i18n="@@register-additional-summary.required">Summary must be at least 50 characters</div>
             </div>
           </div>
         </div>
@@ -288,26 +256,24 @@
             type="submit"
             [disabled]="!registerForm.valid || isSubmitting"
             [class]="'px-12 py-4 text-lg font-bold rounded-lg transition-all duration-300 transform ' + 
-                     (registerForm.valid && !isSubmitting ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white hover:from-purple-700 hover:to-pink-700 hover:scale-105 shadow-lg' : 'bg-gray-300 text-gray-500 cursor-not-allowed')">
-            <div *ngIf="isSubmitting" class="flex items-center gap-3">
+                     (registerForm.valid && !isSubmitting ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white hover:from-purple-700 hover:to-pink-700 hover:scale-105 shadow-lg' : 'bg-gray-300 text-gray-500 cursor-not-allowed')">            <div *ngIf="isSubmitting" class="flex items-center gap-3">
               <div class="animate-spin rounded-full h-6 w-6 border-b-2 border-white"></div>
-              Processing...
+              <span i18n="@@register-submit-processing">Processing...</span>
             </div>
             <div *ngIf="!isSubmitting" class="flex items-center gap-3">
               <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
               </svg>
-              Complete Registration
+              <span i18n="@@register-submit-complete">Complete Registration</span>
             </div>
           </button>
           
-          <!-- Success Message -->
-          <div *ngIf="submissionSuccess" 
+          <!-- Success Message -->          <div *ngIf="submissionSuccess" 
                class="mt-6 inline-flex items-center gap-3 px-8 py-3 bg-green-500 text-white font-semibold rounded-lg animate-bounce">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
             </svg>
-            Registration Successful! 🎉
+            <span i18n="@@register-submit-success">Registration Successful! 🎉</span>
           </div>
         </div>
       </form>

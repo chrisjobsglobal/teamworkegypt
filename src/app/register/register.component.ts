@@ -3,12 +3,12 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
 import { FooterComponent } from '../shared/footer.component';
-import { HeaderComponent } from '../shared/header.component';
+import { HeaderSingleComponent } from "../shared/header-single.component";
 
 @Component({
   selector: 'app-register',
   standalone: true,
-  imports: [CommonModule, RouterModule, ReactiveFormsModule, FooterComponent, HeaderComponent],
+  imports: [CommonModule, RouterModule, ReactiveFormsModule, FooterComponent, HeaderSingleComponent],
   templateUrl: './register.component.html',
   styleUrl: './register.component.css'
 })

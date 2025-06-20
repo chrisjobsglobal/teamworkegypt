@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" target-language="ar" datatype="plaintext" original="ng2.template">
+    <body>
+      <!-- Career Tips Detailed Translations (added for full parity with English) -->
+      <trans-unit id="career-tip-1-title" datatype="html">
+        <source>Perfect Your Resume</source>
+        <target>أتقن سيرتك الذاتية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-description" datatype="html">
+        <source>Learn how to create a compelling resume that stands out to Egyptian employers.</source>
+        <target>تعلم كيفية إنشاء سيرة ذاتية مقنعة تبرز لأصحاب العمل المصريين.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-content" datatype="html">
+        <source>Your resume is your first impression. Make it count with these essential tips...</source>
+        <target>سيرتك الذاتية هي انطباعك الأول. اجعلها مميزة بهذه النصائح الأساسية...</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-category" datatype="html">
+        <source>Resume</source>
+        <target>السيرة الذاتية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-readtime" datatype="html">
+        <source>5 min read</source>
+        <target>٥ دقائق قراءة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-introduction" datatype="html">
+        <source>Your resume is often the first point of contact with potential employers in Egypt. In a competitive job market, having a well-crafted resume can make the difference between landing an interview and being overlooked. This comprehensive guide will help you create a resume that not only meets Egyptian employer expectations but exceeds them.</source>
+        <target>سيرتك الذاتية غالبًا ما تكون نقطة الاتصال الأولى مع أصحاب العمل المحتملين في مصر. في سوق عمل تنافسي، يمكن أن تصنع السيرة الذاتية الجيدة الفارق بين الحصول على مقابلة أو تجاهلك. هذا الدليل الشامل سيساعدك على إعداد سيرة ذاتية تلبي توقعات أصحاب العمل المصريين بل وتتجاوزها.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-1-title" datatype="html">
+        <source>Essential Resume Structure</source>
+        <target>الهيكل الأساسي للسيرة الذاتية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-1-content" datatype="html">
+        <source>Egyptian employers typically prefer a clear, professional structure that highlights your qualifications efficiently. Your resume should follow a logical flow that makes it easy for hiring managers to find the information they need.</source>
+        <target>يفضل أصحاب العمل المصريون عادةً هيكلًا واضحًا واحترافيًا يبرز مؤهلاتك بكفاءة. يجب أن تتبع سيرتك الذاتية تسلسلًا منطقيًا يسهل على مسؤولي التوظيف العثور على المعلومات المطلوبة.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-1-tip-1" datatype="html">
+        <source>Start with a professional header including your name, phone number, email, and LinkedIn profile</source>
+        <target>ابدأ برأس احترافي يتضمن اسمك ورقم هاتفك وبريدك الإلكتروني وحسابك على لينكدإن</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-1-tip-2" datatype="html">
+        <source>Include a brief professional summary (2-3 lines) highlighting your key strengths</source>
+        <target>أضف ملخصًا مهنيًا موجزًا (2-3 أسطر) يبرز نقاط قوتك الرئيسية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-1-tip-3" datatype="html">
+        <source>List your work experience in reverse chronological order</source>
+        <target>قم بسرد خبراتك العملية بترتيب زمني عكسي</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-1-tip-4" datatype="html">
+        <source>Include relevant education, certifications, and skills</source>
+        <target>أضف التعليم والشهادات والمهارات ذات الصلة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-1-tip-5" datatype="html">
+        <source>Keep it to 2 pages maximum for most positions</source>
+        <target>اجعلها في صفحتين كحد أقصى لمعظم الوظائف</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-2-title" datatype="html">
+        <source>Tailoring for Egyptian Market</source>
+        <target>تخصيص السيرة الذاتية لسوق العمل المصري</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-2-content" datatype="html">
+        <source>Understanding the local job market preferences is crucial for success. Egyptian employers often value specific qualifications and experiences that may differ from international standards.</source>
+        <target>فهم تفضيلات سوق العمل المحلي أمر بالغ الأهمية للنجاح. غالبًا ما يقدر أصحاب العمل المصريون مؤهلات وخبرات محددة قد تختلف عن المعايير الدولية.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-2-tip-1" datatype="html">
+        <source>Include your nationality if you&apos;re Egyptian (preferred by many local companies)</source>
+        <target>أضف جنسيتك إذا كنت مصريًا (يفضلها العديد من الشركات المحلية)</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-2-tip-2" datatype="html">
+        <source>Mention your military service status if applicable (for male candidates)</source>
+        <target>اذكر موقفك من الخدمة العسكرية إذا كان ذلك ينطبق عليك (للذكور)</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-2-tip-3" datatype="html">
+        <source>Highlight any experience with local companies or understanding of the Egyptian market</source>
+        <target>ابرز أي خبرة لديك مع شركات محلية أو فهمك لسوق العمل المصري</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-2-tip-4" datatype="html">
+        <source>Include relevant language skills (Arabic, English, French, etc.)</source>
+        <target>أضف المهارات اللغوية ذات الصلة (العربية، الإنجليزية، الفرنسية، إلخ)</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-2-tip-5" datatype="html">
+        <source>Consider including a professional photo if common in your industry</source>
+        <target>فكر في إضافة صورة شخصية احترافية إذا كان ذلك شائعًا في مجالك</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-3-title" datatype="html">
+        <source>Content Optimization</source>
+        <target>تحسين محتوى السيرة الذاتية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-3-content" datatype="html">
+        <source>The content of your resume should tell a compelling story of your professional journey while highlighting achievements that matter to Egyptian employers.</source>
+        <target>يجب أن يروي محتوى سيرتك الذاتية قصة مقنعة لمسيرتك المهنية مع إبراز الإنجازات المهمة لأصحاب العمل المصريين.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-3-tip-1" datatype="html">
+        <source>Use action verbs to describe your accomplishments</source>
+        <target>استخدم أفعال الحركة لوصف إنجازاتك</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-3-tip-2" datatype="html">
+        <source>Quantify your achievements with specific numbers and percentages</source>
+        <target>حدد إنجازاتك بأرقام ونسب مئوية محددة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-3-tip-3" datatype="html">
+        <source>Focus on results and impact rather than just job duties</source>
+        <target>ركز على النتائج والأثر وليس فقط المهام الوظيفية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-3-tip-4" datatype="html">
+        <source>Include relevant keywords from the job description</source>
+        <target>أضف الكلمات المفتاحية ذات الصلة من وصف الوظيفة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-3-tip-5" datatype="html">
+        <source>Highlight any cost savings, revenue generation, or process improvements</source>
+        <target>ابرز أي توفير في التكاليف أو زيادة في الإيرادات أو تحسينات في العمليات</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-4-title" datatype="html">
+        <source>Common Mistakes to Avoid</source>
+        <target>أخطاء شائعة يجب تجنبها</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-4-content" datatype="html">
+        <source>Many candidates make critical errors that can immediately disqualify them from consideration. Being aware of these pitfalls can give you a significant advantage.</source>
+        <target>يرتكب العديد من المتقدمين أخطاء جسيمة قد تؤدي إلى استبعادهم فورًا. معرفتك بهذه الأخطاء يمنحك ميزة كبيرة.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-4-tip-1" datatype="html">
+        <source>Don&apos;t include personal information like marital status or age (unless specifically requested)</source>
+        <target>لا تدرج معلومات شخصية مثل الحالة الاجتماعية أو العمر (إلا إذا طُلب منك ذلك تحديدًا)</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-4-tip-2" datatype="html">
+        <source>Avoid using unprofessional email addresses</source>
+        <target>تجنب استخدام عناوين بريد إلكتروني غير احترافية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-4-tip-3" datatype="html">
+        <source>Don&apos;t list irrelevant work experience or hobbies</source>
+        <target>لا تذكر خبرات عمل أو هوايات غير ذات صلة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-4-tip-4" datatype="html">
+        <source>Ensure there are no spelling or grammatical errors</source>
+        <target>تأكد من عدم وجود أخطاء إملائية أو نحوية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-section-4-tip-5" datatype="html">
+        <source>Don&apos;t use overly complex formatting that may not display properly in applicant tracking systems</source>
+        <target>لا تستخدم تنسيقات معقدة قد لا تظهر بشكل صحيح في أنظمة تتبع المتقدمين</target>
+      </trans-unit>
+      <!-- Career Tips 2-6 Detailed Translations -->
+      <trans-unit id="career-tip-2-title" datatype="html">
+        <source>Master the Interview</source>
+        <target>إتقان المقابلة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-description" datatype="html">
+        <source>Essential interview tips and common questions asked by Egyptian companies.</source>
+        <target>نصائح أساسية للمقابلة والأسئلة الشائعة التي تطرحها الشركات المصرية.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-content" datatype="html">
+        <source>Preparation is key to interview success. Here&apos;s what you need to know...</source>
+        <target>التحضير هو مفتاح النجاح في المقابلة. إليك ما تحتاج معرفته...</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-category" datatype="html">
+        <source>Interview</source>
+        <target>مقابلة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-readtime" datatype="html">
+        <source>7 min read</source>
+        <target>٧ دقائق قراءة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-introduction" datatype="html">
+        <source>Job interviews in Egypt often follow specific cultural and professional norms that can significantly impact your success. Understanding these expectations and preparing accordingly can dramatically improve your chances of landing the job you want.</source>
+        <target>غالبًا ما تتبع مقابلات العمل في مصر أعرافًا ثقافية ومهنية محددة يمكن أن تؤثر بشكل كبير على نجاحك. فهم هذه التوقعات والاستعداد لها يمكن أن يزيد بشكل كبير من فرصك في الحصول على الوظيفة التي تريدها.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-section-1-title" datatype="html">
+        <source>Pre-Interview Preparation</source>
+        <target>التحضير قبل المقابلة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-section-1-content" datatype="html">
+        <source>Thorough preparation is the foundation of interview success. Egyptian employers appreciate candidates who have taken the time to understand their company and the role.</source>
+        <target>التحضير الجيد هو أساس النجاح في المقابلة. يقدر أصحاب العمل المصريون المرشحين الذين خصصوا وقتًا لفهم الشركة والدور الوظيفي.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-section-1-tip-1" datatype="html">
+        <source>Research the company&apos;s history, values, and recent developments</source>
+        <target>ابحث عن تاريخ الشركة وقيمها وآخر تطوراتها</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-section-1-tip-2" datatype="html">
+        <source>Understand the job requirements and prepare specific examples of relevant experience</source>
+        <target>افهم متطلبات الوظيفة وجهز أمثلة محددة على خبرات ذات صلة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-section-1-tip-3" datatype="html">
+        <source>Prepare thoughtful questions about the role and company culture</source>
+        <target>جهز أسئلة مدروسة حول الدور وثقافة الشركة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-section-1-tip-4" datatype="html">
+        <source>Practice common interview questions with friends or family</source>
+        <target>تدرب على الأسئلة الشائعة في المقابلات مع الأصدقاء أو العائلة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-section-1-tip-5" datatype="html">
+        <source>Plan your route to the interview location and arrive 10-15 minutes early</source>
+        <target>خطط لطريقك إلى مكان المقابلة ووصل قبل الموعد بـ 10-15 دقيقة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-section-2-title" datatype="html">
+        <source>Understanding Egyptian Interview Etiquette</source>
+        <target>فهم آداب المقابلة في مصر</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-section-2-content" datatype="html">
+        <source>Familiarize yourself with the cultural norms and expectations during interviews in Egypt to make a positive impression.</source>
+        <target>تعرّف على الأعراف الثقافية والتوقعات خلال المقابلات في مصر لترك انطباع إيجابي.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-section-2-tip-1" datatype="html">
+        <source>Greet your interviewer with respect and a smile</source>
+        <target>حيّ المحاور الخاص بك باحترام وابتسامة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-section-2-tip-2" datatype="html">
+        <source>Use formal titles and last names unless invited to use first names</source>
+        <target>استخدم الألقاب الرسمية وأسماء العائلات ما لم يُطلب منك استخدام الأسماء الأولى</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-section-2-tip-3" datatype="html">
+        <source>Be mindful of non-verbal cues and body language</source>
+        <target>كن واعيًا بالإشارات غير اللفظية ولغة الجسد</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-section-2-tip-4" datatype="html">
+        <source>Express gratitude for the opportunity to interview</source>
+        <target>عبّر عن امتنانك لفرصة المقابلة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-section-2-tip-5" datatype="html">
+        <source>Follow up with a thank-you email reiterating your interest</source>
+        <target>تابع برسالة شكر عبر البريد الإلكتروني تؤكد فيها اهتمامك</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-section-3-title" datatype="html">
+        <source>Cultural Considerations</source>
+        <target>الاعتبارات الثقافية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-section-3-content" datatype="html">
+        <source>Understanding Egyptian business culture can help you make a positive impression and avoid potential misunderstandings during your interview.</source>
+        <target>فهم ثقافة الأعمال المصرية يمكن أن يساعدك على ترك انطباع إيجابي وتجنب سوء الفهم أثناء المقابلة.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-section-3-tip-1" datatype="html">
+        <source>Dress conservatively and professionally (formal business attire is preferred)</source>
+        <target>ارتدِ ملابس محافظة واحترافية (يفضل الزي الرسمي للأعمال)</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-section-3-tip-2" datatype="html">
+        <source>Greet interviewers with a firm handshake and maintain respectful eye contact</source>
+        <target>صافح المحاورين بقوة وحافظ على تواصل بصري محترم</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-section-3-tip-3" datatype="html">
+        <source>Show respect for hierarchy - address senior staff with appropriate titles</source>
+        <target>أظهر الاحترام للتسلسل الوظيفي - خاطب كبار الموظفين بالألقاب المناسبة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-section-3-tip-4" datatype="html">
+        <source>Be patient if the interview starts later than scheduled</source>
+        <target>كن صبورًا إذا بدأت المقابلة متأخرة عن الموعد المحدد</target>
+      </trans-unit>
+      <!-- Career Tip 4 Detailed Translations -->
+      <trans-unit id="career-tip-4-title" datatype="html">
+        <source>Salary Negotiation</source>
+        <target>التفاوض على الراتب</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-description" datatype="html">
+        <source>How to negotiate your salary and benefits package confidently.</source>
+        <target>كيفية التفاوض على راتبك وحزمة المزايا بثقة.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-content" datatype="html">
+        <source>Don&apos;t leave money on the table. Master the art of salary negotiation...</source>
+        <target>لا تترك المال على الطاولة. أتقن فن التفاوض على الراتب...</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-category" datatype="html">
+        <source>Negotiation</source>
+        <target>التفاوض</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-readtime" datatype="html">
+        <source>8 min read</source>
+        <target>٨ دقائق قراءة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-introduction" datatype="html">
+        <source>Salary negotiation in Egypt requires a delicate balance of confidence, market knowledge, and cultural sensitivity. Many professionals leave money on the table simply because they don&apos;t know how to effectively negotiate their compensation package.</source>
+        <target>يتطلب التفاوض على الراتب في مصر توازنًا دقيقًا بين الثقة والمعرفة بالسوق والحس الثقافي. كثير من المحترفين يضيعون فرصًا مالية لأنهم لا يعرفون كيفية التفاوض الفعال على حزمة التعويضات.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-1-title" datatype="html">
+        <source>Market Research and Preparation</source>
+        <target>البحث في السوق والتحضير</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-1-content" datatype="html">
+        <source>Before entering any salary negotiation, you need to understand your worth in the Egyptian job market. This knowledge forms the foundation of your negotiation strategy.</source>
+        <target>قبل الدخول في أي تفاوض على الراتب، عليك أن تفهم قيمتك في سوق العمل المصري. هذه المعرفة تشكل أساس استراتيجيتك التفاوضية.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-1-tip-1" datatype="html">
+        <source>Research salary ranges for your position using platforms like Bayt, Wuzzuf, and Glassdoor</source>
+        <target>ابحث عن نطاقات الرواتب لوظيفتك باستخدام منصات مثل بيت، وظف، وجلاسدور</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-1-tip-2" datatype="html">
+        <source>Consider the company size, industry, and location when evaluating offers</source>
+        <target>ضع في اعتبارك حجم الشركة والصناعة والموقع عند تقييم العروض</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-1-tip-3" datatype="html">
+        <source>Factor in the total compensation package, not just base salary</source>
+        <target>ضع في الحسبان حزمة التعويضات الكاملة، وليس فقط الراتب الأساسي</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-1-tip-4" datatype="html">
+        <source>Understand the economic climate and industry growth trends</source>
+        <target>افهم المناخ الاقتصادي واتجاهات نمو الصناعة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-1-tip-5" datatype="html">
+        <source>Know your minimum acceptable offer before negotiations begin</source>
+        <target>حدد الحد الأدنى للعرض المقبول لديك قبل بدء التفاوض</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-2-title" datatype="html">
+        <source>Effective Negotiation Strategies</source>
+        <target>استراتيجيات التفاوض الفعالة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-2-content" datatype="html">
+        <source>Successful negotiation is both an art and a science. It involves understanding the needs of both parties and finding a mutually beneficial agreement.</source>
+        <target>التفاوض الناجح هو فن وعلم في آن واحد. إنه ينطوي على فهم احتياجات كلا الطرفين وإيجاد اتفاقية تعود بالنفع المتبادل.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-2-tip-1" datatype="html">
+        <source>Practice active listening to understand the employer's perspective</source>
+        <target>مارس الاستماع النشط لفهم وجهة نظر صاحب العمل</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-2-tip-2" datatype="html">
+        <source>Be prepared to discuss and justify your salary expectations</source>
+        <target>كن مستعدًا لمناقشة وتبرير توقعات راتبك</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-2-tip-3" datatype="html">
+        <source>Stay calm and professional, even if the negotiation becomes challenging</source>
+        <target>ابق هادئًا واحترافيًا، حتى لو أصبحت المفاوضات صعبة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-2-tip-4" datatype="html">
+        <source>Know when to compromise and find common ground</source>
+        <target>اعرف متى تتنازل وابحث عن أرضية مشتركة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-2-tip-5" datatype="html">
+        <source>Follow up the negotiation with a thank-you note, regardless of the outcome</source>
+        <target>تابع المفاوضات برسالة شكر، بغض النظر عن النتيجة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-3-title" datatype="html">
+        <source>Post-Negotiation Steps</source>
+        <target>خطوات ما بعد التفاوض</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-3-content" datatype="html">
+        <source>After a successful negotiation, it&apos;s important to ensure that all agreed-upon terms are clearly outlined in your contract or offer letter.</source>
+        <target>بعد التفاوض الناجح، من المهم التأكد من أن جميع الشروط المتفق عليها موضحة بوضوح في عقدك أو خطاب العرض.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-3-tip-1" datatype="html">
+        <source>Review your contract carefully before signing</source>
+        <target>راجع عقدك بعناية قبل التوقيع</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-3-tip-2" datatype="html">
+        <source>Ensure that the job title, salary, benefits, and other key details are correct</source>
+        <target>تأكد من أن المسمى الوظيفي والراتب والمزايا وغيرها من التفاصيل الرئيسية صحيحة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-3-tip-3" datatype="html">
+        <source>Don&apos;t hesitate to ask for clarification on any point</source>
+        <target>لا تتردد في طلب التوضيح بشأن أي نقطة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-3-tip-4" datatype="html">
+        <source>Keep a copy of your signed contract for your records</source>
+        <target>احتفظ بنسخة من عقدك الموقّع لسجلاتك</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-3-tip-5" datatype="html">
+        <source>Start preparing for your new role by researching the company culture and expectations</source>
+        <target>ابدأ بالتحضير لدورك الجديد من خلال البحث عن ثقافة الشركة وتوقعاتها</target>
+      </trans-unit>
+      <!-- Career Tip 6 Full Detailed Translations -->
+      <trans-unit id="career-tip-6-title" datatype="html">
+        <source>Industry Insights</source>
+        <target>رؤى حول الصناعة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-description" datatype="html">
+        <source>Stay updated with the latest trends in Egypt&apos;s job market.</source>
+        <target>ابق على اطلاع بأحدث الاتجاهات في سوق العمل المصري.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-content" datatype="html">
+        <source>Understanding market trends gives you a competitive edge...</source>
+        <target>فهم اتجاهات السوق يمنحك ميزة تنافسية...</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-category" datatype="html">
+        <source>Market Trends</source>
+        <target>اتجاهات السوق</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-readtime" datatype="html">
+        <source>10 min read</source>
+        <target>١٠ دقائق قراءة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-introduction" datatype="html">
+        <source>Egypt&apos;s job market is rapidly evolving, driven by economic reforms, technological advancement, and changing industry demands. Staying informed about these trends is crucial for making strategic career decisions and positioning yourself for future opportunities.</source>
+        <target>سوق العمل المصري يتطور بسرعة بفعل الإصلاحات الاقتصادية والتقدم التكنولوجي وتغير متطلبات الصناعة. البقاء على اطلاع بهذه الاتجاهات أمر بالغ الأهمية لاتخاذ قرارات مهنية استراتيجية ووضع نفسك لفرص مستقبلية.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-section-1-title" datatype="html">
+        <source>Growing Industries and Sectors</source>
+        <target>القطاعات والصناعات المتنامية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-section-1-content" datatype="html">
+        <source>Several industries in Egypt are experiencing significant growth, creating new opportunities for professionals with the right skills and experience.</source>
+        <target>تشهد عدة صناعات في مصر نموًا كبيرًا، مما يخلق فرصًا جديدة للمهنيين ذوي المهارات والخبرة المناسبة.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-section-1-tip-1" datatype="html">
+        <source>Technology and fintech sectors are rapidly expanding with government digital transformation initiatives</source>
+        <target>قطاعات التكنولوجيا والتكنولوجيا المالية تتوسع بسرعة مع مبادرات التحول الرقمي الحكومية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-section-1-tip-2" datatype="html">
+        <source>Renewable energy projects are creating opportunities in engineering and project management</source>
+        <target>مشاريع الطاقة المتجددة تخلق فرصًا في الهندسة وإدارة المشاريع</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-section-1-tip-3" datatype="html">
+        <source>Tourism and hospitality are recovering and modernizing post-pandemic</source>
+        <target>قطاع السياحة والضيافة يتعافى ويتطور بعد الجائحة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-section-1-tip-4" datatype="html">
+        <source>Healthcare and pharmaceuticals continue to grow with increasing demand</source>
+        <target>الرعاية الصحية والصناعات الدوائية تواصل النمو مع زيادة الطلب</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-section-1-tip-5" datatype="html">
+        <source>E-commerce and digital marketing are booming with changing consumer behavior</source>
+        <target>التجارة الإلكترونية والتسويق الرقمي يشهدان ازدهارًا مع تغير سلوك المستهلكين</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-section-2-title" datatype="html">
+        <source>In-Demand Skills and Competencies</source>
+        <target>المهارات والكفاءات المطلوبة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-section-2-content" datatype="html">
+        <source>The Egyptian job market increasingly values specific technical and soft skills. Developing these competencies can significantly improve your career prospects.</source>
+        <target>سوق العمل المصري يقدر بشكل متزايد المهارات التقنية والناعمة المحددة. تطوير هذه الكفاءات يمكن أن يحسن بشكل كبير من فرصك المهنية.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-section-2-tip-1" datatype="html">
+        <source>Digital literacy and data analysis skills are essential across all industries</source>
+        <target>المهارات الرقمية وتحليل البيانات ضرورية في جميع الصناعات</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-section-2-tip-2" datatype="html">
+        <source>Project management certification (PMP, Agile) is highly valued</source>
+        <target>شهادات إدارة المشاريع (PMP، أجايل) ذات قيمة عالية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-section-2-tip-3" datatype="html">
+        <source>Foreign language skills, especially English and German, open international opportunities</source>
+        <target>المهارات اللغوية الأجنبية، خاصة الإنجليزية والألمانية، تفتح فرصًا دولية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-section-2-tip-4" datatype="html">
+        <source>Leadership and team management abilities are crucial for career advancement</source>
+        <target>مهارات القيادة وإدارة الفريق ضرورية للتقدم المهني</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-section-2-tip-5" datatype="html">
+        <source>Adaptability and change management skills are increasingly important</source>
+        <target>مهارات التكيف وإدارة التغيير تزداد أهمية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-section-3-title" datatype="html">
+        <source>Remote Work and Flexible Arrangements</source>
+        <target>العمل عن بعد والترتيبات المرنة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-section-3-content" datatype="html">
+        <source>The pandemic has accelerated the adoption of flexible work arrangements in Egypt, creating new opportunities and changing employer expectations.</source>
+        <target>سرعت الجائحة من تبني ترتيبات العمل المرنة في مصر، مما خلق فرصًا جديدة وغير توقعات أصحاب العمل.</target>
+      </trans-unit>      <trans-unit id="career-tip-1-action-1" datatype="html">
+        <source>Review your current resume and identify areas for improvement</source>
+        <target>راجع سيرتك الذاتية الحالية وحدد المجالات التي تحتاج تحسين</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-action-2" datatype="html">
+        <source>Research the specific company and role you&apos;re applying for</source>
+        <target>ابحث عن الشركة والمنصب المحدد الذي تتقدم إليه</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-action-3" datatype="html">
+        <source>Customize your resume for each application</source>
+        <target>خصص سيرتك الذاتية لكل طلب وظيفة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-action-4" datatype="html">
+        <source>Ask for feedback from professionals in your industry</source>
+        <target>اطلب آراء من المختصين في مجالك</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-action-5" datatype="html">
+        <source>Keep your resume updated with recent achievements and skills</source>
+        <target>حدّث سيرتك الذاتية بأحدث الإنجازات والمهارات</target>
+      </trans-unit><trans-unit id="career-tip-1-takeaway-1" datatype="html">
+        <source>A well-structured resume should tell your professional story clearly and concisely</source>
+        <target>السيرة الذاتية المنظمة جيدًا يجب أن تحكي قصتك المهنية بوضوح وإيجاز</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-takeaway-2" datatype="html">
+        <source>Tailor your resume to match Egyptian market expectations and job requirements</source>
+        <target>خصص سيرتك الذاتية لتتناسب مع توقعات السوق المصري ومتطلبات الوظيفة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-takeaway-3" datatype="html">
+        <source>Focus on quantifiable achievements rather than just listing responsibilities</source>
+        <target>ركز على الإنجازات القابلة للقياس بدلاً من مجرد سرد المسؤوليات</target>
+      </trans-unit>
+      <trans-unit id="career-tip-1-takeaway-4" datatype="html">
+        <source>Keep formatting clean and professional while ensuring ATS compatibility</source>
+        <target>حافظ على تنسيق نظيف واحترافي مع ضمان التوافق مع أنظمة تتبع المتقدمين</target>
+      </trans-unit>      <trans-unit id="career-tip-1-takeaway-5" datatype="html">
+        <source>Always proofread and have someone else review your resume before submitting</source>
+        <target>راجع سيرتك الذاتية دائمًا واطلب من شخص آخر مراجعتها قبل الإرسال</target>
+      </trans-unit>      <trans-unit id="career-tip-2-action-1" datatype="html">
+        <source>Practice answering common interview questions out loud</source>
+        <target>تدرب على الإجابة عن أسئلة المقابلات الشائعة بصوت عالٍ</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-action-2" datatype="html">
+        <source>Research the company thoroughly before each interview</source>
+        <target>ابحث عن الشركة بشكل شامل قبل كل مقابلة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-action-3" datatype="html">
+        <source>Prepare specific examples that demonstrate your skills and achievements</source>
+        <target>أعد أمثلة محددة تبرز مهاراتك وإنجازاتك</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-action-4" datatype="html">
+        <source>Plan your interview outfit and ensure it&apos;s appropriate for the company culture</source>
+        <target>خطط لملابس المقابلة وتأكد من أنها مناسبة لثقافة الشركة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-action-5" datatype="html">
+        <source>Follow up with a thank-you email within 24 hours of the interview</source>
+        <target>تابع برسالة شكر عبر البريد الإلكتروني خلال 24 ساعة من المقابلة</target>
+      </trans-unit>      <trans-unit id="career-tip-2-section-3-tip-5" datatype="html">
+        <source>Express appreciation for the interviewer&apos;s time at the end of the meeting</source>
+        <target>عبر عن تقديرك لوقت المحاور في نهاية الاجتماع</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-section-4-content" datatype="html">
+        <source>Egyptian employers want to see concrete evidence of your ability to contribute to their organization&apos;s success. Use specific examples to showcase your skills.</source>
+        <target>أصحاب العمل المصريون يريدون رؤية دليل ملموس على قدرتك على المساهمة في نجاح منظمتهم. استخدم أمثلة محددة لإبراز مهاراتك.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-section-4-tip-1" datatype="html">
+        <source>Use the STAR method (Situation, Task, Action, Result) to structure your answers</source>
+        <target>استخدم طريقة STAR (الوضع، المهمة، الإجراء، النتيجة) لتنظيم إجاباتك</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-section-4-tip-2" datatype="html">
+        <source>Provide specific examples of problems you&apos;ve solved or goals you&apos;ve achieved</source>
+        <target>قدم أمثلة محددة عن المشاكل التي حللتها أو الأهداف التي حققتها</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-section-4-tip-3" datatype="html">
+        <source>Highlight any experience working in the Egyptian market or with local clients</source>
+        <target>سلط الضوء على أي خبرة في العمل في السوق المصري أو مع العملاء المحليين</target>
+      </trans-unit>      <trans-unit id="career-tip-2-section-4-tip-4" datatype="html">
+        <source>Demonstrate your understanding of local business practices and challenges</source>
+        <target>أظهر فهمك للممارسات التجارية المحلية والتحديات</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-section-4-tip-5" datatype="html">
+        <source>Show enthusiasm for contributing to the company&apos;s growth and success</source>
+        <target>أظهر حماسك للمساهمة في نمو الشركة ونجاحها</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-section-4-title" datatype="html">
+        <source>Demonstrating Your Value</source>
+        <target>إثبات قيمتك</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-takeaway-1" datatype="html">
+        <source>Preparation and research are critical for interview success in Egypt</source>
+        <target>التحضير والبحث أمران حاسمان لنجاح المقابلة في مصر</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-takeaway-2" datatype="html">
+        <source>Understanding local business culture helps you make a positive impression</source>
+        <target>فهم ثقافة الأعمال المحلية يساعدك على ترك انطباع إيجابي</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-takeaway-3" datatype="html">
+        <source>Use specific examples and the STAR method to demonstrate your capabilities</source>
+        <target>استخدم أمثلة محددة وطريقة STAR لإثبات قدراتك</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-takeaway-4" datatype="html">
+        <source>Professional appearance and respectful behavior are highly valued</source>
+        <target>المظهر المهني والسلوك المحترم محل تقدير كبير</target>
+      </trans-unit>
+      <trans-unit id="career-tip-2-takeaway-5" datatype="html">
+        <source>Ask thoughtful questions to show genuine interest in the role and company</source>
+        <target>اطرح أسئلة مدروسة لإظهار اهتمامك الحقيقي بالدور والشركة</target>
+      </trans-unit>      <trans-unit id="career-tip-3-action-1" datatype="html">
+        <source>Identify key industry events and professional associations to join</source>
+        <target>حدد الأحداث الصناعية الرئيسية والجمعيات المهنية للانضمام إليها</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-action-2" datatype="html">
+        <source>Update your LinkedIn profile and start engaging with relevant content</source>
+        <target>حدث ملفك الشخصي على لينكدإن وابدأ التفاعل مع المحتوى ذي الصلة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-action-3" datatype="html">
+        <source>Reach out to 3-5 new professional contacts each month</source>
+        <target>تواصل مع 3-5 جهات اتصال مهنية جديدة كل شهر</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-action-4" datatype="html">
+        <source>Schedule regular coffee meetings with existing contacts</source>
+        <target>حدد لقاءات قهوة منتظمة مع جهات الاتصال الحالية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-action-5" datatype="html">
+        <source>Create a system to track and maintain your professional relationships</source>
+        <target>أنشئ نظامًا لتتبع والحفاظ على علاقاتك المهنية</target>
+      </trans-unit><trans-unit id="career-tip-3-category" datatype="html">
+        <source>Networking</source>
+        <target>التواصل المهني</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-content" datatype="html">
+        <source>Networking is crucial in the Egyptian job market. Learn effective strategies...</source>
+        <target>التواصل المهني أمر بالغ الأهمية في سوق العمل المصري. تعلم الاستراتيجيات الفعالة...</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-description" datatype="html">
+        <source>Build professional relationships that can accelerate your career growth.</source>
+        <target>بناء علاقات مهنية يمكنها تسريع نموك المهني.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-introduction" datatype="html">
+        <source>In Egypt&apos;s relationship-driven business culture, networking isn&apos;t just helpful—it&apos;s essential. Building strong professional relationships can open doors to opportunities that might never be publicly advertised and provide valuable insights into your industry.</source>
+        <target>في ثقافة الأعمال المصرية التي تقوم على العلاقات، التواصل المهني ليس مجرد مساعدة - إنه ضروري. بناء علاقات مهنية قوية يمكن أن يفتح أبواب الفرص التي قد لا يتم الإعلان عنها علنًا ويوفر رؤى قيمة حول مجال عملك.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-readtime" datatype="html">
+        <source>6 min read</source>
+        <target>٦ دقائق قراءة</target>
+      </trans-unit>      <trans-unit id="career-tip-3-section-1-content" datatype="html">
+        <source>Egyptian professional networks often blend personal and business relationships, creating unique opportunities for career advancement. Understanding these dynamics is key to effective networking.</source>
+        <target>الشبكات المهنية المصرية غالبًا ما تمزج بين العلاقات الشخصية والتجارية، مما يخلق فرصًا فريدة للتقدم المهني. فهم هذه الديناميكيات هو مفتاح التواصل الفعال.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-section-1-tip-1" datatype="html">
+        <source>Attend industry events, conferences, and professional association meetings</source>
+        <target>احضر فعاليات الصناعة والمؤتمرات واجتماعات الجمعيات المهنية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-section-1-tip-2" datatype="html">
+        <source>Join local business groups and chambers of commerce</source>
+        <target>انضم إلى مجموعات الأعمال المحلية وغرف التجارة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-section-1-tip-3" datatype="html">
+        <source>Participate in university alumni networks and events</source>
+        <target>شارك في شبكات خريجي الجامعات والفعاليات</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-section-1-tip-4" datatype="html">
+        <source>Engage with professional groups on social media platforms</source>
+        <target>تفاعل مع المجموعات المهنية على منصات وسائل التواصل الاجتماعي</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-section-1-tip-5" datatype="html">
+        <source>Consider joining rotary clubs or other service organizations</source>
+        <target>فكر في الانضمام إلى نوادي الروتاري أو منظمات الخدمة الأخرى</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-section-1-title" datatype="html">
+        <source>Understanding Egyptian Business Networks</source>
+        <target>فهم شبكات الأعمال المصرية</target>
+      </trans-unit>      <trans-unit id="career-tip-3-section-2-content" datatype="html">
+        <source>Successful networking in Egypt is about building genuine relationships rather than simply collecting contacts. Focus on creating meaningful connections that benefit both parties.</source>
+        <target>التواصل المهني الناجح في مصر يتعلق ببناء علاقات حقيقية بدلاً من مجرد جمع جهات الاتصال. ركز على إنشاء علاقات مفيدة تفيد الطرفين.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-section-2-tip-1" datatype="html">
+        <source>Show genuine interest in others&apos; work and challenges</source>
+        <target>أظهر اهتمامًا حقيقيًا بعمل الآخرين وتحدياتهم</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-section-2-tip-2" datatype="html">
+        <source>Offer help and support without expecting immediate returns</source>
+        <target>قدم المساعدة والدعم دون توقع عوائد فورية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-section-2-tip-3" datatype="html">
+        <source>Follow up consistently with new contacts</source>
+        <target>تابع باستمرار مع جهات الاتصال الجديدة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-section-2-tip-4" datatype="html">
+        <source>Share relevant opportunities and information with your network</source>
+        <target>شارك الفرص والمعلومات ذات الصلة مع شبكتك</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-section-2-tip-5" datatype="html">
+        <source>Maintain relationships even when you&apos;re not actively job searching</source>
+        <target>حافظ على العلاقات حتى عندما لا تبحث بنشاط عن وظيفة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-section-2-title" datatype="html">
+        <source>Building Authentic Relationships</source>
+        <target>بناء علاقات أصيلة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-section-3-content" datatype="html">
+        <source>While face-to-face networking remains important in Egypt, digital platforms offer additional opportunities to expand your professional network and stay connected.</source>
+        <target>بينما يبقى التواصل وجهًا لوجه مهمًا في مصر، تقدم المنصات الرقمية فرصًا إضافية لتوسيع شبكتك المهنية والبقاء على اتصال.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-section-3-tip-1" datatype="html">
+        <source>Optimize your LinkedIn profile for the Egyptian market</source>
+        <target>حسن ملفك الشخصي على لينكدإن للسوق المصري</target>
+      </trans-unit>      <trans-unit id="career-tip-3-section-3-tip-2" datatype="html">
+        <source>Join industry-specific groups on LinkedIn and Facebook</source>
+        <target>انضم إلى مجموعات محددة للصناعة على لينكدإن وفيسبوك</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-section-3-tip-3" datatype="html">
+        <source>Share relevant content and engage with others&apos; posts</source>
+        <target>شارك المحتوى ذا الصلة وتفاعل مع منشورات الآخرين</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-section-3-tip-4" datatype="html">
+        <source>Connect with colleagues, clients, and industry professionals online</source>
+        <target>تواصل مع الزملاء والعملاء والمهنيين في الصناعة عبر الإنترنت</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-section-3-tip-5" datatype="html">
+        <source>Use platforms like Wuzzuf and Bayt to connect with recruiters</source>
+        <target>استخدم منصات مثل وظف وبيت للتواصل مع المُوظِّفين</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-section-3-title" datatype="html">
+        <source>Leveraging Digital Platforms</source>
+        <target>الاستفادة من المنصات الرقمية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-section-4-content" datatype="html">
+        <source>Effective networking requires understanding and respecting cultural norms while building professional relationships that can last throughout your career.</source>
+        <target>التواصل المهني الفعال يتطلب فهم واحترام المعايير الثقافية أثناء بناء علاقات مهنية يمكن أن تدوم طوال حياتك المهنية.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-section-4-tip-1" datatype="html">
+        <source>Always be respectful and professional in all interactions</source>
+        <target>كن محترمًا ومهنيًا دائمًا في جميع التفاعلات</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-section-4-tip-2" datatype="html">
+        <source>Remember personal details about your contacts (family, interests, etc.)</source>
+        <target>تذكر التفاصيل الشخصية عن جهات اتصالك (الأسرة، الاهتمامات، إلخ)</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-section-4-tip-3" datatype="html">
+        <source>Offer value before asking for favors</source>
+        <target>قدم قيمة قبل طلب المعروف</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-section-4-tip-4" datatype="html">
+        <source>Be patient - relationship building takes time in Egyptian culture</source>
+        <target>كن صبورًا - بناء العلاقات يستغرق وقتًا في الثقافة المصرية</target>
+      </trans-unit>      <trans-unit id="career-tip-3-section-4-tip-5" datatype="html">
+        <source>Express gratitude and acknowledge help you receive from your network</source>
+        <target>عبر عن الامتنان واعترف بالمساعدة التي تتلقاها من شبكتك</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-section-4-title" datatype="html">
+        <source>Networking Etiquette and Best Practices</source>
+        <target>آداب التواصل المهني وأفضل الممارسات</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-takeaway-1" datatype="html">
+        <source>Networking is relationship-driven in Egypt and requires genuine connection</source>
+        <target>التواصل المهني في مصر مبني على العلاقات ويتطلب تواصلاً حقيقيًا</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-takeaway-2" datatype="html">
+        <source>Mix traditional face-to-face networking with digital platform engagement</source>
+        <target>امزج التواصل التقليدي وجهًا لوجه مع التفاعل على المنصات الرقمية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-takeaway-3" datatype="html">
+        <source>Focus on giving value to others rather than just seeking personal benefit</source>
+        <target>ركز على تقديم قيمة للآخرين بدلاً من مجرد البحث عن المنفعة الشخصية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-takeaway-4" datatype="html">
+        <source>Consistency in maintaining relationships is crucial for long-term success</source>
+        <target>الثبات في الحفاظ على العلاقات أمر بالغ الأهمية للنجاح طويل المدى</target>
+      </trans-unit>
+      <trans-unit id="career-tip-3-takeaway-5" datatype="html">
+        <source>Cultural sensitivity and respect are essential in all networking activities</source>
+        <target>الحساسية الثقافية والاحترام ضروريان في جميع أنشطة التواصل المهني</target>
+      </trans-unit><trans-unit id="career-tip-3-title" datatype="html">
+        <source>Networking in Egypt</source>
+        <target>التواصل المهني في مصر</target>
+      </trans-unit>      <trans-unit id="career-tip-4-action-1" datatype="html">
+        <source>Research current market rates for your position and experience level</source>
+        <target>ابحث عن أسعار السوق الحالية لمنصبك ومستوى خبرتك</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-action-2" datatype="html">
+        <source>Document your achievements and contributions to the organization</source>
+        <target>وثق إنجازاتك ومساهماتك في المنظمة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-action-3" datatype="html">
+        <source>Practice your negotiation conversation with trusted friends or mentors</source>
+        <target>تدرب على محادثة التفاوض مع أصدقاء أو موجهين موثوقين</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-action-4" datatype="html">
+        <source>Prepare to discuss alternative benefits if salary increases aren&apos;t possible</source>
+        <target>استعد لمناقشة المزايا البديلة إذا لم تكن زيادات الراتب ممكنة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-action-5" datatype="html">
+        <source>Plan your ideal outcome and minimum acceptable terms before negotiating</source>
+        <target>خطط للنتيجة المثالية والحد الأدنى من الشروط المقبولة قبل التفاوض</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-4-content" datatype="html">
+        <source>In Egypt, the total compensation package often includes various benefits that can significantly increase your overall compensation even if base salary increases are limited.</source>
+        <target>في مصر، غالبًا ما تتضمن حزمة التعويض الإجمالية مزايا مختلفة يمكن أن تزيد بشكل كبير من تعويضك الإجمالي حتى لو كانت زيادات الراتب الأساسي محدودة.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-4-tip-1" datatype="html">
+        <source>Negotiate health insurance coverage for family members</source>
+        <target>تفاوض على تغطية التأمين الصحي لأفراد العائلة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-4-tip-2" datatype="html">
+        <source>Discuss transportation allowances or company car benefits</source>
+        <target>ناقش بدلات النقل أو مزايا سيارة الشركة</target>
+      </trans-unit>      <trans-unit id="career-tip-4-section-4-tip-3" datatype="html">
+        <source>Consider flexible working arrangements or additional vacation time</source>
+        <target>فكر في ترتيبات العمل المرنة أو وقت إجازة إضافي</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-4-tip-4" datatype="html">
+        <source>Explore professional development and training opportunities</source>
+        <target>استكشف فرص التطوير المهني والتدريب</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-4-tip-5" datatype="html">
+        <source>Discuss performance bonuses and annual salary review schedules</source>
+        <target>ناقش مكافآت الأداء وجداول مراجعة الراتب السنوية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-section-4-title" datatype="html">
+        <source>Beyond Base Salary: Total Compensation</source>
+        <target>ما وراء الراتب الأساسي: التعويض الإجمالي</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-takeaway-1" datatype="html">
+        <source>Thorough market research is essential before any salary negotiation</source>
+        <target>البحث الشامل في السوق ضروري قبل أي تفاوض على الراتب</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-takeaway-2" datatype="html">
+        <source>Timing and cultural sensitivity can significantly impact negotiation success</source>
+        <target>التوقيت والحساسية الثقافية يمكن أن يؤثرا بشكل كبير على نجاح التفاوض</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-takeaway-3" datatype="html">
+        <source>Focus on your value and contributions rather than personal financial needs</source>
+        <target>ركز على قيمتك ومساهماتك بدلاً من احتياجاتك المالية الشخصية</target>
+      </trans-unit>      <trans-unit id="career-tip-4-takeaway-4" datatype="html">
+        <source>Consider the total compensation package, not just base salary</source>
+        <target>فكر في حزمة التعويض الإجمالية، وليس فقط الراتب الأساسي</target>
+      </trans-unit>
+      <trans-unit id="career-tip-4-takeaway-5" datatype="html">
+        <source>Maintain professionalism and positive relationships throughout the process</source>
+        <target>حافظ على الاحترافية والعلاقات الإيجابية طوال العملية</target>
+      </trans-unit>      <trans-unit id="career-tip-5-action-1" datatype="html">
+        <source>Update your profile photo and headline to be more compelling</source>
+        <target>حدث صورة ملفك الشخصي والعنوان ليكونا أكثر جاذبية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-action-2" datatype="html">
+        <source>Write or revise your LinkedIn summary to highlight your unique value</source>
+        <target>اكتب أو راجع ملخص لينكدإن الخاص بك لإبراز قيمتك الفريدة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-action-3" datatype="html">
+        <source>Connect with 10 new Egyptian professionals in your industry each week</source>
+        <target>تواصل مع 10 مهنيين مصريين جدد في مجالك كل أسبوع</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-action-4" datatype="html">
+        <source>Share at least one relevant article or insight per week</source>
+        <target>شارك مقالاً أو رؤية ذات صلة واحدة على الأقل أسبوعيًا</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-action-5" datatype="html">
+        <source>Request recommendations from recent colleagues or supervisors</source>
+        <target>اطلب توصيات من الزملاء أو المشرفين الحاليين</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-category" datatype="html">
+        <source>Online Presence</source>
+        <target>الحضور الرقمي</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-content" datatype="html">
+        <source>Your LinkedIn profile is your digital business card. Make it shine...</source>
+        <target>ملفك الشخصي على لينكدإن هو بطاقة عملك الرقمية. اجعله يتألق...</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-description" datatype="html">
+        <source>Optimize your LinkedIn profile to attract Egyptian recruiters.</source>
+        <target>حسن ملفك الشخصي على لينكدإن لجذب المُوظِّفين المصريين.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-introduction" datatype="html">
+        <source>LinkedIn has become increasingly important in the Egyptian job market, with more recruiters and employers using the platform to find and evaluate candidates. A well-optimized LinkedIn profile can significantly increase your visibility and attract better job opportunities.</source>
+        <target>أصبح لينكدإن مهمًا بشكل متزايد في سوق العمل المصري، حيث يستخدم المزيد من المُوظِّفين وأصحاب العمل المنصة للعثور على المرشحين وتقييمهم. يمكن للملف الشخصي المحسن على لينكدإن أن يزيد بشكل كبير من ظهورك ويجذب فرص عمل أفضل.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-readtime" datatype="html">
+        <source>4 min read</source>
+        <target>٤ دقائق قراءة</target>
+      </trans-unit>      <trans-unit id="career-tip-5-section-1-content" datatype="html">
+        <source>Your LinkedIn profile serves as your digital resume and first impression. Ensuring the basics are perfect creates a strong foundation for attracting recruiters and opportunities.</source>
+        <target>يعمل ملفك الشخصي على لينكدإن كسيرتك الذاتية الرقمية والانطباع الأول. التأكد من أن الأساسيات مثالية يخلق أساسًا قويًا لجذب المُوظِّفين والفرص.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-section-1-tip-1" datatype="html">
+        <source>Use a professional headshot that clearly shows your face</source>
+        <target>استخدم صورة شخصية مهنية تُظهر وجهك بوضوح</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-section-1-tip-2" datatype="html">
+        <source>Write a compelling headline that goes beyond just your job title</source>
+        <target>اكتب عنوانًا مقنعًا يتجاوز مجرد المسمى الوظيفي</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-section-1-tip-3" datatype="html">
+        <source>Create a summary that highlights your unique value proposition</source>
+        <target>أنشئ ملخصًا يبرز عرض القيمة الفريد الخاص بك</target>
+      </trans-unit>      <trans-unit id="career-tip-5-section-1-tip-4" datatype="html">
+        <source>Include your location as Cairo, Egypt (or your specific city) to appear in local searches</source>
+        <target>أدرج موقعك كالقاهرة، مصر (أو مدينتك المحددة) للظهور في البحث المحلي</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-section-1-tip-5" datatype="html">
+        <source>Ensure your contact information is up-to-date and professional</source>
+        <target>تأكد من أن معلومات الاتصال الخاصة بك محدثة ومهنية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-section-1-title" datatype="html">
+        <source>Profile Fundamentals</source>
+        <target>أساسيات الملف الشخصي</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-section-2-content" datatype="html">
+        <source>Creating and sharing relevant content helps establish your expertise and keeps you visible in your network&apos;s feeds, which is particularly important in the Egyptian professional community.</source>
+        <target>إنشاء ومشاركة المحتوى ذي الصلة يساعد في ترسيخ خبرتك ويبقيك مرئيًا في ملخص شبكتك، وهو أمر مهم بشكل خاص في المجتمع المهني المصري.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-section-2-tip-1" datatype="html">
+        <source>Share insights about your industry and the Egyptian market</source>
+        <target>شارك رؤى حول صناعتك والسوق المصري</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-section-2-tip-2" datatype="html">
+        <source>Engage with posts from Egyptian companies and thought leaders</source>
+        <target>تفاعل مع منشورات الشركات المصرية وقادة الفكر</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-section-2-tip-3" datatype="html">
+        <source>Write articles about challenges and opportunities in your field</source>
+        <target>اكتب مقالات حول التحديات والفرص في مجالك</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-section-2-tip-4" datatype="html">
+        <source>Share relevant news and add your professional perspective</source>
+        <target>شارك الأخبار ذات الصلة وأضف وجهة نظرك المهنية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-section-2-tip-5" datatype="html">
+        <source>Use both English and Arabic content to reach a broader audience</source>
+        <target>استخدم المحتوى باللغتين الإنجليزية والعربية للوصول إلى جمهور أوسع</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-section-2-title" datatype="html">
+        <source>Content Strategy for Egyptian Market</source>
+        <target>استراتيجية المحتوى للسوق المصري</target>
+      </trans-unit>      <trans-unit id="career-tip-5-section-3-content" datatype="html">
+        <source>Your LinkedIn network should reflect your professional relationships and industry connections. Active engagement helps maintain visibility and build new relationships.</source>
+        <target>يجب أن تعكس شبكتك على لينكدإن علاقاتك المهنية واتصالاتك في الصناعة. التفاعل النشط يساعد في الحفاظ على الظهور وبناء علاقات جديدة.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-section-3-tip-1" datatype="html">
+        <source>Connect with colleagues, clients, and industry professionals in Egypt</source>
+        <target>تواصل مع الزملاء والعملاء والمهنيين في الصناعة في مصر</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-section-3-tip-2" datatype="html">
+        <source>Join Egyptian professional groups and industry associations</source>
+        <target>انضم إلى المجموعات المهنية المصرية وجمعيات الصناعة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-section-3-tip-3" datatype="html">
+        <source>Participate in discussions and comment thoughtfully on others&apos; posts</source>
+        <target>شارك في المناقشات وعلق بتفكير على منشورات الآخرين</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-section-3-tip-4" datatype="html">
+        <source>Congratulate connections on their achievements and career moves</source>
+        <target>هنئ جهات الاتصال على إنجازاتهم وتحركاتهم المهنية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-section-3-tip-5" datatype="html">
+        <source>Share opportunities and useful information with your network</source>
+        <target>شارك الفرص والمعلومات المفيدة مع شبكتك</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-section-3-title" datatype="html">
+        <source>Network Building and Engagement</source>
+        <target>بناء الشبكة والتفاعل</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-section-4-content" datatype="html">
+        <source>Egyptian recruiters use specific search criteria when looking for candidates. Optimizing your profile for these searches increases your chances of being discovered.</source>
+        <target>المُوظِّفون المصريون يستخدمون معايير بحث محددة عند البحث عن المرشحين. تحسين ملفك الشخصي لهذه البحوث يزيد من فرص اكتشافك.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-section-4-tip-1" datatype="html">
+        <source>Include relevant keywords throughout your profile, especially in your headline and summary</source>
+        <target>أدرج الكلمات المفتاحية ذات الصلة في جميع أنحاء ملفك الشخصي، خاصة في العنوان والملخص</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-section-4-tip-2" datatype="html">
+        <source>List specific skills that are in demand in your industry</source>
+        <target>اذكر المهارات المحددة المطلوبة في صناعتك</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-section-4-tip-3" datatype="html">
+        <source>Get endorsements and recommendations from Egyptian colleagues and supervisors</source>
+        <target>احصل على تزكيات وتوصيات من الزملاء والمشرفين المصريين</target>
+      </trans-unit>      <trans-unit id="career-tip-5-section-4-tip-4" datatype="html">
+        <source>Keep your profile updated with recent achievements and job changes</source>
+        <target>حافظ على تحديث ملفك الشخصي بالإنجازات الحديثة وتغييرات الوظائف</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-section-4-tip-5" datatype="html">
+        <source>Set your profile to signal that you&apos;re open to opportunities when appropriate</source>
+        <target>اضبط ملفك الشخصي للإشارة إلى أنك منفتح للفرص عند الاقتضاء</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-section-4-title" datatype="html">
+        <source>Optimizing for Recruiter Searches</source>
+        <target>التحسين لبحوث المُوظِّفين</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-takeaway-1" datatype="html">
+        <source>A complete, professional LinkedIn profile is essential in today&apos;s Egyptian job market</source>
+        <target>الملف الشخصي المكتمل والمهني على لينكدإن ضروري في سوق العمل المصري اليوم</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-takeaway-2" datatype="html">
+        <source>Regular content sharing and engagement increase your visibility to recruiters</source>
+        <target>مشاركة المحتوى والتفاعل المنتظم يزيد من ظهورك للمُوظِّفين</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-takeaway-3" datatype="html">
+        <source>Keywords and skills optimization help you appear in relevant recruiter searches</source>
+        <target>تحسين الكلمات المفتاحية والمهارات يساعدك على الظهور في بحوث المُوظِّفين ذات الصلة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-takeaway-4" datatype="html">
+        <source>Building a strong network of Egyptian professionals opens more opportunities</source>
+        <target>بناء شبكة قوية من المهنيين المصريين يفتح المزيد من الفرص</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-takeaway-5" datatype="html">
+        <source>Consistent activity and profile updates keep you top-of-mind for opportunities</source>
+        <target>النشاط المتسق وتحديثات الملف الشخصي تبقيك في المقدمة للفرص</target>
+      </trans-unit>
+      <trans-unit id="career-tip-5-title" datatype="html">
+        <source>LinkedIn Optimization</source>
+        <target>تحسين لينكدإن</target>
+      </trans-unit>      <trans-unit id="career-tip-6-action-1" datatype="html">
+        <source>Identify which growing industries align with your skills and interests</source>
+        <target>حدد الصناعات النامية التي تتماشى مع مهاراتك واهتماماتك</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-action-2" datatype="html">
+        <source>Assess your current skills against market demands and identify gaps</source>
+        <target>قيم مهاراتك الحالية مقابل متطلبات السوق وحدد الفجوات</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-action-3" datatype="html">
+        <source>Consider pursuing relevant certifications or training programs</source>
+        <target>فكر في الحصول على شهادات أو برامج تدريبية ذات صلة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-action-4" datatype="html">
+        <source>Subscribe to industry newsletters and follow Egyptian business news</source>
+        <target>اشترك في النشرات الإخبارية للصناعة وتابع أخبار الأعمال المصرية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-action-5" datatype="html">
+        <source>Network with professionals in growing industries to learn about opportunities</source>
+        <target>تواصل مع المهنيين في الصناعات النامية لتتعلم عن الفرص</target>
+      </trans-unit>      <trans-unit id="career-tip-6-section-3-tip-1" datatype="html">
+        <source>Many companies now offer hybrid or remote work options</source>
+        <target>تقدم العديد من الشركات الآن خيارات العمل المختلط أو عن بُعد</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-section-3-tip-2" datatype="html">
+        <source>Strong communication and self-management skills are essential for remote work</source>
+        <target>مهارات التواصل القوية وإدارة الذات ضرورية للعمل عن بُعد</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-section-3-tip-3" datatype="html">
+        <source>International remote opportunities are becoming more accessible to Egyptian professionals</source>
+        <target>فرص العمل عن بُعد الدولية أصبحت أكثر إتاحة للمهنيين المصريين</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-section-3-tip-4" datatype="html">
+        <source>Digital collaboration tools proficiency is now a basic requirement</source>
+        <target>إتقان أدوات التعاون الرقمي أصبح الآن متطلبًا أساسيًا</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-section-3-tip-5" datatype="html">
+        <source>Work-life balance is becoming a more important factor in job decisions</source>
+        <target>التوازن بين العمل والحياة أصبح عاملاً أكثر أهمية في قرارات العمل</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-section-4-content" datatype="html">
+        <source>Understanding broader economic trends helps you make informed career decisions and anticipate market changes that might affect your industry.</source>
+        <target>فهم الاتجاهات الاقتصادية الأوسع يساعدك على اتخاذ قرارات مهنية مدروسة وتوقع تغيرات السوق التي قد تؤثر على صناعتك.</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-section-4-tip-1" datatype="html">
+        <source>Government economic reforms are creating new business opportunities</source>
+        <target>الإصلاحات الاقتصادية الحكومية تخلق فرص أعمال جديدة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-section-4-tip-2" datatype="html">
+        <source>Foreign investment is increasing in certain sectors, creating job opportunities</source>
+        <target>الاستثمار الأجنبي يتزايد في قطاعات معينة، مما يخلق فرص عمل</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-section-4-tip-3" datatype="html">
+        <source>Currency fluctuations affect salary negotiations and compensation packages</source>
+        <target>تقلبات العملة تؤثر على مفاوضات الراتب وحزم التعويضات</target>
+      </trans-unit>      <trans-unit id="career-tip-6-section-4-tip-4" datatype="html">
+        <source>Infrastructure development projects are driving demand in construction and engineering</source>
+        <target>مشاريع تطوير البنية التحتية تزيد الطلب في البناء والهندسة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-section-4-tip-5" datatype="html">
+        <source>The New Administrative Capital is creating opportunities in various sectors</source>
+        <target>العاصمة الإدارية الجديدة تخلق فرصًا في قطاعات مختلفة</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-section-4-title" datatype="html">
+        <source>Economic Factors Affecting Employment</source>
+        <target>العوامل الاقتصادية المؤثرة على التوظيف</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-takeaway-1" datatype="html">
+        <source>Egypt&apos;s job market is diversifying with growth in technology, renewable energy, and healthcare</source>
+        <target>سوق العمل المصري يتنوع مع النمو في التكنولوجيا والطاقة المتجددة والرعاية الصحية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-takeaway-2" datatype="html">
+        <source>Digital skills and adaptability are becoming essential across all industries</source>
+        <target>المهارات الرقمية والقدرة على التكيف أصبحت ضرورية عبر جميع الصناعات</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-takeaway-3" datatype="html">
+        <source>Remote and flexible work arrangements are becoming more common and accepted</source>
+        <target>ترتيبات العمل عن بُعد والمرنة أصبحت أكثر شيوعًا وقبولاً</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-takeaway-4" datatype="html">
+        <source>Understanding economic trends helps you make strategic career decisions</source>
+        <target>فهم الاتجاهات الاقتصادية يساعدك على اتخاذ قرارات مهنية استراتيجية</target>
+      </trans-unit>
+      <trans-unit id="career-tip-6-takeaway-5" datatype="html">
+        <source>Continuous learning and skill development are crucial for staying competitive</source>
+        <target>التعلم المستمر وتطوير المهارات أمران بالغا الأهمية للبقاء تنافسيًا</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

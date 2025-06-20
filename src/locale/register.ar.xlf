@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" target-language="ar" datatype="plaintext" original="ng2.template">
+    <body>
+      <!-- Header Section -->
+      <trans-unit id="register-header-title" datatype="html">
+        <source>Your Future Starts Here</source>
+        <target>مستقبلك يبدأ من هنا</target>
+      </trans-unit>
+      <trans-unit id="register-header-subtitle" datatype="html">
+        <source>Create your professional profile and find your dream job</source>
+        <target>أنشئ ملفك المهني واعثر على وظيفة أحلامك</target>
+      </trans-unit>
+
+      <!-- CV Upload Section -->
+      <trans-unit id="register-cv-title" datatype="html">
+        <source>🚀 Upload Your CV First!</source>
+        <target>🚀 ارفع سيرتك الذاتية أولاً!</target>
+      </trans-unit>
+      <trans-unit id="register-cv-subtitle" datatype="html">
+        <source>Make a great first impression - upload your CV to get started</source>
+        <target>اترك انطباعاً أولاً رائعاً - ارفع سيرتك الذاتية للبدء</target>
+      </trans-unit>
+      <trans-unit id="register-cv-dragdrop" datatype="html">
+        <source>Drag &amp; drop your CV here or click to browse</source>
+        <target>اسحب وأفلت سيرتك الذاتية هنا أو انقر للتصفح</target>
+      </trans-unit>
+      <trans-unit id="register-cv-format" datatype="html">
+        <source>PDF, DOCX, SCANNED CV, max 5MB</source>
+        <target>PDF، DOCX، صورة مسحوبة، حد أقصى 5 ميجا</target>
+      </trans-unit>
+      <trans-unit id="register-cv-choose" datatype="html">
+        <source>Choose File</source>
+        <target>اختر ملف</target>
+      </trans-unit>
+      <trans-unit id="register-cv-remove" datatype="html">
+        <source>Remove file</source>
+        <target>إزالة الملف</target>
+      </trans-unit>
+
+      <!-- Personal Information -->
+      <trans-unit id="register-personal-title" datatype="html">
+        <source>👤 Personal Information</source>
+        <target>👤 المعلومات الشخصية</target>
+      </trans-unit>
+      <trans-unit id="register-personal-firstName" datatype="html">
+        <source>First Name *</source>
+        <target>الاسم الأول *</target>
+      </trans-unit>
+      <trans-unit id="register-personal-firstName-placeholder" datatype="html">
+        <source>Enter your first name</source>
+        <target>أدخل اسمك الأول</target>
+      </trans-unit>
+      <trans-unit id="register-personal-firstName-required" datatype="html">
+        <source>First name is required</source>
+        <target>الاسم الأول مطلوب</target>
+      </trans-unit>
+      <trans-unit id="register-personal-lastName" datatype="html">
+        <source>Last Name *</source>
+        <target>الاسم الأخير *</target>
+      </trans-unit>
+      <trans-unit id="register-personal-lastName-placeholder" datatype="html">
+        <source>Enter your last name</source>
+        <target>أدخل اسمك الأخير</target>
+      </trans-unit>
+      <trans-unit id="register-personal-lastName-required" datatype="html">
+        <source>Last name is required</source>
+        <target>الاسم الأخير مطلوب</target>
+      </trans-unit>
+      <trans-unit id="register-personal-email" datatype="html">
+        <source>Email Address *</source>
+        <target>عنوان البريد الإلكتروني *</target>
+      </trans-unit>
+      <trans-unit id="register-personal-email-placeholder" datatype="html">
+        <source>your-email@example-com</source>
+        <target>your-email@example-com</target>
+      </trans-unit>
+      <trans-unit id="register-personal-email-invalid" datatype="html">
+        <source>Please enter a valid email</source>
+        <target>يرجى إدخال بريد إلكتروني صحيح</target>
+      </trans-unit>
+      <trans-unit id="register-personal-phone" datatype="html">
+        <source>Phone Number *</source>
+        <target>رقم الهاتف *</target>
+      </trans-unit>
+      <trans-unit id="register-personal-phone-placeholder" datatype="html">
+        <source>+20 1234567890</source>
+        <target>+20 1234567890</target>
+      </trans-unit>
+      <trans-unit id="register-personal-phone-invalid" datatype="html">
+        <source>Please enter a valid phone number</source>
+        <target>يرجى إدخال رقم هاتف صحيح</target>
+      </trans-unit>
+      <trans-unit id="register-personal-dateOfBirth" datatype="html">
+        <source>Date of Birth *</source>
+        <target>تاريخ الميلاد *</target>
+      </trans-unit>
+      <trans-unit id="register-personal-gender" datatype="html">
+        <source>Gender *</source>
+        <target>الجنس *</target>
+      </trans-unit>
+      <trans-unit id="register-personal-gender-select" datatype="html">
+        <source>Select Gender</source>
+        <target>اختر الجنس</target>
+      </trans-unit>
+      <trans-unit id="register-personal-gender-male" datatype="html">
+        <source>Male</source>
+        <target>ذكر</target>
+      </trans-unit>
+      <trans-unit id="register-personal-gender-female" datatype="html">
+        <source>Female</source>
+        <target>أنثى</target>
+      </trans-unit>
+      <trans-unit id="register-personal-gender-prefer-not-to-say" datatype="html">
+        <source>Prefer not to say</source>
+        <target>أفضل عدم الإفصاح</target>
+      </trans-unit>
+
+      <!-- Location Information -->
+      <trans-unit id="register-location-title" datatype="html">
+        <source>📍 Location &amp; Contact</source>
+        <target>📍 الموقع والاتصال</target>
+      </trans-unit>
+      <trans-unit id="register-location-governorate" datatype="html">
+        <source>Governorate *</source>
+        <target>المحافظة *</target>
+      </trans-unit>
+      <trans-unit id="register-location-governorate-select" datatype="html">
+        <source>Select Governorate</source>
+        <target>اختر المحافظة</target>
+      </trans-unit>
+      <trans-unit id="register-location-city" datatype="html">
+        <source>City *</source>
+        <target>المدينة *</target>
+      </trans-unit>
+      <trans-unit id="register-location-city-placeholder" datatype="html">
+        <source>Enter your city</source>
+        <target>أدخل مدينتك</target>
+      </trans-unit>
+      <trans-unit id="register-location-address" datatype="html">
+        <source>Full Address *</source>
+        <target>العنوان الكامل *</target>
+      </trans-unit>
+      <trans-unit id="register-location-address-placeholder" datatype="html">
+        <source>Enter your complete address</source>
+        <target>أدخل عنوانك الكامل</target>
+      </trans-unit>
+
+      <!-- Professional Information -->
+      <trans-unit id="register-professional-title" datatype="html">
+        <source>💼 Professional Background</source>
+        <target>💼 الخلفية المهنية</target>
+      </trans-unit>
+      <trans-unit id="register-professional-currentTitle" datatype="html">
+        <source>Current Job Title *</source>
+        <target>المسمى الوظيفي الحالي *</target>
+      </trans-unit>
+      <trans-unit id="register-professional-currentTitle-placeholder" datatype="html">
+        <source>e-g- Software Engineer</source>
+        <target>مثال: مهندس برمجيات</target>
+      </trans-unit>
+      <trans-unit id="register-professional-experienceLevel" datatype="html">
+        <source>Experience Level *</source>
+        <target>مستوى الخبرة *</target>
+      </trans-unit>
+      <trans-unit id="register-professional-experienceLevel-select" datatype="html">
+        <source>Select Experience Level</source>
+        <target>اختر مستوى الخبرة</target>
+      </trans-unit>
+      <trans-unit id="register-professional-industry" datatype="html">
+        <source>Industry *</source>
+        <target>الصناعة *</target>
+      </trans-unit>
+      <trans-unit id="register-professional-industry-select" datatype="html">
+        <source>Select Industry</source>
+        <target>اختر الصناعة</target>
+      </trans-unit>
+      <trans-unit id="register-professional-preferredJob" datatype="html">
+        <source>Preferred Job (Optional)</source>
+        <target>الوظيفة المفضلة (اختياري)</target>
+      </trans-unit>
+      <trans-unit id="register-professional-preferredJob-select" datatype="html">
+        <source>Select Preferred Job</source>
+        <target>اختر الوظيفة المفضلة</target>
+      </trans-unit>
+      <trans-unit id="register-professional-education" datatype="html">
+        <source>Highest Education (Optional)</source>
+        <target>أعلى مؤهل تعليمي (اختياري)</target>
+      </trans-unit>
+      <trans-unit id="register-professional-education-select" datatype="html">
+        <source>Select Education Level</source>
+        <target>اختر المستوى التعليمي</target>
+      </trans-unit>
+      <trans-unit id="register-professional-skills" datatype="html">
+        <source>Skills *</source>
+        <target>المهارات *</target>
+      </trans-unit>
+      <trans-unit id="register-professional-skills-placeholder" datatype="html">
+        <source>List your key skills (e-g- JavaScript, Python, Project Management, etc-)</source>
+        <target>اذكر مهاراتك الأساسية (مثال: JavaScript، Python، إدارة المشاريع، إلخ)</target>
+      </trans-unit>
+      <trans-unit id="register-professional-languages" datatype="html">
+        <source>Languages *</source>
+        <target>اللغات *</target>
+      </trans-unit>
+      <trans-unit id="register-professional-languages-placeholder" datatype="html">
+        <source>e-g- Arabic (Native), English (Fluent), French (Intermediate)</source>
+        <target>مثال: العربية (أم)، الإنجليزية (طليق)، الفرنسية (متوسط)</target>
+      </trans-unit>
+
+      <!-- Additional Information -->
+      <trans-unit id="register-additional-title" datatype="html">
+        <source>✨ Additional Information</source>
+        <target>✨ معلومات إضافية</target>
+      </trans-unit>
+      <trans-unit id="register-additional-portfolio" datatype="html">
+        <source>Portfolio URL</source>
+        <target>رابط المعرض</target>
+      </trans-unit>
+      <trans-unit id="register-additional-portfolio-placeholder" datatype="html">
+        <source>https://your-portfolio-com</source>
+        <target>https://your-portfolio-com</target>
+      </trans-unit>
+      <trans-unit id="register-additional-linkedin" datatype="html">
+        <source>LinkedIn Profile</source>
+        <target>الملف الشخصي على LinkedIn</target>
+      </trans-unit>
+      <trans-unit id="register-additional-linkedin-placeholder" datatype="html">
+        <source>https://linkedin-com/in/yourprofile</source>
+        <target>https://linkedin-com/in/yourprofile</target>
+      </trans-unit>
+      <trans-unit id="register-additional-summary" datatype="html">
+        <source>Professional Summary *</source>
+        <target>الملخص المهني *</target>
+      </trans-unit>
+      <trans-unit id="register-additional-summary-placeholder" datatype="html">
+        <source>Write a brief summary about yourself, your experience, and career goals (minimum 50 characters)</source>
+        <target>اكتب ملخصاً مختصراً عنك وعن خبرتك وأهدافك المهنية (50 حرف كحد أدنى)</target>
+      </trans-unit>
+      <trans-unit id="register-additional-summary-required" datatype="html">
+        <source>Summary must be at least 50 characters</source>
+        <target>يجب أن يكون الملخص 50 حرف على الأقل</target>
+      </trans-unit>
+
+      <!-- Submit Button -->
+      <trans-unit id="register-submit-processing" datatype="html">
+        <source>Processing---</source>
+        <target>جارٍ المعالجة---</target>
+      </trans-unit>
+      <trans-unit id="register-submit-complete" datatype="html">
+        <source>Complete Registration</source>
+        <target>إكمال التسجيل</target>
+      </trans-unit>
+      <trans-unit id="register-submit-success" datatype="html">
+        <source>Registration Successful! 🎉</source>
+        <target>تم التسجيل بنجاح! 🎉</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
