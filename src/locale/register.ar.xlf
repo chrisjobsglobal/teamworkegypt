@@ -68,8 +68,8 @@
         <target>الاسم الأخير مطلوب</target>
       </trans-unit>
       <trans-unit id="register-personal-email" datatype="html">
-        <source>Email Address *</source>
-        <target>عنوان البريد الإلكتروني *</target>
+        <source>Email Address</source>
+        <target>عنوان البريد الإلكتروني</target>
       </trans-unit>
       <trans-unit id="register-personal-email-placeholder" datatype="html">
         <source>your-email@example-com</source>
@@ -176,16 +176,16 @@
         <target>اختر الصناعة</target>
       </trans-unit>
       <trans-unit id="register-professional-preferredJob" datatype="html">
-        <source>Preferred Job (Optional)</source>
-        <target>الوظيفة المفضلة (اختياري)</target>
+        <source>Preferred Job *</source>
+        <target>الوظيفة المفضلة *</target>
       </trans-unit>
       <trans-unit id="register-professional-preferredJob-select" datatype="html">
         <source>Select Preferred Job</source>
         <target>اختر الوظيفة المفضلة</target>
       </trans-unit>
       <trans-unit id="register-professional-education" datatype="html">
-        <source>Highest Education (Optional)</source>
-        <target>أعلى مؤهل تعليمي (اختياري)</target>
+        <source>Highest Education *</source>
+        <target>أعلى مؤهل تعليمي *</target>
       </trans-unit>
       <trans-unit id="register-professional-education-select" datatype="html">
         <source>Select Education Level</source>
@@ -198,6 +198,10 @@
       <trans-unit id="register-professional-skills-placeholder" datatype="html">
         <source>List your key skills (e-g- JavaScript, Python, Project Management, etc-)</source>
         <target>اذكر مهاراتك الأساسية (مثال: JavaScript، Python، إدارة المشاريع، إلخ)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register/register.component.html</context>
+          <context context-type="linenumber">237</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="register-professional-languages" datatype="html">
         <source>Languages *</source>
@@ -254,6 +258,18 @@
       <trans-unit id="register-submit-success" datatype="html">
         <source>Registration Successful! 🎉</source>
         <target>تم التسجيل بنجاح! 🎉</target>
+      </trans-unit>
+      <trans-unit id="enter-your-highest-education-attainment-placeholder" datatype="html">
+        <source>Enter your highest education attainment</source>
+        <target>أدخل أعلى مؤهل تعليمي لديك</target> 
+      </trans-unit>
+      <trans-unit id="register-professional-education-placeholder" datatype="html">
+        <source>Enter your highest education attainment</source>
+        <target>أدخل أعلى مؤهل تعليمي لديك</target>
+      </trans-unit>
+      <trans-unit id="register-professional-education-required" datatype="html">
+        <source>register-professional-education-required</source>
+        <target>المؤهل التعليمي مطلوب</target>
       </trans-unit>
     </body>
   </file>

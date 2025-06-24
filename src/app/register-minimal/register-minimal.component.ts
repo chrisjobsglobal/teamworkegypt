@@ -1,10 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
 import { FooterComponent } from '../shared/footer.component';
 import { HeaderSingleComponent } from '../shared/header-single.component';
-
+import { UploadCvService, UploadCvResponse, CvJson } from '../_core/services/upload-cv.service';
+import { SaveApplicantService } from '../_core/services/save-applicant.service';
+import { take } from 'rxjs/operators';
+import { signal } from '@angular/core';
 
 @Component({
   selector: 'app-register-minimal',
@@ -17,8 +20,13 @@ export class RegisterMinimalComponent {
   registerForm: FormGroup;
   selectedFile: File | null = null;
   dragOver = false;
-  isSubmitting = false;
-  submissionSuccess = false;
+  isSubmitting = signal(false);
+  submissionSuccess = signal(false);
+  uploadCvService = inject(UploadCvService);
+  saveApplicantService = inject(SaveApplicantService);
+
+  currentUserId = ''
+
   constructor(private fb: FormBuilder) {
     this.registerForm = this.fb.group({
       // Personal Information
@@ -30,8 +38,8 @@ export class RegisterMinimalComponent {
       gender: ['', Validators.required],
       
       // Additional Fields
-      preferredJob: [''], // Required preferred job title
-      highestEducation: [''] // Required highest education
+      preferredJob: ['', [Validators.required, Validators.minLength(4)]], 
+      highestEducation: ['', [Validators.required, Validators.minLength(4)]], 
     });  }
 
   educationLevels = [
@@ -69,8 +77,9 @@ export class RegisterMinimalComponent {
 
   onFileSelect(event: any) {
     const file = event.target.files[0];
-    if (file && file.type === 'application/pdf') {
+    if (file && this.isAcceptedFileType(file)) {
       this.selectedFile = file;
+      this.uploadAndPrefillCv(file);
     }
   }
 
@@ -87,42 +96,87 @@ export class RegisterMinimalComponent {
   onDrop(event: DragEvent) {
     event.preventDefault();
     this.dragOver = false;
-    
     const files = event.dataTransfer?.files;
-    if (files && files[0] && files[0].type === 'application/pdf') {
+    if (files && files[0] && this.isAcceptedFileType(files[0])) {
       this.selectedFile = files[0];
+      this.uploadAndPrefillCv(files[0]);
     }
   }
+
+  isAcceptedFileType(file: File): boolean {
+    const acceptedTypes = [
+      'application/pdf',
+      'application/vnd.openxmlformats-officedocument.wordprocessingml.document', // .docx
+      'application/msword', // .doc
+      'image/jpeg',
+      'image/png',
+      'image/jpg',
+      'image/gif',
+      'image/bmp',
+      'image/webp'
+    ];
+    return acceptedTypes.includes(file.type);
+  }
+
+  uploadAndPrefillCv(file: File) {
+    this.isSubmitting.set(true);
+    this.uploadCvService.uploadCv(file).pipe(take(1)).subscribe({
+      next: (res: UploadCvResponse) => {
+        this.isSubmitting.set(false);
+        if (res.status === 'success' && res.data && res.data.cv_json) {
+          this.prefillForm(res.data.cv_json);
+        }
+        this.currentUserId = res.user.user_id || '';
+      },
+      error: () => {
+        this.isSubmitting.set(false);
+        // Optionally show error message
+      }
+    });
+  }
+
+  prefillForm(cv: CvJson) {
+
+    const highestEducation = cv.education && cv.education.length > 0 ? cv.education[0].degree : '';
+
+    this.registerForm.patchValue({
+      firstName: cv.first_name || '',
+      lastName: cv.last_name || '',
+      email: cv.email || '',
+      phone: cv.phone || '',
+      dateOfBirth: cv.date_of_birth || '',
+      gender: cv.gender || '',
+      preferredJob: (cv.job_types && cv.job_types.length > 0) ? cv.job_types[0] : '',
+      highestEducation: highestEducation
+    });
+
+    // Mark all controls as touched and update validity
+    Object.keys(this.registerForm.controls).forEach(key => {
+      this.registerForm.get(key)?.markAsTouched();
+      this.registerForm.get(key)?.updateValueAndValidity();
+    });
+
+  }
+
   onSubmit() {
     if (this.registerForm.valid) {
-      this.isSubmitting = true;
-      
+      this.isSubmitting.set(true);
       const formData = new FormData();
-      
-      // Add form data
       Object.keys(this.registerForm.value).forEach(key => {
         formData.append(key, this.registerForm.value[key]);
       });
-      
-      // Add CV file
-      if (this.selectedFile) {
-        formData.append('cv', this.selectedFile);
-      }
-      
-      console.log('Form submitted:', this.registerForm.value);
-      console.log('CV file:', this.selectedFile);
-      
-      // Simulate API call
-      setTimeout(() => {
-        this.isSubmitting = false;
-        this.submissionSuccess = true;
-        
-        // Show success message for 3 seconds, then redirect
-        setTimeout(() => {
-          alert('Registration successful! We will review your profile and get back to you soon.');
-          // You could navigate to a success page here
-          // this.router.navigate(['/success']);
-        }, 2000);      }, 2000);
+      formData.append('user_id', this.currentUserId || '');
+      this.saveApplicantService.saveApplicant(formData).pipe(take(1)).subscribe({
+        next: (res) => {
+          this.isSubmitting.set(false);
+          this.submissionSuccess.set(true);
+          console.log('submit stat: ', this.submissionSuccess())
+        },
+        error: () => {
+          this.isSubmitting.set(false);
+          alert('There was an error submitting your application. Please try again.');
+        }
+      });
     }
   }
 }
