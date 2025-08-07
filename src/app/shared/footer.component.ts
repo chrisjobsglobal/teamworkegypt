@@ -11,12 +11,17 @@ import { RouterModule } from '@angular/router';
       <div class="container mx-auto px-6">
         <div class="grid md:grid-cols-4 gap-8">
           <!-- Company Info -->
-          <div class="space-y-4">            <h3
+          <div class="space-y-4">
+            <h3
               class="text-2xl font-bold bg-gradient-to-r from-yellow-400 to-pink-400 bg-clip-text text-transparent"
               i18n="@@brand.teamWorkEgypt"
             >
               TeamWork Egypt
-            </h3><p class="text-gray-300 leading-relaxed" i18n="@@footer.companyDescription">
+            </h3>
+            <p
+              class="text-gray-300 leading-relaxed"
+              i18n="@@footer.companyDescription"
+            >
               Connecting talented professionals with leading Egyptian companies.
               Your career journey starts here.
             </p>
@@ -52,67 +57,92 @@ import { RouterModule } from '@angular/router';
                 </svg>
               </a>
             </div>
-          </div>          <!-- Quick Links -->
+          </div>
+          <!-- Quick Links -->
           <div class="space-y-4">
-            <h4 class="text-lg font-semibold" i18n="@@footer.quickLinks">Quick Links</h4>
+            <h4 class="text-lg font-semibold" i18n="@@footer.quickLinks">
+              Quick Links
+            </h4>
             <ul class="space-y-2">
               <li>
                 <a
                   routerLink="/"
                   class="text-gray-300 hover:text-white transition-colors"
-                  i18n="@@footer.home">Home</a>
+                  i18n="@@footer.home"
+                  >Home</a
+                >
               </li>
               <li>
                 <a
                   routerLink="/register"
                   class="text-gray-300 hover:text-white transition-colors"
-                  i18n="@@footer.joinUs">Join Us</a>
+                  i18n="@@footer.joinUs"
+                  >Join Us</a
+                >
               </li>
               <li>
                 <a
                   href="#"
                   class="text-gray-300 hover:text-white transition-colors"
-                  i18n="@@footer.browseJobs">Browse Jobs</a>
+                  i18n="@@footer.browseJobs"
+                  >Browse Jobs</a
+                >
               </li>
               <li>
                 <a
                   href="#"
                   class="text-gray-300 hover:text-white transition-colors"
-                  i18n="@@footer.forEmployers">For Employers</a>
+                  i18n="@@footer.forEmployers"
+                  >For Employers</a
+                >
               </li>
             </ul>
-          </div>          <!-- Support -->
+          </div>
+          <!-- Support -->
           <div class="space-y-4">
-            <h4 class="text-lg font-semibold" i18n="@@footer.support">Support</h4>
+            <h4 class="text-lg font-semibold" i18n="@@footer.support">
+              Support
+            </h4>
             <ul class="space-y-2">
               <li>
                 <a
                   href="#"
                   class="text-gray-300 hover:text-white transition-colors"
-                  i18n="@@footer.helpCenter">Help Center</a>
+                  i18n="@@footer.helpCenter"
+                  >Help Center</a
+                >
               </li>
               <li>
                 <a
                   href="#"
                   class="text-gray-300 hover:text-white transition-colors"
-                  i18n="@@footer.contactUs">Contact Us</a>
+                  i18n="@@footer.contactUs"
+                  >Contact Us</a
+                >
               </li>
               <li>
                 <a
                   href="#"
                   class="text-gray-300 hover:text-white transition-colors"
-                  i18n="@@footer.privacyPolicy">Privacy Policy</a>
+                  i18n="@@footer.privacyPolicy"
+                  >Privacy Policy</a
+                >
               </li>
               <li>
                 <a
                   href="#"
                   class="text-gray-300 hover:text-white transition-colors"
-                  i18n="@@footer.terms">Terms of Service</a>
+                  i18n="@@footer.terms"
+                  >Terms of Service</a
+                >
               </li>
             </ul>
-          </div>          <!-- Contact -->
+          </div>
+          <!-- Contact -->
           <div class="space-y-4">
-            <h4 class="text-lg font-semibold" i18n="@@footer.contactInfo">Contact Info</h4>
+            <h4 class="text-lg font-semibold" i18n="@@footer.contactInfo">
+              Contact Info
+            </h4>
             <div class="space-y-2 text-gray-300">
               <p class="flex items-center gap-2">
                 <svg
@@ -131,7 +161,8 @@ import { RouterModule } from '@angular/router';
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
-                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"                  />
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
                 </svg>
                 <span i18n="@@footer.location">Cairo, Egypt</span>
               </p>
@@ -166,39 +197,52 @@ import { RouterModule } from '@angular/router';
                       d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                     />
                   </svg>
-
-                  
-                </div>                <div class="flex flex-col gap-0.5">
-                  <span class="text-[#25D366] leading text-sm" i18n="@@footer.whatsappNumbers">WhatsApp Numbers</span>
-                  <a
-                    href="https://wa.me/201111960248"
-                    target="_whatsapp"
-                    class="text-gray-300 hover:text-white transition-colors whitespace-nowrap"
-                    >+20 1111960248</a
-                  >
-                  <a
-                    href="https://wa.me/201111960244"
-                    target="_whatsapp"
-                    class="text-gray-300 hover:text-white transition-colors  whitespace-nowrap "
-                    >+20 1111960244</a
-                  >
-                  <a
-                    href="https://wa.me/201111960245"
-                    target="_whatsapp"
-                    class="text-gray-300 hover:text-white transition-colors  whitespace-nowrap "
-                    >+20 1111960245</a
-                  >
                 </div>
 
-                
+                <div class="hidden">
+                  <div class="flex flex-col gap-0.5 ">
+                    <span
+                      class="text-[#25D366] leading text-sm"
+                      i18n="@@footer.whatsappNumbers"
+                      >WhatsApp Numbers</span
+                    >
+                    <a
+                      href="https://wa.me/201111960248"
+                      target="_whatsapp"
+                      class="text-gray-300 hover:text-white transition-colors whitespace-nowrap"
+                      >+20 1111960248</a
+                    >
+                    <a
+                      href="https://wa.me/201111960244"
+                      target="_whatsapp"
+                      class="text-gray-300 hover:text-white transition-colors  whitespace-nowrap "
+                      >+20 1111960244</a
+                    >
+                    <a
+                      href="https://wa.me/201111960245"
+                      target="_whatsapp"
+                      class="text-gray-300 hover:text-white transition-colors  whitespace-nowrap "
+                      >+20 1111960245</a
+                    >
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>        <!-- Bottom Bar -->
+        </div>
+        <!-- Bottom Bar -->
         <div class="border-t border-gray-800 mt-8 pt-8 text-center">
           <p class="text-gray-400">
-            <span class="me-2">© {{currentYear}} <span i18n="@@brand.teamWorkEgyptShort">TeamWork Egypt</span>. <span i18n="@@footer.allRightsReserved">All rights reserved.</span></span>
-            <span class="text-yellow-400" i18n="@@footer.madeWithLove">Made with ❤️ for Egyptians</span>
+            <span class="me-2"
+              >© {{ currentYear }}
+              <span i18n="@@brand.teamWorkEgyptShort">TeamWork Egypt</span>.
+              <span i18n="@@footer.allRightsReserved"
+                >All rights reserved.</span
+              ></span
+            >
+            <span class="text-yellow-400" i18n="@@footer.madeWithLove"
+              >Made with ❤️ for Egyptians</span
+            >
           </p>
         </div>
       </div>
